@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject player;
     private bool towerHealthZero;
     private bool oneHit;
+    private float towerHealth;
 
     void Start()
     {
@@ -18,6 +19,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        TowerHealthCheck();
+
         if (towerHealthZero)
         {
             if (oneHit)
@@ -39,6 +42,19 @@ public class GameManager : MonoBehaviour
     void EndGame()
     {
         endMenu.enabled = true;
+
+    }
+
+    void TowerHealthCheck()
+    {
+        if (tower.GetComponent<Tower>().GetHealth() <= 0.0f)
+        {
+            towerHealthZero = true;
+        }
+        else
+        {
+            return;
+        }
 
     }
 }

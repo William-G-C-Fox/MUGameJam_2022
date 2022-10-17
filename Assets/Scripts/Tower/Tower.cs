@@ -35,4 +35,9 @@ public class Tower : MonoBehaviour
     {
         return towerBase.position;
     }
+
+    public float GetHealth()
+    {
+        return health;
+    }
 }
