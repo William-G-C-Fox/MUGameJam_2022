@@ -8,6 +8,8 @@ public class Mob : MonoBehaviour
     [SerializeField] private float damage = 5.0f;
     [SerializeField] private float health;
     [SerializeField] private float maxHealth = 5;
+    [SerializeField] private SpriteRenderer mobSp;
+    [SerializeField] private Animator mobAnime;
 
     private GameObject towerObj;
     private Vector3 towerPos;
@@ -39,17 +41,17 @@ public class Mob : MonoBehaviour
         lookAtPlayer.Normalize();
         angle = Mathf.Atan2(towerPos.y, towerPos.x) * Mathf.Rad2Deg;
 
-        if (angle > 130 && angle < 179)
+        if (angle > 109 && angle < 179)
         {
-            //monSprite.flipX = false;
+            mobSp.flipX = true;
         }
-        else if (angle > -179 && angle < -130)
+        else if (angle > -179 && angle < -109)
         {
-            //monSprite.flipX = false;
+            mobSp.flipX = true;
         }
         else
         {
-            //monSprite.flipX = true;
+            mobSp.flipX = false;
         }
     }
 
@@ -57,8 +59,9 @@ public class Mob : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Tower"))
         {
+            StartCoroutine(DeathAnim());
             collision.gameObject.GetComponent<Tower>().Damaged(damage);
-            Death();
+
         }
     }
 
@@ -74,5 +77,12 @@ public class Mob : MonoBehaviour
         {
             Death();
         }
+    }
+
+    private IEnumerator DeathAnim()
+    {
+        mobAnime.SetBool("Attacking", true);
+        yield return new WaitForSeconds(0.33f);
+        Death();
     }
 }

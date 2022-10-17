@@ -15,7 +15,7 @@ public class PlayerScript : MonoBehaviour
     private float angle;
     private float hAxis, vAxis;
     private bool isFacingRight;
-
+    private bool playerEnabled;
     //dash
     [Header("Dash")]
     [SerializeField] private float dashingPower = 9.0f;
@@ -33,7 +33,7 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        playerEnabled = true;
         plRigid = GetComponent<Rigidbody2D>();
         pivot = gameObject.GetComponentInChildren(typeof(Pivot)) as Pivot;
 
@@ -42,7 +42,10 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (playerEnabled == false)
+        {
+            return;
+        }
         Movement();
         Rotation();
 
@@ -109,7 +112,7 @@ public class PlayerScript : MonoBehaviour
         }
 
         pivot.transform.rotation = Quaternion.Euler(0f, 0f, angle);
-        Debug.Log(angle);
+
     }
 
     private IEnumerator Dash()
@@ -186,5 +189,10 @@ public class PlayerScript : MonoBehaviour
         {
             plAnim.SetInteger("Index", 5);
         }
+    }
+
+    public void SetPlayerEnabled(bool change)
+    {
+        playerEnabled = change;
     }
 }
