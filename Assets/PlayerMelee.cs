@@ -17,15 +17,16 @@ public class PlayerMelee : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Attack();
-        }
+
+        Attack();
+
     }
 
     void Attack()
     {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        if (hitEnemies.Length == 0) { return; }
+
         foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<Mob>().Damaged(damage);

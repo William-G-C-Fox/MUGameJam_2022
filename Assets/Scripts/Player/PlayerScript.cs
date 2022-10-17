@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    [Header("Player")]
-    [SerializeField] private SpriteRenderer playerSprite;
-    [SerializeField] private float speed = 10;
 
+    [Header("Player")]
+    [SerializeField] private float speed = 10;
+    [SerializeField] private SpriteRenderer plSprite;
+    [SerializeField] private Animator plAnim;
+    private const float shieldSpeed = 3.0f;
     private Rigidbody2D plRigid;
     private Pivot pivot;
     private float angle;
     private float hAxis, vAxis;
+    private bool isFacingRight;
 
     //dash
     [Header("Dash")]
@@ -22,12 +25,18 @@ public class PlayerScript : MonoBehaviour
     private bool canDash = true;
     private bool isDashing;
 
+    [Header("Weapon")]
+    [SerializeField] private GameObject Shield;
+    private bool shieldSwitch = false;
+
 
     // Start is called before the first frame update
     void Start()
     {
+
         plRigid = GetComponent<Rigidbody2D>();
         pivot = gameObject.GetComponentInChildren(typeof(Pivot)) as Pivot;
+
     }
 
     // Update is called once per frame
@@ -36,6 +45,25 @@ public class PlayerScript : MonoBehaviour
 
         Movement();
         Rotation();
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (shieldSwitch == true)
+            {
+                shieldSwitch = false;
+                ShieldSwitch();
+                speed = 3.0f;
+            }
+            else
+            {
+                shieldSwitch = true;
+                ShieldSwitch();
+
+                speed = 6.0f;
+            }
+        }
+        CycleAnim();
+
     }
 
     void Movement()
@@ -53,6 +81,8 @@ public class PlayerScript : MonoBehaviour
         {
             StartCoroutine(Dash());
         }
+
+        plAnim.SetFloat("Speed", (Mathf.Abs(hAxis) + Mathf.Abs(vAxis)));
     }
 
     void Rotation()
@@ -64,20 +94,22 @@ public class PlayerScript : MonoBehaviour
         target.Normalize();
         angle = Mathf.Atan2(target.y, target.x) * Mathf.Rad2Deg;
 
-        if (angle > 130 && angle < 179)
+
+        if (angle > 109 && angle < 179)
         {
-            //playerSprite.flipX = true;
+            plSprite.flipX = true;
         }
-        else if (angle > -179 && angle < -130)
+        else if (angle > -179 && angle < -109)
         {
-            // playerSprite.flipX = true;
+            plSprite.flipX = true;
         }
         else
         {
-            // playerSprite.flipX = false;
+            plSprite.flipX = false;
         }
 
         pivot.transform.rotation = Quaternion.Euler(0f, 0f, angle);
+        Debug.Log(angle);
     }
 
     private IEnumerator Dash()
@@ -105,6 +137,54 @@ public class PlayerScript : MonoBehaviour
             {
                 collision.gameObject.GetComponent<Mob>().Damaged(dashingDamage);
             }
+        }
+    }
+
+    void ShieldSwitch()
+    {
+        if (shieldSwitch == true)
+        {
+            Shield.SetActive(false);
+        }
+        else
+        {
+            Shield.SetActive(true);
+        }
+
+    }
+
+    private void Flip()
+    {
+        if (isFacingRight && hAxis < 0f || !isFacingRight && hAxis > 0f)
+        {
+            Vector3 localScale = transform.localScale;
+            isFacingRight = !isFacingRight;
+            localScale.x *= -1f;
+            transform.localScale = localScale;
+        }
+    }
+
+    private void CycleAnim()
+    {
+        if (angle > 68 && angle < 109)
+        {
+            plAnim.SetInteger("Index", 1);
+        }
+        else if (angle > 20 && angle < 69 || angle < 175 && angle > 109)
+        {
+            plAnim.SetInteger("Index", 2);
+        }
+        else if (angle > -35 && angle < 21 || angle < -150 || angle > 175)
+        {
+            plAnim.SetInteger("Index", 3);
+        }
+        else if (angle > -69 && angle < -35 || angle > -150 && angle < -109)
+        {
+            plAnim.SetInteger("Index", 4);
+        }
+        else if (angle > -109 && angle < -69)
+        {
+            plAnim.SetInteger("Index", 5);
         }
     }
 }

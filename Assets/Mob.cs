@@ -26,7 +26,7 @@ public class Mob : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //AI();
+        AI();
     }
 
     void AI()
