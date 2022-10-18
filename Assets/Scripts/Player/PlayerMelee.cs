@@ -9,6 +9,7 @@ public class PlayerMelee : MonoBehaviour
     [SerializeField] private Transform attackPoint;
     [SerializeField] private float damage = 5.0f;
     [SerializeField] private Rigidbody2D playerRigid;
+    [SerializeField] private float bounceAdjuster = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +31,7 @@ public class PlayerMelee : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            playerRigid.AddForce(-attackPoint.position, ForceMode2D.Force);
+            playerRigid.AddForce(-attackPoint.position * bounceAdjuster, ForceMode2D.Force);
             enemy.GetComponent<Mob>().Damaged(damage);
         }
     }

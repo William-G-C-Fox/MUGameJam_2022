@@ -6,7 +6,9 @@ public class PlayerScript : MonoBehaviour
 {
 
     [Header("Player")]
-    [SerializeField] private float speed = 10;
+    [SerializeField] private float speed = 3;
+    [SerializeField] private float speedSave;
+    [SerializeField] private float speedShield = 6;
     [SerializeField] private SpriteRenderer plSprite;
     [SerializeField] private Animator plAnim;
     private const float shieldSpeed = 3.0f;
@@ -36,7 +38,7 @@ public class PlayerScript : MonoBehaviour
         playerEnabled = true;
         plRigid = GetComponent<Rigidbody2D>();
         pivot = gameObject.GetComponentInChildren(typeof(Pivot)) as Pivot;
-
+        speedSave = speed;
     }
 
     // Update is called once per frame
@@ -62,7 +64,7 @@ public class PlayerScript : MonoBehaviour
                 shieldSwitch = true;
                 ShieldSwitch();
 
-                speed = 6.0f;
+                speed = speedShield;
             }
         }
         CycleAnim();
