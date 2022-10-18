@@ -26,7 +26,7 @@ public class Tower : MonoBehaviour
         Debug.Log(health);
         if (health <= 0.0f)
         {
-            //death;
+
         }
 
     }

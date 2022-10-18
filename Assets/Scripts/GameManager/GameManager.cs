@@ -41,12 +41,14 @@ public class GameManager : MonoBehaviour
 
     void EndGame()
     {
-        endMenu.enabled = true;
+        StartCoroutine(EndTimer());
 
     }
 
     void TowerHealthCheck()
     {
+        if (tower == null) return;
+
         if (tower.GetComponent<Tower>().GetHealth() <= 0.0f)
         {
             towerHealthZero = true;
@@ -54,6 +56,30 @@ public class GameManager : MonoBehaviour
         else
         {
             return;
+        }
+
+    }
+
+    private IEnumerator EndTimer()
+    {
+        player.GetComponent<PlayerScript>().SetPlayerEnabled(false);
+        EndofGameCleanup();
+        Destroy(tower.gameObject);
+        yield return new WaitForSeconds(3.0f);
+        endMenu.enabled = true;
+    }
+
+    private void EndofGameCleanup()
+    {
+        GameObject[] spawners = GameObject.FindGameObjectsWithTag("MobSpawner");
+        foreach (GameObject spawn in spawners)
+        {
+            Destroy(spawn);
+        }
+        GameObject[] mobs = GameObject.FindGameObjectsWithTag("Mob");
+        foreach (GameObject mob in mobs)
+        {
+            mob.GetComponent<Mob>().Damaged(100);
         }
 
     }

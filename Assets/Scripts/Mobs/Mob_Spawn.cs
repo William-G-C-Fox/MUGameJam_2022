@@ -18,7 +18,7 @@ public class Mob_Spawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Spawner();
     }
 
     void Spawner()

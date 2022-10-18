@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Mob
   - Tower
+  - Scene
+  - MobSpawner
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - Water
   - UI
   - Mob
-  - 
+  - Scene
   - 
   - 
   - 

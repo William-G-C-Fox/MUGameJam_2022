@@ -33,6 +33,7 @@ public class Mob : MonoBehaviour
 
     void AI()
     {
+        if (towerObj == null) return;
         towerPos = towerObj.GetComponent<Tower>().BaseGetPosition();
         mobRigidBody.velocity = Vector2.zero;
         mobRigidBody.position = Vector2.MoveTowards(mobRigidBody.position, towerPos, speed * Time.deltaTime);
@@ -40,6 +41,7 @@ public class Mob : MonoBehaviour
         lookAtPlayer = towerPos - transform.position;
         lookAtPlayer.Normalize();
         angle = Mathf.Atan2(towerPos.y, towerPos.x) * Mathf.Rad2Deg;
+        Debug.Log(angle);
 
         if (angle > 109 && angle < 179)
         {
@@ -63,6 +65,10 @@ public class Mob : MonoBehaviour
             collision.gameObject.GetComponent<Tower>().Damaged(damage);
 
         }
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(transform.right);
+        }
     }
 
     private void Death()
@@ -75,14 +81,14 @@ public class Mob : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
-            Death();
+            StartCoroutine(DeathAnim());
         }
     }
 
     private IEnumerator DeathAnim()
     {
         mobAnime.SetBool("Attacking", true);
-        yield return new WaitForSeconds(0.33f);
+        yield return new WaitForSeconds(0.75f);
         Death();
     }
 }

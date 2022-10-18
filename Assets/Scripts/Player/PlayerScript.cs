@@ -138,9 +138,15 @@ public class PlayerScript : MonoBehaviour
         {
             if (isDashing)
             {
+
                 collision.gameObject.GetComponent<Mob>().Damaged(dashingDamage);
             }
         }
+        if (collision.gameObject.CompareTag("Scene"))
+        {
+            //transform.position = Vector2.zero;
+        }
+
     }
 
     void ShieldSwitch()

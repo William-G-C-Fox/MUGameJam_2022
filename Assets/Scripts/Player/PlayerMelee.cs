@@ -8,6 +8,7 @@ public class PlayerMelee : MonoBehaviour
     [SerializeField] private LayerMask enemyLayers;
     [SerializeField] private Transform attackPoint;
     [SerializeField] private float damage = 5.0f;
+    [SerializeField] private Rigidbody2D playerRigid;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +30,7 @@ public class PlayerMelee : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
+            playerRigid.AddForce(-attackPoint.position, ForceMode2D.Force);
             enemy.GetComponent<Mob>().Damaged(damage);
         }
     }
