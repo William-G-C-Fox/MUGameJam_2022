@@ -63,7 +63,7 @@ public class Mob : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
 
-            collision.gameObject.GetComponent<PlayerScript>().SetShield(true);
+            collision.gameObject.GetComponent<PlayerScript>().SetShield(false);
         }
     }
 
