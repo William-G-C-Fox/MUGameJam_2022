@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778419018577737715}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.4, z: 0}
+  m_LocalPosition: {x: 0, y: -1.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -59,7 +59,7 @@ Transform:
   m_GameObject: {fileID: 8189786250533318699}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 3, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2336650540384415840}
@@ -133,6 +133,11 @@ MonoBehaviour:
   health: 0
   maxHealth: 50
   towerBase: {fileID: 2336650540384415840}
+  tSP: {fileID: 6617365093840753351}
+  damagedOne: {fileID: 21300000, guid: 84dfd2e9c7db9d24db6660af891d56c6, type: 3}
+  damagedTwo: {fileID: 21300000, guid: a9e8e1e731fcbac49a5018a14f7ea80e, type: 3}
+  damagedThree: {fileID: 21300000, guid: 1ca6dfff207d89e47905f38de9ae3b82, type: 3}
+  damagedFour: {fileID: 21300000, guid: a101862a00a21a24faa637f2cd5347b6, type: 3}
 --- !u!61 &8199061809005056360
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -146,16 +151,16 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.01651311, y: 1.0320678}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 8.53, y: 7.88}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.3026156, y: 6.069516}
   m_EdgeRadius: 0
