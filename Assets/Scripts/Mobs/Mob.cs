@@ -12,9 +12,9 @@ public class Mob : MonoBehaviour
     [SerializeField] private Animator mobAnime;
 
     private GameObject towerObj;
-    private Vector3 towerPos;
+    private Vector2 towerPos;
     private Rigidbody2D mobRigidBody;
-
+    private float posCheck;
     private Vector3 lookAtPlayer;
     private float angle;
 
@@ -23,6 +23,7 @@ public class Mob : MonoBehaviour
     {
         towerObj = GameObject.FindGameObjectWithTag("Tower");
         mobRigidBody = GetComponent<Rigidbody2D>();
+        posCheck = mobRigidBody.position.x;
     }
 
     // Update is called once per frame
@@ -38,16 +39,9 @@ public class Mob : MonoBehaviour
         mobRigidBody.velocity = Vector2.zero;
         mobRigidBody.position = Vector2.MoveTowards(mobRigidBody.position, towerPos, speed * Time.deltaTime);
 
-        lookAtPlayer = towerPos - transform.position;
-        lookAtPlayer.Normalize();
-        angle = Mathf.Atan2(towerPos.y, towerPos.x) * Mathf.Rad2Deg;
-        Debug.Log(angle);
 
-        if (angle > 109 && angle < 179)
-        {
-            mobSp.flipX = true;
-        }
-        else if (angle > -179 && angle < -109)
+
+        if (posCheck > mobRigidBody.position.x)
         {
             mobSp.flipX = true;
         }
@@ -55,6 +49,7 @@ public class Mob : MonoBehaviour
         {
             mobSp.flipX = false;
         }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -68,7 +63,7 @@ public class Mob : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
 
-            collision.gameObject.GetComponent<PlayerScript>().KnockBack(collision.gameObject.transform.position);
+            collision.gameObject.GetComponent<PlayerScript>().SetShield(true);
         }
     }
 

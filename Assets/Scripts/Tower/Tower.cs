@@ -5,7 +5,7 @@ using UnityEngine;
 public class Tower : MonoBehaviour
 {
     [SerializeField] private float health;
-    [SerializeField] private float maxHealth = 100.0f;
+    [SerializeField] private float maxHealth = 50.0f;
     [SerializeField] private Transform towerBase;
     [SerializeField] private SpriteRenderer tSP;
     [SerializeField] private Sprite damagedOne;
@@ -29,15 +29,15 @@ public class Tower : MonoBehaviour
     {
         health -= damage;
         Debug.Log(health);
-        if (health / maxHealth * 100 <= 75 || health / maxHealth * 100 > 50)
+        if (health / maxHealth * 100 <= 75 && health / maxHealth * 100 > 50)
         {
             SwitchSprite(1);
         }
-        else if (health / maxHealth * 100 <= 50 || health / maxHealth * 100 > 25)
+        else if (health / maxHealth * 100 <= 50 && health / maxHealth * 100 > 25)
         {
             SwitchSprite(2);
         }
-        else if (health / maxHealth * 100 <= 25 || health / maxHealth * 100 > 0)
+        else if (health / maxHealth * 100 <= 25 && health / maxHealth * 100 > 0)
         {
             SwitchSprite(3);
         }
@@ -47,7 +47,7 @@ public class Tower : MonoBehaviour
         }
     }
 
-    public Vector3 BaseGetPosition()
+    public Vector2 BaseGetPosition()
     {
         return towerBase.position;
     }

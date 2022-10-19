@@ -22,6 +22,7 @@ public class PlayerScript : MonoBehaviour
     private bool isFacingRight;
     private bool playerEnabled;
     private int sortOrderPlus, sortOrderMinus;
+    private Vector2 moveDirection;
     //dash
     [Header("Dash")]
     [SerializeField] private float dashingPower = 9.0f;
@@ -59,6 +60,7 @@ public class PlayerScript : MonoBehaviour
         }
         Movement();
         Rotation();
+        //Flip();
 
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -89,9 +91,12 @@ public class PlayerScript : MonoBehaviour
         hAxis = Input.GetAxis("Horizontal");
         vAxis = Input.GetAxis("Vertical");
 
-        Vector2 moveDirection = new Vector2(hAxis, vAxis);
-        transform.Translate(moveDirection * speed * Time.deltaTime);
 
+
+
+        moveDirection = new Vector2(hAxis, vAxis);
+        transform.Translate(moveDirection * speed * Time.deltaTime);
+        //Debug.Log(moveDirection);
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             StartCoroutine(Dash());
@@ -237,5 +242,19 @@ public class PlayerScript : MonoBehaviour
     {
         plRigid.AddForce(-force * 2);
     }
+
+    public void SetShield(bool shieldSwap)
+    {
+        shieldSwitch = shieldSwap;
+    }
+
+    //angle > 68 && angle< 109
+    //angle > 20 && angle < 69 || angle < 175 && angle > 109
+    //angle > -35 && angle < 21 || angle < -150 || angle > 175
+    //angle > -69 && angle < -35 || angle > -150 && angle < -109
+    //angle > -69 && angle < -35 || angle > -150 && angle < -109
+    //angle > -109 && angle < -69
+    //
+    //hAxis >0 vAxis == 0
 
 }
