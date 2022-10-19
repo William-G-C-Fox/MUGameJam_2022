@@ -255,6 +255,19 @@ public class PlayerScript : MonoBehaviour
             speed = speedShield;
         }
     }
+
+    private IEnumerator GhostBind()
+    {
+        playerEnabled = false;
+        yield return new WaitForSeconds(3.0f);
+        playerEnabled = true;
+    }
+
+    public void GhostHit()
+    {
+        StartCoroutine(GhostBind());
+    }
+
     //angle > 68 && angle< 109
     //angle > 20 && angle < 69 || angle < 175 && angle > 109
     //angle > -35 && angle < 21 || angle < -150 || angle > 175
