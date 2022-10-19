@@ -201,6 +201,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  speedSave: 0
+  speedShield: 6
   plSprite: {fileID: 629980663087116801}
   plAnim: {fileID: 6362216224292440515}
   dashingPower: 9
@@ -358,6 +360,7 @@ MonoBehaviour:
   attackPoint: {fileID: 6765272884484657339}
   damage: 5
   playerRigid: {fileID: 1356652877876837138}
+  bounceAdjuster: -1
 --- !u!1 &8743659688579135809
 GameObject:
   m_ObjectHideFlags: 0
