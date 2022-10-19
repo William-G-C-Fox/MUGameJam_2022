@@ -10,6 +10,12 @@ public class PlayerMelee : MonoBehaviour
     [SerializeField] private float damage = 5.0f;
     [SerializeField] private Rigidbody2D playerRigid;
     [SerializeField] private float bounceAdjuster = 1;
+    [SerializeField] private PlayerScript playerBody;
+    [SerializeField] private Animator wepAnim;
+
+    [Header("Sound")]
+    [SerializeField] private AudioClip stoneHit;
+    private bool isAttacking;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +25,11 @@ public class PlayerMelee : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetMouseButtonDown(0) && isAttacking == false)
+        {
+            StartCoroutine(AttackAnim());
+        }
 
-        Attack();
 
     }
 
@@ -31,8 +40,10 @@ public class PlayerMelee : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            playerRigid.AddForce(-attackPoint.position * bounceAdjuster, ForceMode2D.Force);
+
+            //playerRigid.AddForce(-attackPoint.position * bounceAdjuster, ForceMode2D.Force);
             enemy.GetComponent<Mob>().Damaged(damage);
+
         }
     }
 
@@ -40,5 +51,18 @@ public class PlayerMelee : MonoBehaviour
     {
         if (attackPoint == null) return;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+    private IEnumerator AttackAnim()
+    {
+        isAttacking = true;
+        playerBody.SetPlayerAttacking(true);
+        wepAnim.SetBool("isAttacking", true);
+        yield return new WaitForSeconds(0.6f);
+        //stoneHit.
+        Attack();
+        wepAnim.SetBool("isAttacking", false);
+        isAttacking = false;
+        playerBody.SetPlayerAttacking(false);
     }
 }

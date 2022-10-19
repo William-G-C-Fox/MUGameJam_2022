@@ -67,7 +67,8 @@ public class Mob : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(transform.right);
+
+            collision.gameObject.GetComponent<PlayerScript>().KnockBack(collision.gameObject.transform.position);
         }
     }
 

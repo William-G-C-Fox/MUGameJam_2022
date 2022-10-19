@@ -10,7 +10,10 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private float speedSave;
     [SerializeField] private float speedShield = 6;
     [SerializeField] private SpriteRenderer plSprite;
+    [SerializeField] private SpriteRenderer plWepSprite;
     [SerializeField] private Animator plAnim;
+    [SerializeField] private Animator plWepAnim;
+
     private const float shieldSpeed = 3.0f;
     private Rigidbody2D plRigid;
     private Pivot pivot;
@@ -18,6 +21,7 @@ public class PlayerScript : MonoBehaviour
     private float hAxis, vAxis;
     private bool isFacingRight;
     private bool playerEnabled;
+    private int sortOrderPlus, sortOrderMinus;
     //dash
     [Header("Dash")]
     [SerializeField] private float dashingPower = 9.0f;
@@ -30,6 +34,9 @@ public class PlayerScript : MonoBehaviour
     [Header("Weapon")]
     [SerializeField] private GameObject Shield;
     private bool shieldSwitch = false;
+    private bool isAttacking;
+
+
 
 
     // Start is called before the first frame update
@@ -39,6 +46,8 @@ public class PlayerScript : MonoBehaviour
         plRigid = GetComponent<Rigidbody2D>();
         pivot = gameObject.GetComponentInChildren(typeof(Pivot)) as Pivot;
         speedSave = speed;
+        sortOrderPlus = plSprite.sortingOrder + 1;
+        sortOrderMinus = plSprite.sortingOrder - 2;
     }
 
     // Update is called once per frame
@@ -57,13 +66,14 @@ public class PlayerScript : MonoBehaviour
             {
                 shieldSwitch = false;
                 ShieldSwitch();
-                speed = 3.0f;
+                plWepSprite.enabled = true;
+                speed = speedSave;
             }
             else
             {
                 shieldSwitch = true;
                 ShieldSwitch();
-
+                plWepSprite.enabled = false;
                 speed = speedShield;
             }
         }
@@ -92,6 +102,7 @@ public class PlayerScript : MonoBehaviour
 
     void Rotation()
     {
+        if (isAttacking == true) { return; }
         Vector3 pointPos = (Input.mousePosition);
         pointPos = Camera.main.ScreenToWorldPoint(pointPos);
 
@@ -103,14 +114,17 @@ public class PlayerScript : MonoBehaviour
         if (angle > 109 && angle < 179)
         {
             plSprite.flipX = true;
+            plWepSprite.flipX = true;
         }
         else if (angle > -179 && angle < -109)
         {
             plSprite.flipX = true;
+            plWepSprite.flipX = true;
         }
         else
         {
             plSprite.flipX = false;
+            plWepSprite.flipX = false;
         }
 
         pivot.transform.rotation = Quaternion.Euler(0f, 0f, angle);
@@ -180,22 +194,32 @@ public class PlayerScript : MonoBehaviour
         if (angle > 68 && angle < 109)
         {
             plAnim.SetInteger("Index", 1);
+            plWepAnim.SetInteger("Index", 1);
+            plWepSprite.sortingOrder = sortOrderMinus;
         }
         else if (angle > 20 && angle < 69 || angle < 175 && angle > 109)
         {
             plAnim.SetInteger("Index", 2);
+            plWepAnim.SetInteger("Index", 2);
+            plWepSprite.sortingOrder = sortOrderMinus;
         }
         else if (angle > -35 && angle < 21 || angle < -150 || angle > 175)
         {
             plAnim.SetInteger("Index", 3);
+            plWepAnim.SetInteger("Index", 3);
+            plWepSprite.sortingOrder = sortOrderPlus;
         }
         else if (angle > -69 && angle < -35 || angle > -150 && angle < -109)
         {
             plAnim.SetInteger("Index", 4);
+            plWepAnim.SetInteger("Index", 4);
+            plWepSprite.sortingOrder = sortOrderPlus;
         }
         else if (angle > -109 && angle < -69)
         {
             plAnim.SetInteger("Index", 5);
+            plWepAnim.SetInteger("Index", 5);
+            plWepSprite.sortingOrder = sortOrderPlus;
         }
     }
 
@@ -203,4 +227,15 @@ public class PlayerScript : MonoBehaviour
     {
         playerEnabled = change;
     }
+
+    public void SetPlayerAttacking(bool attacking)
+    {
+        isAttacking = attacking;
+    }
+
+    public void KnockBack(Vector2 force)
+    {
+        plRigid.AddForce(-force * 2);
+    }
+
 }
