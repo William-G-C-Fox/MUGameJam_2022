@@ -64,20 +64,7 @@ public class PlayerScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (shieldSwitch == true)
-            {
-                shieldSwitch = false;
-                ShieldSwitch();
-                plWepSprite.enabled = true;
-                speed = speedSave;
-            }
-            else
-            {
-                shieldSwitch = true;
-                ShieldSwitch();
-                plWepSprite.enabled = false;
-                speed = speedShield;
-            }
+            SwitchingOutWeapon();
         }
         CycleAnim();
 
@@ -174,6 +161,7 @@ public class PlayerScript : MonoBehaviour
     {
         if (shieldSwitch == true)
         {
+
             Shield.SetActive(false);
         }
         else
@@ -245,9 +233,28 @@ public class PlayerScript : MonoBehaviour
 
     public void SetShield(bool shieldSwap)
     {
+        if (isAttacking == true) { return; }
         shieldSwitch = shieldSwap;
+        SwitchingOutWeapon();
     }
 
+    void SwitchingOutWeapon()
+    {
+        if (shieldSwitch == true)
+        {
+            shieldSwitch = false;
+            ShieldSwitch();
+            plWepSprite.enabled = true;
+            speed = speedSave;
+        }
+        else
+        {
+            shieldSwitch = true;
+            ShieldSwitch();
+            plWepSprite.enabled = false;
+            speed = speedShield;
+        }
+    }
     //angle > 68 && angle< 109
     //angle > 20 && angle < 69 || angle < 175 && angle > 109
     //angle > -35 && angle < 21 || angle < -150 || angle > 175
