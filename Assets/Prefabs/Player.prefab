@@ -185,7 +185,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -207,7 +207,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.09942949, y: 0.30949563}
+  m_Offset: {x: 0.005888313, y: 0.2152639}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -218,7 +218,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.38092625, y: 0.769941}
+  m_Size: {x: 0.4141845, y: 0.9584044}
   m_EdgeRadius: 0
 --- !u!114 &6539843192641394455
 MonoBehaviour:
@@ -240,6 +240,7 @@ MonoBehaviour:
   plAnim: {fileID: 6362216224292440515}
   plWepAnim: {fileID: 3806963901500396550}
   stun: 3
+  stunnedCooldown: 5
   dashingPower: 9
   dashingTime: 1
   dashingCooldown: 1

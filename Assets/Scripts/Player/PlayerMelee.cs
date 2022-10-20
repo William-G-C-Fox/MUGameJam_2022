@@ -25,7 +25,7 @@ public class PlayerMelee : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && isAttacking == false)
+        if (Input.GetMouseButtonDown(0) && isAttacking == false && playerBody.GetCanBeStunned() == false)
         {
             StartCoroutine(AttackAnim());
         }

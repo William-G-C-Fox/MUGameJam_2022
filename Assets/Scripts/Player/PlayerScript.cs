@@ -146,7 +146,7 @@ public class PlayerScript : MonoBehaviour
         {
             if (isDashing)
             {
-
+                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(collision.transform.position * dashingDamage, ForceMode2D.Impulse);
                 collision.gameObject.GetComponent<Mob>().Damaged(dashingDamage);
             }
         }
@@ -287,6 +287,11 @@ public class PlayerScript : MonoBehaviour
     public void GhostHit()
     {
         StartCoroutine(GhostBind());
+    }
+
+    public bool GetisDashing()
+    {
+        return isDashing;
     }
 
     //angle > 68 && angle< 109
