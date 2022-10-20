@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,10 +9,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Canvas HUD;
     [SerializeField] private GameObject tower;
     [SerializeField] private GameObject player;
+    [SerializeField] private TextMeshProUGUI timeText;
+
     private bool towerHealthZero;
     private bool oneHit;
     private float towerHealth;
-
+    private string mintuesDisplay, secondsDisplay;
 
     void Start()
     {
@@ -71,6 +74,8 @@ public class GameManager : MonoBehaviour
         player.GetComponent<PlayerScript>().SetStunned(true);
         EndofGameCleanup();
         yield return new WaitForSeconds(3.0f);
+        //timeText.text = Time.time.ToString();
+        TimeSurvived();
         endMenu.enabled = true;
     }
 
@@ -87,5 +92,36 @@ public class GameManager : MonoBehaviour
             mob.GetComponent<Mob>().Damaged(100);
         }
 
+    }
+
+    private void TimeSurvived()
+    {
+        float time = Time.time;
+        float minutes = Mathf.Floor(time / 60);
+        float seconds = Mathf.RoundToInt(time % 60);
+        string timeDisplay;
+
+        if (minutes < 10)
+        {
+            mintuesDisplay = "0" + minutes.ToString();
+        }
+        else
+        {
+            mintuesDisplay = minutes.ToString();
+        }
+
+        if (seconds < 10)
+        {
+            secondsDisplay = "0" + Mathf.RoundToInt(seconds).ToString();
+        }
+        else
+        {
+            secondsDisplay = seconds.ToString();
+        }
+
+        Debug.Log(secondsDisplay);
+
+        timeDisplay = mintuesDisplay + ":" + secondsDisplay;
+        timeText.text = timeDisplay;
     }
 }

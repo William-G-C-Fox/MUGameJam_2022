@@ -28,7 +28,7 @@ public class Tower : MonoBehaviour
     public void Damaged(float damage)
     {
         health -= damage;
-        Debug.Log(health);
+
         if (health / maxHealth * 100 <= 75 && health / maxHealth * 100 > 50)
         {
             SwitchSprite(1);
