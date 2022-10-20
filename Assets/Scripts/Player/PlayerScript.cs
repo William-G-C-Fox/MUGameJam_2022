@@ -14,6 +14,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private Animator plAnim;
     [SerializeField] private Animator plWepAnim;
     [SerializeField] private float stun = 3.0f;
+    [SerializeField] private float stunnedCooldown = 5.0f;
 
     private const float shieldSpeed = 3.0f;
     private Rigidbody2D plRigid;
@@ -24,6 +25,7 @@ public class PlayerScript : MonoBehaviour
     private bool playerEnabled;
     private int sortOrderPlus, sortOrderMinus;
     private Vector2 moveDirection;
+    private bool canBeStunned = true;
     //dash
     [Header("Dash")]
     [SerializeField] private float dashingPower = 9.0f;
@@ -265,8 +267,21 @@ public class PlayerScript : MonoBehaviour
         playerEnabled = false;
         plAnim.SetBool("isStunned", true);
         yield return new WaitForSeconds(stun);
+        StartCoroutine(StunnedCooldown());
         plAnim.SetBool("isStunned", false);
         playerEnabled = true;
+    }
+
+    private IEnumerator StunnedCooldown()
+    {
+        canBeStunned = false;
+        yield return new WaitForSeconds(stun);
+        canBeStunned = true;
+    }
+
+    public bool GetCanBeStunned()
+    {
+        return canBeStunned;
     }
 
     public void GhostHit()

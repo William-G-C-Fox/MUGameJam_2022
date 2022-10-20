@@ -62,8 +62,16 @@ public class Mob : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Player"))
         {
+            if (collision.gameObject.GetComponent<PlayerScript>().GetCanBeStunned() == true)
+            {
+                collision.gameObject.GetComponent<PlayerScript>().GhostHit();
 
-            collision.gameObject.GetComponent<PlayerScript>().GhostHit();
+            }
+            else
+            {
+                return;
+            }
+
         }
     }
 
