@@ -79,9 +79,6 @@ public class PlayerScript : MonoBehaviour
         hAxis = Input.GetAxis("Horizontal");
         vAxis = Input.GetAxis("Vertical");
 
-
-
-
         moveDirection = new Vector2(hAxis, vAxis);
         transform.Translate(moveDirection * speed * Time.deltaTime);
         //Debug.Log(moveDirection);
@@ -237,6 +234,12 @@ public class PlayerScript : MonoBehaviour
         if (isAttacking == true) { return; }
         shieldSwitch = shieldSwap;
         SwitchingOutWeapon();
+    }
+
+    public void SetStunned(bool change)
+    {
+        plAnim.SetBool("isStunned", change);
+
     }
 
     void SwitchingOutWeapon()

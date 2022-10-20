@@ -68,8 +68,8 @@ public class GameManager : MonoBehaviour
     private IEnumerator EndTimer()
     {
         player.GetComponent<PlayerScript>().SetPlayerEnabled(false);
+        player.GetComponent<PlayerScript>().SetStunned(true);
         EndofGameCleanup();
-        Destroy(tower.gameObject);
         yield return new WaitForSeconds(3.0f);
         endMenu.enabled = true;
     }
