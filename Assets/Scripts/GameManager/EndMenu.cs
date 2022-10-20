@@ -19,11 +19,11 @@ public class EndMenu : MonoBehaviour
 
     public void LoadMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void QuitMenu()
     {
-        Application.Quit();
+        SceneManager.LoadScene(0);
     }
 }
