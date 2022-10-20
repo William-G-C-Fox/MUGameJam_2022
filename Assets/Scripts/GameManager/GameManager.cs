@@ -5,11 +5,13 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private Canvas endMenu;
+    [SerializeField] private Canvas HUD;
     [SerializeField] private GameObject tower;
     [SerializeField] private GameObject player;
     private bool towerHealthZero;
     private bool oneHit;
     private float towerHealth;
+
 
     void Start()
     {
@@ -20,7 +22,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         TowerHealthCheck();
-
+        HUD.GetComponentInChildren<HealthBar>().SetHealth(towerHealth);
         if (towerHealthZero)
         {
             if (oneHit)
@@ -47,9 +49,12 @@ public class GameManager : MonoBehaviour
 
     void TowerHealthCheck()
     {
-        if (tower == null) return;
 
-        if (tower.GetComponent<Tower>().GetHealth() <= 0.0f)
+        if (tower == null) return;
+        towerHealth = tower.GetComponent<Tower>().GetHealth();
+
+
+        if (towerHealth <= 0.0f)
         {
             towerHealthZero = true;
         }

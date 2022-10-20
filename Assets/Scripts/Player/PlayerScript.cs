@@ -260,7 +260,9 @@ public class PlayerScript : MonoBehaviour
     private IEnumerator GhostBind()
     {
         playerEnabled = false;
+        plAnim.SetBool("isStunned", true);
         yield return new WaitForSeconds(stun);
+        plAnim.SetBool("isStunned", false);
         playerEnabled = true;
     }
 
