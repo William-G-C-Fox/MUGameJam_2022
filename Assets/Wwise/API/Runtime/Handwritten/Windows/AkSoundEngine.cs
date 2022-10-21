@@ -2,7 +2,7 @@
 
 public partial class AkSoundEngine
 {
-    public static void SetState(string v)
+    public static void SetState(string v, string v1)
     {
         throw new NotImplementedException();
     }
