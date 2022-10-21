@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2921519631	Play_PlayerAction_Footsteps			\Default Work Unit\Play_PlayerAction_Footsteps	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6674772	PlayerAction_Footsteps_04	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\footstep_designed_F8CE2B13.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\PlayerAction_Footsteps_04		100400
+	206417302	PlayerAction_Footsteps_02	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\footstep_designed_3165C17C.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\PlayerAction_Footsteps_02		101012
+	529730430	PlayerAction_Footsteps_01	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\footstep_designed_E1851E22.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\PlayerAction_Footsteps_01		110188
+	894744883	PlayerAction_Footsteps_03	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\footstep_designed_5CC1A672.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\PlayerAction_Footsteps_03		113856
+
