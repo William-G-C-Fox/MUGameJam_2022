@@ -782,7 +782,7 @@ GameObject:
   - component: {fileID: 1191526721}
   - component: {fileID: 1191526725}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: CreditsCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -886,8 +886,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66af084570acaa441a645370b42fae64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenu: {fileID: 0}
-  credits: {fileID: 0}
+  mainMenu: {fileID: 1773686463}
+  credits: {fileID: 1191526723}
 --- !u!1 &1229138473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1811,7 +1811,7 @@ GameObject:
   - component: {fileID: 1773686461}
   - component: {fileID: 1773686465}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: MainMenuCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
