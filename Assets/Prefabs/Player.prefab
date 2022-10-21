@@ -31,6 +31,37 @@ Transform:
   m_Father: {fileID: 6327917954689623198}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1952410903308045705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8212631093814916925}
+  m_Layer: 0
+  m_Name: RangedPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8212631093814916925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952410903308045705}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.538, y: 0.089, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6327917954689623198}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2510846908513432167
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,6 +322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6327917954689623198}
   - component: {fileID: 7206067704397283104}
+  - component: {fileID: 8520844939769946191}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Untagged
@@ -311,6 +343,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4530177158616216697}
+  - {fileID: 8212631093814916925}
   m_Father: {fileID: 5352073969316009743}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -337,6 +370,24 @@ MonoBehaviour:
   playerBody: {fileID: 6539843192641394455}
   wepAnim: {fileID: 3806963901500396550}
   stoneHit: {fileID: 8300000, guid: 15c6a952401aa0f45a6187c5ebc34b25, type: 3}
+--- !u!114 &8520844939769946191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7239051151230849603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb9d7be394e1fd4886cf4a7f3653cf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 3415551983370632243, guid: d8275c8083005c64b806e565d63c16dc, type: 3}
+  firePoint: {fileID: 8212631093814916925}
+  lastShot: 0
+  fireRate: 1
+  playerBody: {fileID: 6539843192641394455}
+  speed: 200
 --- !u!1 &7868311625977266975
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,7 +15,7 @@ public class PlayerMelee : MonoBehaviour
 
     [Header("Sound")]
     [SerializeField] private AudioClip stoneHit;
-    private bool isAttacking;
+    private bool isAttacking = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +25,7 @@ public class PlayerMelee : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && isAttacking == false && playerBody.GetCanBeStunned() == false)
+        if (Input.GetKeyDown(KeyCode.Space) && isAttacking == false && playerBody.GetCanBeStunned() == false)
         {
             StartCoroutine(AttackAnim());
         }

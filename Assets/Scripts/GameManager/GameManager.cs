@@ -18,7 +18,9 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        TowerHealthCheck();
         endMenu.enabled = false;
+        HUD.GetComponentInChildren<HealthBar>().SetMaxHealth(towerHealth);
     }
 
     // Update is called once per frame
