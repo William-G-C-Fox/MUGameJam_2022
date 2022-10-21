@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 6617365093840753351}
   - component: {fileID: 3961914625658742356}
   - component: {fileID: 8199061809005056360}
+  - component: {fileID: 1059674022564775307}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Tower
@@ -145,7 +146,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8189786250533318699}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -164,3 +165,31 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.948543, y: 3.1467006}
   m_EdgeRadius: 0
+--- !u!68 &1059674022564775307
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8189786250533318699}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 1.9610853, y: -1.0201777}
+  - {x: -0.0049096346, y: -1.9797109}
+  - {x: -0.012974232, y: -1.9353372}
+  - {x: -1.9484437, y: -0.99551326}
+  - {x: -1.6986119, y: 0.60131454}
+  - {x: 0.03201424, y: -0.0061796196}
+  - {x: 1.6924641, y: 0.6333524}
+  - {x: 1.9696001, y: -1.0201777}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
