@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="4028508694">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2921519631" Name="Play_PlayerAction_Footsteps" ObjectPath="\Events\Default Work Unit\Play_PlayerAction_Footsteps" DurationType="OneShot" DurationMin="0.522577" DurationMax="0.592679">
+					<IncludedMemoryFiles>
+						<File Id="6674772" Language="SFX">
+							<ShortName>footstep_designed.wav</ShortName>
+							<Path>SFX/footstep_designed_F8CE2B13.wem</Path>
+						</File>
+						<File Id="206417302" Language="SFX">
+							<ShortName>footstep_designed.wav</ShortName>
+							<Path>SFX/footstep_designed_3165C17C.wem</Path>
+						</File>
+						<File Id="529730430" Language="SFX">
+							<ShortName>footstep_designed.wav</ShortName>
+							<Path>SFX/footstep_designed_E1851E22.wem</Path>
+						</File>
+						<File Id="894744883" Language="SFX">
+							<ShortName>footstep_designed.wav</ShortName>
+							<Path>SFX/footstep_designed_5CC1A672.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
