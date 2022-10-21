@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{57A25E84-3BEC-428D-B3A2-2189851C9C7F}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{EA19A5D3-5A95-4F4A-A557-84B2A5A258C7}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{57A25E84-3BEC-428D-B3A2-2189851C9C7F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{EA19A5D3-5A95-4F4A-A557-84B2A5A258C7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{84D2118D-A201-4638-85F2-844877F8B8DD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MUSIC" ID="{FAC0E512-2BFB-4407-B159-89CBC9CC3A7A}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnemyAction_Death" ID="{37109B66-D8CA-45DA-9864-3FD1B211667A}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PlayerAction_Footsteps" ID="{9C85370D-D261-4707-9416-14248CC242A0}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnemyAction_AttackTower" ID="{57FE2BBF-59FD-4938-B137-9817CB411BBB}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PlayerAction_ShieldHitGround" ID="{04E8E6D2-4A52-4B14-8E9B-9EF17A24B71C}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GAMEPLAY MUSIC" ID="{7F8F688C-6F9B-4FE4-A3B3-D61D203D33DA}" WorkUnitID="{7F8F688C-6F9B-4FE4-A3B3-D61D203D33DA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

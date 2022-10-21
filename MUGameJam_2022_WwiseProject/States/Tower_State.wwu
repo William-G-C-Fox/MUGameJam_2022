@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{35B85F68-0360-4700-B124-5E79C5CF4613}" SchemaVersion="103" RootDocumentID="{6932394F-915B-4AFD-A8E5-CE9C61BD29E9}" ParentDocumentID="{6932394F-915B-4AFD-A8E5-CE9C61BD29E9}">
+	<States>
+		<WorkUnit Name="Tower_State" ID="{35B85F68-0360-4700-B124-5E79C5CF4613}" OwnerID="{6932394F-915B-4AFD-A8E5-CE9C61BD29E9}" PersistMode="Nested">
+			<ChildrenList>
+				<StateGroup Name="Tower_Alive_or_Dead" ID="{25BE3173-9FDD-4DC9-B7D9-5C4830C1BABB}">
+					<ChildrenList>
+						<State Name="None" ID="{A0081421-A9B6-44B3-AEC7-3684637901C7}"/>
+						<State Name="Dead" ID="{E29B7C4D-908B-499A-B8EF-BB690D6AE40C}"/>
+						<State Name="Alive" ID="{5C2AAD4A-D539-45AE-B96C-91C1DB1D8BEA}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,6 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{AF4DA45C-D8E8-45A3-894C-B58062646D03}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{AF4DA45C-D8E8-45A3-894C-B58062646D03}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_PlayerAction_Footsteps" ID="{9C85370D-D261-4707-9416-14248CC242A0}">
+					<ChildrenList>
+						<Action Name="" ID="{2BB81D50-61BE-4D84-AC96-20E22AA8A819}" ShortID="464424717">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayerAction_Footsteps" ID="{CD64ACF0-5618-47D5-A296-D653CC70A238}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PlayerAction_ShieldHitGround" ID="{04E8E6D2-4A52-4B14-8E9B-9EF17A24B71C}">
+					<ChildrenList>
+						<Action Name="" ID="{19FC0C56-5BBA-48E0-9BA7-BA3107D6EDAB}" ShortID="51545794">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlayerAction_ShieldHitGround" ID="{768A9E2F-2818-4EB7-B9C0-98494D919756}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_EnemyAction_AttackTower" ID="{57FE2BBF-59FD-4938-B137-9817CB411BBB}">
+					<ChildrenList>
+						<Action Name="" ID="{5B20B914-A05F-4E20-9BB2-DA652DD50B64}" ShortID="529930673">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnemyAction_AttackTower" ID="{D4F92738-1E3D-472C-AE76-6E9AFB6755CE}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_EnemyAction_Death" ID="{37109B66-D8CA-45DA-9864-3FD1B211667A}">
+					<ChildrenList>
+						<Action Name="" ID="{9DBB045D-CA1E-4730-8713-F2BAF3B69C16}" ShortID="563134240">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnemyAction_Death" ID="{4A2114AA-3D1C-4677-87AE-5CA77A7B2DF8}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="MUSIC" ID="{FAC0E512-2BFB-4407-B159-89CBC9CC3A7A}" ShortID="860847524">
+					<ChildrenList>
+						<Event Name="Play_Music" ID="{550E1B43-D0C7-4D17-BD3D-356EB252F84B}">
+							<ChildrenList>
+								<Action Name="" ID="{440C4486-3859-4F0A-9AC0-B5CBC3D0D752}" ShortID="263471189">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="THEME_TO_GAMEOVER_SWITCH" ID="{7485A99D-EE8B-41A9-9B11-5A993252343B}" WorkUnitID="{7F8F688C-6F9B-4FE4-A3B3-D61D203D33DA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Music" ID="{807A9E46-11FE-4791-A204-621CE5320FC1}">
+							<ChildrenList>
+								<Action Name="" ID="{375A08B2-220A-4725-A9D4-CA7F5AFC59A0}" ShortID="481984483">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="THEME_TO_GAMEOVER_SWITCH" ID="{7485A99D-EE8B-41A9-9B11-5A993252343B}" WorkUnitID="{7F8F688C-6F9B-4FE4-A3B3-D61D203D33DA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

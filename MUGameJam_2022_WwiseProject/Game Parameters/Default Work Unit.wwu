@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{275F3287-07AE-4D8C-882E-6375F5D4EE3C}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{8F184F22-7F47-4572-9694-446C130229F6}" SchemaVersion="103">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{275F3287-07AE-4D8C-882E-6375F5D4EE3C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8F184F22-7F47-4572-9694-446C130229F6}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Health_RTPC" ID="{2A51503A-E8FB-4295-AA98-450EEAF6ACE8}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

@@ -12,6 +12,7 @@ public class Tower : MonoBehaviour
     [SerializeField] private Sprite damagedTwo;
     [SerializeField] private Sprite damagedThree;
     [SerializeField] private Sprite damagedFour;
+    
 
     // Start is called before the first frame update
     void Start()

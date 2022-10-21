@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2A51503A-E8FB-4295-AA98-450EEAF6ACE8}" SchemaVersion="103" RootDocumentID="{8F184F22-7F47-4572-9694-446C130229F6}" ParentDocumentID="{8F184F22-7F47-4572-9694-446C130229F6}">
+	<GameParameters>
+		<WorkUnit Name="Health_RTPC" ID="{2A51503A-E8FB-4295-AA98-450EEAF6ACE8}" OwnerID="{8F184F22-7F47-4572-9694-446C130229F6}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="health" ID="{1F58E591-60FE-47A6-892E-A7128AA3871E}">
+					<PropertyList>
+						<Property Name="Max" Type="Real64" Value="50"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
