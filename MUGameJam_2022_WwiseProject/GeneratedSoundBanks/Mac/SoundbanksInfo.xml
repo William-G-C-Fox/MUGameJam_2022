@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="907863260">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3048932590" Name="Play_EnemyAction_AttackTower" ObjectPath="\Events\Default Work Unit\Play_EnemyAction_AttackTower" DurationType="OneShot" DurationMin="1.081083" DurationMax="1.110979">
+					<IncludedMemoryFiles>
+						<File Id="119308817" Language="SFX">
+							<ShortName>StoneHit_02.wav</ShortName>
+							<Path>SFX/StoneHit_02_10C4C929.wem</Path>
+						</File>
+						<File Id="160180867" Language="SFX">
+							<ShortName>StoneHit_04.wav</ShortName>
+							<Path>SFX/StoneHit_04_10C4C929.wem</Path>
+						</File>
+						<File Id="699401961" Language="SFX">
+							<ShortName>StoneHit_03.wav</ShortName>
+							<Path>SFX/StoneHit_03_10C4C929.wem</Path>
+						</File>
+						<File Id="903729118" Language="SFX">
+							<ShortName>StoneHit_01.wav</ShortName>
+							<Path>SFX/StoneHit_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2091649423" Name="Play_EnemyAction_Death" ObjectPath="\Events\Default Work Unit\Play_EnemyAction_Death" DurationType="OneShot" DurationMin="0.721104" DurationMax="0.721104">
+					<IncludedMemoryFiles>
+						<File Id="325010461" Language="SFX">
+							<ShortName>EnemyDeath_02.wav</ShortName>
+							<Path>SFX/EnemyDeath_02_10C4C929.wem</Path>
+						</File>
+						<File Id="485433404" Language="SFX">
+							<ShortName>EnemyDeath_01.wav</ShortName>
+							<Path>SFX/EnemyDeath_01_10C4C929.wem</Path>
+						</File>
+						<File Id="722841921" Language="SFX">
+							<ShortName>EnemyDeath_03.wav</ShortName>
+							<Path>SFX/EnemyDeath_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2921519631" Name="Play_PlayerAction_Footsteps" ObjectPath="\Events\Default Work Unit\Play_PlayerAction_Footsteps" DurationType="OneShot" DurationMin="0.541479" DurationMax="0.567521">
+					<IncludedMemoryFiles>
+						<File Id="175089859" Language="SFX">
+							<ShortName>Footsteps_04.wav</ShortName>
+							<Path>SFX/Footsteps_04_10C4C929.wem</Path>
+						</File>
+						<File Id="651718471" Language="SFX">
+							<ShortName>Footsteps_02.wav</ShortName>
+							<Path>SFX/Footsteps_02_10C4C929.wem</Path>
+						</File>
+						<File Id="911139992" Language="SFX">
+							<ShortName>Footsteps_03.wav</ShortName>
+							<Path>SFX/Footsteps_03_10C4C929.wem</Path>
+						</File>
+						<File Id="927947306" Language="SFX">
+							<ShortName>Footsteps_01.wav</ShortName>
+							<Path>SFX/Footsteps_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3310026653" Name="Play_PlayerAction_ShieldHitGround" ObjectPath="\Events\Default Work Unit\Play_PlayerAction_ShieldHitGround" DurationType="OneShot" DurationMin="1.068313" DurationMax="1.102458">
+					<IncludedMemoryFiles>
+						<File Id="131447253" Language="SFX">
+							<ShortName>ShieldHitGround_04.wav</ShortName>
+							<Path>SFX/ShieldHitGround_04_10C4C929.wem</Path>
+						</File>
+						<File Id="450318515" Language="SFX">
+							<ShortName>ShieldHitGround_03.wav</ShortName>
+							<Path>SFX/ShieldHitGround_03_10C4C929.wem</Path>
+						</File>
+						<File Id="596530061" Language="SFX">
+							<ShortName>ShieldHitGround_01.wav</ShortName>
+							<Path>SFX/ShieldHitGround_01_10C4C929.wem</Path>
+						</File>
+						<File Id="986564088" Language="SFX">
+							<ShortName>ShieldHitGround_02.wav</ShortName>
+							<Path>SFX/ShieldHitGround_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

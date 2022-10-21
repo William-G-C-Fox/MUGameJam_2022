@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6932394F-915B-4AFD-A8E5-CE9C61BD29E9}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{6932394F-915B-4AFD-A8E5-CE9C61BD29E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Tower_State" ID="{35B85F68-0360-4700-B124-5E79C5CF4613}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
