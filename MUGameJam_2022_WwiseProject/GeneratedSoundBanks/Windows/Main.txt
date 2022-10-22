@@ -1,23 +1,43 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2091649423	Play_EnemyAction_Death			\Default Work Unit\Play_EnemyAction_Death	
+	2837384057	Stop_Music			\Default Work Unit\MUSIC\Stop_Music	
 	2921519631	Play_PlayerAction_Footsteps			\Default Work Unit\Play_PlayerAction_Footsteps	
+	2932040671	Play_Music			\Default Work Unit\MUSIC\Play_Music	
 	3048932590	Play_EnemyAction_AttackTower			\Default Work Unit\Play_EnemyAction_AttackTower	
 	3310026653	Play_PlayerAction_ShieldHitGround			\Default Work Unit\Play_PlayerAction_ShieldHitGround	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	3374905727	Tower_Alive_or_Dead			\Default Work Unit\Tower_State\Tower_Alive_or_Dead	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	Tower_Alive_or_Dead			
+	748895195	None	Tower_Alive_or_Dead			
+	2044049779	Dead	Tower_Alive_or_Dead			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3677180323	health			\Default Work Unit\Health_RTPC\health	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	119308817	StoneHit_02	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\StoneHit_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_AttackTower\StoneHit_02		213028
-	131447253	ShieldHitGround_04	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\ShieldHitGround_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_ShieldHitGround\ShieldHitGround_04		208448
-	160180867	StoneHit_04	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\StoneHit_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_AttackTower\StoneHit_04		213372
-	175089859	Footsteps_04	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Footsteps_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\Footsteps_04		109028
-	325010461	EnemyDeath_02	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\EnemyDeath_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_Death\EnemyDeath_02		138516
-	450318515	ShieldHitGround_03	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\ShieldHitGround_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_ShieldHitGround\ShieldHitGround_03		211736
-	485433404	EnemyDeath_01	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\EnemyDeath_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_Death\EnemyDeath_01		138516
-	596530061	ShieldHitGround_01	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\ShieldHitGround_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_ShieldHitGround\ShieldHitGround_01		208924
-	651718471	Footsteps_02	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Footsteps_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\Footsteps_02		104028
-	699401961	StoneHit_03	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\StoneHit_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_AttackTower\StoneHit_03		211736
-	722841921	EnemyDeath_03	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\EnemyDeath_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_Death\EnemyDeath_03		138516
-	903729118	StoneHit_01	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\StoneHit_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_AttackTower\StoneHit_01		207632
-	911139992	Footsteps_03	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Footsteps_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\Footsteps_03		105936
-	927947306	Footsteps_01	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Footsteps_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\Footsteps_01		104028
-	986564088	ShieldHitGround_02	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\ShieldHitGround_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_ShieldHitGround\ShieldHitGround_02		205180
+	13308819	LOOP3_Theme_160bpm4-4_L24B-P0	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\LOOP3_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GAMEPLAY MUSIC\THEME_TO_GAMEOVER_SWITCH\THEME\LOOP3_Theme_160bpm4-4_L24B-P0\LOOP3_Theme_160bpm4-4_L24B-P0		3744064
+	119308817	StoneHit_02	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\StoneHit_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_AttackTower\StoneHit_02		213028
+	131447253	ShieldHitGround_04	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\ShieldHitGround_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_ShieldHitGround\ShieldHitGround_04		208448
+	160180867	StoneHit_04	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\StoneHit_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_AttackTower\StoneHit_04		213372
+	175089859	Footsteps_04	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Footsteps_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\Footsteps_04		109028
+	325010461	EnemyDeath_02	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\EnemyDeath_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_Death\EnemyDeath_02		138516
+	352763716	TOWER LOW HEALTH LOOP1	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\TOWER LOW HEALTH LOOP1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GAMEPLAY MUSIC\THEME_TO_GAMEOVER_SWITCH\THEME\Intro_Theme_160bpm4-4_L8B-P0\TOWER LOW HEALTH LOOP1		4608064
+	389276387	Intro_Theme_160bpm4-4_L8B-P0	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Intro_Theme_160bpm4-4_L8B-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GAMEPLAY MUSIC\THEME_TO_GAMEOVER_SWITCH\THEME\Intro_Theme_160bpm4-4_L8B-P0\Intro_Theme_160bpm4-4_L8B-P0		3168064
+	450318515	ShieldHitGround_03	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\ShieldHitGround_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_ShieldHitGround\ShieldHitGround_03		211736
+	485433404	EnemyDeath_01	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\EnemyDeath_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_Death\EnemyDeath_01		138516
+	596530061	ShieldHitGround_01	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\ShieldHitGround_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_ShieldHitGround\ShieldHitGround_01		208924
+	612728398	TOWER LOW HEALTH LOOP2	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\TOWER LOW HEALTH LOOP2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GAMEPLAY MUSIC\THEME_TO_GAMEOVER_SWITCH\THEME\LOOP2_Theme_160bpm4-4_L24B-P0\TOWER LOW HEALTH LOOP2		4608064
+	651718471	Footsteps_02	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Footsteps_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\Footsteps_02		104028
+	699401961	StoneHit_03	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\StoneHit_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_AttackTower\StoneHit_03		211736
+	722841921	EnemyDeath_03	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\EnemyDeath_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_Death\EnemyDeath_03		138516
+	745136584	LOOP1_Theme_160bpm4-4_L24B-P0	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\LOOP1_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GAMEPLAY MUSIC\THEME_TO_GAMEOVER_SWITCH\THEME\LOOP1_Theme_160bpm4-4_L24B-P0\LOOP1_Theme_160bpm4-4_L24B-P0		5760064
+	894444604	LOOP2_Theme_160bpm4-4_L24B-P0	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\LOOP2_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GAMEPLAY MUSIC\THEME_TO_GAMEOVER_SWITCH\THEME\LOOP2_Theme_160bpm4-4_L24B-P0\LOOP2_Theme_160bpm4-4_L24B-P0		6336064
+	903729118	StoneHit_01	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\StoneHit_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_AttackTower\StoneHit_01		207632
+	911139992	Footsteps_03	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Footsteps_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\Footsteps_03		105936
+	927947306	Footsteps_01	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Footsteps_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\Footsteps_01		104028
+	986564088	ShieldHitGround_02	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\ShieldHitGround_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_ShieldHitGround\ShieldHitGround_02		205180
+	1052556189	GAMEOVER_Theme_160bpm4-4_L2B-P1	A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\GAMEOVER_Theme_160bpm4-4_L2B-P1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GAMEPLAY MUSIC\THEME_TO_GAMEOVER_SWITCH\GAMEOVER\GAMEOVER_Theme_160bpm4-4_L2B-P1\GAMEOVER_Theme_160bpm4-4_L2B-P1		1440064
 

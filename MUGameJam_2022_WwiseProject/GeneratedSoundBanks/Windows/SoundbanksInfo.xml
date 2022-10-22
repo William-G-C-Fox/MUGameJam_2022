@@ -1,103 +1,265 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+		<SoundBank Id="1355168291" Language="SFX" Hash="576177783">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="907863260">
+		<SoundBank Id="3161908922" Language="SFX" Hash="802496104">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3048932590" Name="Play_EnemyAction_AttackTower" ObjectPath="\Events\Default Work Unit\Play_EnemyAction_AttackTower" DurationType="OneShot" DurationMin="1.081083" DurationMax="1.110979">
+				<Event Id="3048932590" Name="Play_EnemyAction_AttackTower" ObjectPath="\Events\Default Work Unit\Play_EnemyAction_AttackTower">
 					<IncludedMemoryFiles>
 						<File Id="119308817" Language="SFX">
 							<ShortName>StoneHit_02.wav</ShortName>
-							<Path>SFX/StoneHit_02_10C4C929.wem</Path>
+							<Path>SFX\StoneHit_02_10C4C929.wem</Path>
 						</File>
 						<File Id="160180867" Language="SFX">
 							<ShortName>StoneHit_04.wav</ShortName>
-							<Path>SFX/StoneHit_04_10C4C929.wem</Path>
+							<Path>SFX\StoneHit_04_10C4C929.wem</Path>
 						</File>
 						<File Id="699401961" Language="SFX">
 							<ShortName>StoneHit_03.wav</ShortName>
-							<Path>SFX/StoneHit_03_10C4C929.wem</Path>
+							<Path>SFX\StoneHit_03_10C4C929.wem</Path>
 						</File>
 						<File Id="903729118" Language="SFX">
 							<ShortName>StoneHit_01.wav</ShortName>
-							<Path>SFX/StoneHit_01_10C4C929.wem</Path>
+							<Path>SFX\StoneHit_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2091649423" Name="Play_EnemyAction_Death" ObjectPath="\Events\Default Work Unit\Play_EnemyAction_Death" DurationType="OneShot" DurationMin="0.721104" DurationMax="0.721104">
+				<Event Id="2091649423" Name="Play_EnemyAction_Death" ObjectPath="\Events\Default Work Unit\Play_EnemyAction_Death">
 					<IncludedMemoryFiles>
 						<File Id="325010461" Language="SFX">
 							<ShortName>EnemyDeath_02.wav</ShortName>
-							<Path>SFX/EnemyDeath_02_10C4C929.wem</Path>
+							<Path>SFX\EnemyDeath_02_10C4C929.wem</Path>
 						</File>
 						<File Id="485433404" Language="SFX">
 							<ShortName>EnemyDeath_01.wav</ShortName>
-							<Path>SFX/EnemyDeath_01_10C4C929.wem</Path>
+							<Path>SFX\EnemyDeath_01_10C4C929.wem</Path>
 						</File>
 						<File Id="722841921" Language="SFX">
 							<ShortName>EnemyDeath_03.wav</ShortName>
-							<Path>SFX/EnemyDeath_03_10C4C929.wem</Path>
+							<Path>SFX\EnemyDeath_03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2921519631" Name="Play_PlayerAction_Footsteps" ObjectPath="\Events\Default Work Unit\Play_PlayerAction_Footsteps" DurationType="OneShot" DurationMin="0.541479" DurationMax="0.567521">
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Music">
+					<IncludedMemoryFiles>
+						<File Id="13308819" Language="SFX">
+							<ShortName>LOOP3_Theme_160bpm4-4_L24B-P0.wav</ShortName>
+							<Path>SFX\LOOP3_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="352763716" Language="SFX">
+							<ShortName>TOWER LOW HEALTH LOOP1.wav</ShortName>
+							<Path>SFX\TOWER LOW HEALTH LOOP1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="389276387" Language="SFX">
+							<ShortName>Intro_Theme_160bpm4-4_L8B-P0.wav</ShortName>
+							<Path>SFX\Intro_Theme_160bpm4-4_L8B-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="612728398" Language="SFX">
+							<ShortName>TOWER LOW HEALTH LOOP2.wav</ShortName>
+							<Path>SFX\TOWER LOW HEALTH LOOP2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="745136584" Language="SFX">
+							<ShortName>LOOP1_Theme_160bpm4-4_L24B-P0.wav</ShortName>
+							<Path>SFX\LOOP1_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="894444604" Language="SFX">
+							<ShortName>LOOP2_Theme_160bpm4-4_L24B-P0.wav</ShortName>
+							<Path>SFX\LOOP2_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1052556189" Language="SFX">
+							<ShortName>GAMEOVER_Theme_160bpm4-4_L2B-P1.wav</ShortName>
+							<Path>SFX\GAMEOVER_Theme_160bpm4-4_L2B-P1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{5C2AAD4A-D539-45AE-B96C-91C1DB1D8BEA}">
+							<Media>
+								<File Id="13308819"/>
+								<File Id="352763716"/>
+								<File Id="389276387"/>
+								<File Id="612728398"/>
+								<File Id="745136584"/>
+								<File Id="894444604"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E29B7C4D-908B-499A-B8EF-BB690D6AE40C}">
+							<Media>
+								<File Id="1052556189"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A0081421-A9B6-44B3-AEC7-3684637901C7}">
+							<Media>
+								<File Id="13308819"/>
+								<File Id="352763716"/>
+								<File Id="389276387"/>
+								<File Id="612728398"/>
+								<File Id="745136584"/>
+								<File Id="894444604"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2921519631" Name="Play_PlayerAction_Footsteps" ObjectPath="\Events\Default Work Unit\Play_PlayerAction_Footsteps">
 					<IncludedMemoryFiles>
 						<File Id="175089859" Language="SFX">
 							<ShortName>Footsteps_04.wav</ShortName>
-							<Path>SFX/Footsteps_04_10C4C929.wem</Path>
+							<Path>SFX\Footsteps_04_10C4C929.wem</Path>
 						</File>
 						<File Id="651718471" Language="SFX">
 							<ShortName>Footsteps_02.wav</ShortName>
-							<Path>SFX/Footsteps_02_10C4C929.wem</Path>
+							<Path>SFX\Footsteps_02_10C4C929.wem</Path>
 						</File>
 						<File Id="911139992" Language="SFX">
 							<ShortName>Footsteps_03.wav</ShortName>
-							<Path>SFX/Footsteps_03_10C4C929.wem</Path>
+							<Path>SFX\Footsteps_03_10C4C929.wem</Path>
 						</File>
 						<File Id="927947306" Language="SFX">
 							<ShortName>Footsteps_01.wav</ShortName>
-							<Path>SFX/Footsteps_01_10C4C929.wem</Path>
+							<Path>SFX\Footsteps_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3310026653" Name="Play_PlayerAction_ShieldHitGround" ObjectPath="\Events\Default Work Unit\Play_PlayerAction_ShieldHitGround" DurationType="OneShot" DurationMin="1.068313" DurationMax="1.102458">
+				<Event Id="3310026653" Name="Play_PlayerAction_ShieldHitGround" ObjectPath="\Events\Default Work Unit\Play_PlayerAction_ShieldHitGround">
 					<IncludedMemoryFiles>
 						<File Id="131447253" Language="SFX">
 							<ShortName>ShieldHitGround_04.wav</ShortName>
-							<Path>SFX/ShieldHitGround_04_10C4C929.wem</Path>
+							<Path>SFX\ShieldHitGround_04_10C4C929.wem</Path>
 						</File>
 						<File Id="450318515" Language="SFX">
 							<ShortName>ShieldHitGround_03.wav</ShortName>
-							<Path>SFX/ShieldHitGround_03_10C4C929.wem</Path>
+							<Path>SFX\ShieldHitGround_03_10C4C929.wem</Path>
 						</File>
 						<File Id="596530061" Language="SFX">
 							<ShortName>ShieldHitGround_01.wav</ShortName>
-							<Path>SFX/ShieldHitGround_01_10C4C929.wem</Path>
+							<Path>SFX\ShieldHitGround_01_10C4C929.wem</Path>
 						</File>
 						<File Id="986564088" Language="SFX">
 							<ShortName>ShieldHitGround_02.wav</ShortName>
-							<Path>SFX/ShieldHitGround_02_10C4C929.wem</Path>
+							<Path>SFX\ShieldHitGround_02_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\MUSIC\Stop_Music"/>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="13308819" Language="SFX">
+					<ShortName>LOOP3_Theme_160bpm4-4_L24B-P0.wav</ShortName>
+					<Path>SFX\LOOP3_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="119308817" Language="SFX">
+					<ShortName>StoneHit_02.wav</ShortName>
+					<Path>SFX\StoneHit_02_10C4C929.wem</Path>
+				</File>
+				<File Id="131447253" Language="SFX">
+					<ShortName>ShieldHitGround_04.wav</ShortName>
+					<Path>SFX\ShieldHitGround_04_10C4C929.wem</Path>
+				</File>
+				<File Id="160180867" Language="SFX">
+					<ShortName>StoneHit_04.wav</ShortName>
+					<Path>SFX\StoneHit_04_10C4C929.wem</Path>
+				</File>
+				<File Id="175089859" Language="SFX">
+					<ShortName>Footsteps_04.wav</ShortName>
+					<Path>SFX\Footsteps_04_10C4C929.wem</Path>
+				</File>
+				<File Id="325010461" Language="SFX">
+					<ShortName>EnemyDeath_02.wav</ShortName>
+					<Path>SFX\EnemyDeath_02_10C4C929.wem</Path>
+				</File>
+				<File Id="352763716" Language="SFX">
+					<ShortName>TOWER LOW HEALTH LOOP1.wav</ShortName>
+					<Path>SFX\TOWER LOW HEALTH LOOP1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="389276387" Language="SFX">
+					<ShortName>Intro_Theme_160bpm4-4_L8B-P0.wav</ShortName>
+					<Path>SFX\Intro_Theme_160bpm4-4_L8B-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="450318515" Language="SFX">
+					<ShortName>ShieldHitGround_03.wav</ShortName>
+					<Path>SFX\ShieldHitGround_03_10C4C929.wem</Path>
+				</File>
+				<File Id="485433404" Language="SFX">
+					<ShortName>EnemyDeath_01.wav</ShortName>
+					<Path>SFX\EnemyDeath_01_10C4C929.wem</Path>
+				</File>
+				<File Id="596530061" Language="SFX">
+					<ShortName>ShieldHitGround_01.wav</ShortName>
+					<Path>SFX\ShieldHitGround_01_10C4C929.wem</Path>
+				</File>
+				<File Id="612728398" Language="SFX">
+					<ShortName>TOWER LOW HEALTH LOOP2.wav</ShortName>
+					<Path>SFX\TOWER LOW HEALTH LOOP2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="651718471" Language="SFX">
+					<ShortName>Footsteps_02.wav</ShortName>
+					<Path>SFX\Footsteps_02_10C4C929.wem</Path>
+				</File>
+				<File Id="699401961" Language="SFX">
+					<ShortName>StoneHit_03.wav</ShortName>
+					<Path>SFX\StoneHit_03_10C4C929.wem</Path>
+				</File>
+				<File Id="722841921" Language="SFX">
+					<ShortName>EnemyDeath_03.wav</ShortName>
+					<Path>SFX\EnemyDeath_03_10C4C929.wem</Path>
+				</File>
+				<File Id="745136584" Language="SFX">
+					<ShortName>LOOP1_Theme_160bpm4-4_L24B-P0.wav</ShortName>
+					<Path>SFX\LOOP1_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="894444604" Language="SFX">
+					<ShortName>LOOP2_Theme_160bpm4-4_L24B-P0.wav</ShortName>
+					<Path>SFX\LOOP2_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="903729118" Language="SFX">
+					<ShortName>StoneHit_01.wav</ShortName>
+					<Path>SFX\StoneHit_01_10C4C929.wem</Path>
+				</File>
+				<File Id="911139992" Language="SFX">
+					<ShortName>Footsteps_03.wav</ShortName>
+					<Path>SFX\Footsteps_03_10C4C929.wem</Path>
+				</File>
+				<File Id="927947306" Language="SFX">
+					<ShortName>Footsteps_01.wav</ShortName>
+					<Path>SFX\Footsteps_01_10C4C929.wem</Path>
+				</File>
+				<File Id="986564088" Language="SFX">
+					<ShortName>ShieldHitGround_02.wav</ShortName>
+					<Path>SFX\ShieldHitGround_02_10C4C929.wem</Path>
+				</File>
+				<File Id="1052556189" Language="SFX">
+					<ShortName>GAMEOVER_Theme_160bpm4-4_L2B-P1.wav</ShortName>
+					<Path>SFX\GAMEOVER_Theme_160bpm4-4_L2B-P1_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="3677180323" Name="health" ObjectPath="\Game Parameters\Default Work Unit\Health_RTPC\health"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3374905727" Name="Tower_Alive_or_Dead" ObjectPath="\States\Default Work Unit\Tower_State\Tower_Alive_or_Dead" GUID="{25BE3173-9FDD-4DC9-B7D9-5C4830C1BABB}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Tower_State\Tower_Alive_or_Dead\None" GUID="{A0081421-A9B6-44B3-AEC7-3684637901C7}"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\Tower_State\Tower_Alive_or_Dead\Dead" GUID="{E29B7C4D-908B-499A-B8EF-BB690D6AE40C}"/>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\Tower_State\Tower_Alive_or_Dead\Alive" GUID="{5C2AAD4A-D539-45AE-B96C-91C1DB1D8BEA}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

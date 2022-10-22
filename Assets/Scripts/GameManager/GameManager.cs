@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         endMenu.enabled = false;
+        AkSoundEngine.SetState("Tower_Alive_or_Dead", "Alive");
     }
 
     // Update is called once per frame
@@ -35,13 +36,15 @@ public class GameManager : MonoBehaviour
             else
             {
                 oneHit = true;
-                EndGame();
+                EndGame(); 
+                AkSoundEngine.SetState("Tower_Alive_or_Dead", "Dead");
             }
         }
         else
         {
             return;
         }
+        
     }
 
     void EndGame()

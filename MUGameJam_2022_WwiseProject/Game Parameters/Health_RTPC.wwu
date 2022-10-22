@@ -6,6 +6,9 @@
 				<GameParameter Name="health" ID="{1F58E591-60FE-47A6-892E-A7128AA3871E}">
 					<PropertyList>
 						<Property Name="Max" Type="Real64" Value="50"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="10"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="10"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

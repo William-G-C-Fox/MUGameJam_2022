@@ -12,16 +12,400 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aed194da0f8b42cf8ca3c98b895bbbe, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 7448ed37b944ac4e918d84bcc484d348
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 7448ed37b944ac4e918d84bcc484d348
+    GuidInternal: 
+    m_lastTime: -8585351500562513880
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: e04fc0a3c2d0a145abdfd2d75e8d5a0a
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: e04fc0a3c2d0a145abdfd2d75e8d5a0a
+    GuidInternal: 
+    m_lastTime: -8585351500577387799
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e04fc0a3c2d0a145abdfd2d75e8d5a0a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: d3a519ea955a4a4fa55784b2a5a258c7
+    ParentPath: SoundBanks\Default Work Unit
+    guid: d3a519ea955a4a4fa55784b2a5a258c7
+    GuidInternal: 
+    m_lastTime: -8585351481922418137
+    List:
+    - name: Main
+      guid: 8d11d28401a2384685f2844877f8b8dd
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d3a519ea955a4a4fa55784b2a5a258c7
+      - ElementName: Main
+        ObjectType: 7
+        guid: 8d11d28401a2384685f2844877f8b8dd
+      Path: SoundBanks\Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: f52044457dc33d44a6d930c04097b8d3
+    ParentPath: Events\Default Work Unit
+    guid: f52044457dc33d44a6d930c04097b8d3
+    GuidInternal: 
+    m_lastTime: -8585351500578378029
+    List:
+    - name: MUSIC
+      guid: 12e5c0fafb2b0744b15989cbc9cc3a7a
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f52044457dc33d44a6d930c04097b8d3
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: 12e5c0fafb2b0744b15989cbc9cc3a7a
+      Path: Events\Default Work Unit\MUSIC
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_EnemyAction_AttackTower
+      guid: bf2bfe57fd593849b1379817cb411bbb
+      id: 3048932590
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f52044457dc33d44a6d930c04097b8d3
+      - ElementName: Play_EnemyAction_AttackTower
+        ObjectType: 3
+        guid: bf2bfe57fd593849b1379817cb411bbb
+      Path: Events\Default Work Unit\Play_EnemyAction_AttackTower
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_EnemyAction_Death
+      guid: 669b1037cad8da4598643fd1b211667a
+      id: 2091649423
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f52044457dc33d44a6d930c04097b8d3
+      - ElementName: Play_EnemyAction_Death
+        ObjectType: 3
+        guid: 669b1037cad8da4598643fd1b211667a
+      Path: Events\Default Work Unit\Play_EnemyAction_Death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Music
+      guid: 431b0e55c7d0174dbd3d356eb252f84b
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f52044457dc33d44a6d930c04097b8d3
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: 12e5c0fafb2b0744b15989cbc9cc3a7a
+      - ElementName: Play_Music
+        ObjectType: 3
+        guid: 431b0e55c7d0174dbd3d356eb252f84b
+      Path: Events\Default Work Unit\MUSIC\Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_PlayerAction_Footsteps
+      guid: 0d37859c61d20747941614248cc242a0
+      id: 2921519631
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f52044457dc33d44a6d930c04097b8d3
+      - ElementName: Play_PlayerAction_Footsteps
+        ObjectType: 3
+        guid: 0d37859c61d20747941614248cc242a0
+      Path: Events\Default Work Unit\Play_PlayerAction_Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_PlayerAction_ShieldHitGround
+      guid: d2e6e804524a144b8e9b9ef17a24b71c
+      id: 3310026653
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f52044457dc33d44a6d930c04097b8d3
+      - ElementName: Play_PlayerAction_ShieldHitGround
+        ObjectType: 3
+        guid: d2e6e804524a144b8e9b9ef17a24b71c
+      Path: Events\Default Work Unit\Play_PlayerAction_ShieldHitGround
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Music
+      guid: 469e7a80fe119147a204621ce5320fc1
+      id: 2837384057
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f52044457dc33d44a6d930c04097b8d3
+      - ElementName: MUSIC
+        ObjectType: 4
+        guid: 12e5c0fafb2b0744b15989cbc9cc3a7a
+      - ElementName: Stop_Music
+        ObjectType: 3
+        guid: 469e7a80fe119147a204621ce5320fc1
+      Path: Events\Default Work Unit\MUSIC\Stop_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 224f188f477f72459694446c130229f6
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 224f188f477f72459694446c130229f6
+    GuidInternal: 
+    m_lastTime: -8585351500578338029
+    List: []
+  - PhysicalPath: Game Parameters\Health_RTPC.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 224f188f477f72459694446c130229f6
+    - ElementName: Health_RTPC
+      ObjectType: 12
+      guid: 3a50512afbe89542aa98450eeaf6ace8
+    ParentPath: Game Parameters\Default Work Unit\Health_RTPC
+    guid: 3a50512afbe89542aa98450eeaf6ace8
+    GuidInternal: 
+    m_lastTime: -8585351451310837252
+    List:
+    - name: health
+      guid: 91e5581ffe60a647892ea7128aa3871e
+      id: 3677180323
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 224f188f477f72459694446c130229f6
+      - ElementName: Health_RTPC
+        ObjectType: 12
+        guid: 3a50512afbe89542aa98450eeaf6ace8
+      - ElementName: health
+        ObjectType: 13
+        guid: 91e5581ffe60a647892ea7128aa3871e
+      Path: Game Parameters\Default Work Unit\Health_RTPC\health
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4f3932695b91fd4aa8e5ce9c61bd29e9
+    ParentPath: States\Default Work Unit
+    guid: 4f3932695b91fd4aa8e5ce9c61bd29e9
+    GuidInternal: 
+    m_lastTime: -8585351500562699808
+    List: []
+  - PhysicalPath: States\Tower_State.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4f3932695b91fd4aa8e5ce9c61bd29e9
+    - ElementName: Tower_State
+      ObjectType: 12
+      guid: 685fb83560030047b1245e79c5cf4613
+    ParentPath: States\Default Work Unit\Tower_State
+    guid: 685fb83560030047b1245e79c5cf4613
+    GuidInternal: 
+    m_lastTime: -8585351500562659795
+    List:
+    - name: Tower_Alive_or_Dead
+      guid: 7331be25dd9fc94db7d95c4830c1babb
+      id: 3374905727
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4f3932695b91fd4aa8e5ce9c61bd29e9
+      - ElementName: Tower_State
+        ObjectType: 12
+        guid: 685fb83560030047b1245e79c5cf4613
+      - ElementName: Tower_Alive_or_Dead
+        ObjectType: 9
+        guid: 7331be25dd9fc94db7d95c4830c1babb
+      Path: States\Default Work Unit\Tower_State\Tower_Alive_or_Dead
+      values:
+      - name: Alive
+        guid: 4aad2a5c39d5ae45b96c91c1db1d8bea
+        id: 655265632
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4f3932695b91fd4aa8e5ce9c61bd29e9
+        - ElementName: Tower_State
+          ObjectType: 12
+          guid: 685fb83560030047b1245e79c5cf4613
+        - ElementName: Tower_Alive_or_Dead
+          ObjectType: 9
+          guid: 7331be25dd9fc94db7d95c4830c1babb
+        - ElementName: Alive
+          ObjectType: 8
+          guid: 4aad2a5c39d5ae45b96c91c1db1d8bea
+      - name: Dead
+        guid: 4d7c9be28b909a49b8efbb690d6ae40c
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4f3932695b91fd4aa8e5ce9c61bd29e9
+        - ElementName: Tower_State
+          ObjectType: 12
+          guid: 685fb83560030047b1245e79c5cf4613
+        - ElementName: Tower_Alive_or_Dead
+          ObjectType: 9
+          guid: 7331be25dd9fc94db7d95c4830c1babb
+        - ElementName: Dead
+          ObjectType: 8
+          guid: 4d7c9be28b909a49b8efbb690d6ae40c
+      - name: None
+        guid: 211408a0b6a9b344aec73684637901c7
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4f3932695b91fd4aa8e5ce9c61bd29e9
+        - ElementName: Tower_State
+          ObjectType: 12
+          guid: 685fb83560030047b1245e79c5cf4613
+        - ElementName: Tower_Alive_or_Dead
+          ObjectType: 9
+          guid: 7331be25dd9fc94db7d95c4830c1babb
+        - ElementName: None
+          ObjectType: 8
+          guid: 211408a0b6a9b344aec73684637901c7
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: bcfda977ceac9c4c897ae5ac973fa3b9
+    ParentPath: Switches\Default Work Unit
+    guid: bcfda977ceac9c4c897ae5ac973fa3b9
+    GuidInternal: 
+    m_lastTime: -8585351500562613902
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8d143a77528c3b4f88bcbf7d85b2dd26
+    ParentPath: Triggers\Default Work Unit
+    guid: 8d143a77528c3b4f88bcbf7d85b2dd26
+    GuidInternal: 
+    m_lastTime: -8585351500562563891
+    List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 010000000600000007000000080000001000000011000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

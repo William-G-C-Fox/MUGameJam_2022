@@ -18,6 +18,7 @@ public class Tower : MonoBehaviour
     void Start()
     {
         health = maxHealth;
+        AkSoundEngine.SetRTPCValue("health", health);
     }
 
     // Update is called once per frame

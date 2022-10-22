@@ -38,7 +38,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Intro_Theme_160bpm4-4_L8B-P0" ID="{08C45277-E6EB-4DC6-91E8-6CF804EBAE11}" ShortID="27725032">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="19500"/>
+										<Property Name="EndPosition" Type="Real64" Value="24000"/>
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="160"/>
 									</PropertyList>
@@ -63,13 +63,6 @@
 													<AudioFile>Intro_Theme_160bpm4-4_L8B-P0.wav</AudioFile>
 													<MediaIDList>
 														<MediaID ID="389276387"/>
-													</MediaIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="TOWER LOW HEALTH LOOP" ID="{957E6D44-190E-4D1B-88CA-8E4FA7C26410}">
-													<Language>SFX</Language>
-													<AudioFile>TOWER LOW HEALTH LOOP.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="624955265"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -100,19 +93,6 @@
 																				</MusicClip>
 																			</Local>
 																		</Reference>
-																		<Reference>
-																			<Local>
-																				<MusicClip Name="TOWER LOW HEALTH LOOP" ID="{5D887F1C-7E04-4A4F-9FB1-70651D83C51E}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="3000"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																						<Property Name="PlayAt" Type="Real64" Value="16500"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="TOWER LOW HEALTH LOOP" ID="{957E6D44-190E-4D1B-88CA-8E4FA7C26410}"/>
-																				</MusicClip>
-																			</Local>
-																		</Reference>
 																	</ObjectList>
 																</ObjectLists>
 															</MusicTrackSequence>
@@ -121,17 +101,24 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="TOWER LOW HEALTH LOOP" ID="{B535CF3F-EE72-40C5-BB92-8FB122FF1F96}" ShortID="914802789">
+										<MusicTrack Name="TOWER LOW HEALTH LOOP1" ID="{CFAF8062-19AE-4AD1-8335-5096777D9132}" ShortID="363733697">
 											<PropertyList>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{85CD6640-668A-4174-8D7C-163F870A5114}" ShortID="94765611">
+														<RTPC Name="" ID="{E92A465B-F27F-4B23-AC6D-A91A8BB044BE}" ShortID="912954456">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="health" ID="{1F58E591-60FE-47A6-892E-A7128AA3871E}" WorkUnitID="{2A51503A-E8FB-4295-AA98-450EEAF6ACE8}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{90063406-2EA6-4123-B3A8-82ED1B38BD01}">
+															<Curve Name="" ID="{A1E6C2A8-78FB-445C-9D51-9705477276AA}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
@@ -140,11 +127,6 @@
 																		<XPos>0</XPos>
 																		<YPos>0</YPos>
 																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>49.999</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>50</XPos>
@@ -166,16 +148,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="TOWER LOW HEALTH LOOP" ID="{DAFDD2E3-C5CF-4511-A9A2-942E72716B73}">
+												<AudioFileSource Name="TOWER LOW HEALTH LOOP1" ID="{48B3165A-5D58-4639-9A18-348766B421CD}">
 													<Language>SFX</Language>
-													<AudioFile>TOWER LOW HEALTH LOOP.wav</AudioFile>
+													<AudioFile>TOWER LOW HEALTH LOOP1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="624955265"/>
+														<MediaID ID="352763716"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{C3F5A24D-5428-4D82-9E75-0BA363096FB6}">
+												<MusicTransition Name="Root" ID="{9C180BF1-6FCC-426C-9590-E1767156EEBE}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -186,21 +168,21 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{BF74C0AF-56B4-48C8-8390-84DEC22F6FEC}">
+															<MusicTrackSequence Name="" ID="{75902C6A-222F-4088-B44D-BE87C530C9CF}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="TOWER LOW HEALTH LOOP" ID="{A6014BC8-F94D-4506-BC27-825533E478F5}">
+																				<MusicClip Name="TOWER LOW HEALTH LOOP1" ID="{0172A738-98FA-4299-BDD3-4B45F82B97FD}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="12375"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="12184.1359773371"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="TOWER LOW HEALTH LOOP" ID="{DAFDD2E3-C5CF-4511-A9A2-942E72716B73}"/>
+																					<AudioSourceRef Name="TOWER LOW HEALTH LOOP1" ID="{48B3165A-5D58-4639-9A18-348766B421CD}"/>
 																					<PropertyCurveList>
 																						<PropertyCurve PropertyName="Highpass">
-																							<Curve Name="" ID="{642F2838-8799-46AE-8B79-0BB90CD9FE8A}">
+																							<Curve Name="" ID="{CAD8A13C-03AB-46A1-B0BA-0303C7FE8F5B}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="1"/>
 																								</PropertyList>
@@ -211,7 +193,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>12.375</XPos>
+																										<XPos>12.18414</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -219,7 +201,7 @@
 																							</Curve>
 																						</PropertyCurve>
 																						<PropertyCurve PropertyName="Lowpass">
-																							<Curve Name="" ID="{CD238129-B095-4D7A-94A9-7CE570F4AFD5}">
+																							<Curve Name="" ID="{54B73FEF-51F0-4BA9-AAA8-9D6D1E05869F}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="1"/>
 																								</PropertyList>
@@ -230,7 +212,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>12.375</XPos>
+																										<XPos>12.18414</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -238,7 +220,7 @@
 																							</Curve>
 																						</PropertyCurve>
 																						<PropertyCurve PropertyName="Volume">
-																							<Curve Name="" ID="{C4EB1F13-3B5D-4067-B82E-8FFF71C6E8BA}">
+																							<Curve Name="" ID="{0280F989-446D-4B71-BC3A-D28169BB26DE}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="3"/>
 																								</PropertyList>
@@ -249,7 +231,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>12.375</XPos>
+																										<XPos>12.18414</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -352,30 +334,32 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="TOWER LOW HEALTH LOOP" ID="{60C97896-3A22-4D15-9998-9E0025F6FBCF}" ShortID="388004135">
+										<MusicTrack Name="TOWER LOW HEALTH LOOP1" ID="{793045E1-561E-41CD-ADEB-91757A802268}" ShortID="137212464">
 											<PropertyList>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{76AB2A57-6183-4EE1-85B6-73B0D4353510}" ShortID="497930872">
+														<RTPC Name="" ID="{627ACEB8-8B32-43D8-AEAF-0571B7D8DE3A}" ShortID="108825914">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="health" ID="{1F58E591-60FE-47A6-892E-A7128AA3871E}" WorkUnitID="{2A51503A-E8FB-4295-AA98-450EEAF6ACE8}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{FE459D96-8B40-40A0-9B0A-53029BE93AAA}">
+															<Curve Name="" ID="{C2346F0D-DF90-4F39-B344-20CC481E8802}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>0</YPos>
+																		<YPos>10</YPos>
 																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>49.999</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>50</XPos>
@@ -397,16 +381,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="TOWER LOW HEALTH LOOP" ID="{5A1D9C0D-C9F9-44B5-A639-0835D65D7B3A}">
+												<AudioFileSource Name="TOWER LOW HEALTH LOOP1" ID="{AA806B4E-D69B-4897-BBD9-999B78A8BE0B}">
 													<Language>SFX</Language>
-													<AudioFile>TOWER LOW HEALTH LOOP.wav</AudioFile>
+													<AudioFile>TOWER LOW HEALTH LOOP1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="624955265"/>
+														<MediaID ID="352763716"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{07A7941B-6EAD-4FEA-8410-2586EF0285D1}">
+												<MusicTransition Name="Root" ID="{FCE0F7A1-BE91-4933-8A3E-F7CD87C42931}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -417,21 +401,21 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{EDBD54CD-96FC-4F7E-8DCD-3B5638026CE1}">
+															<MusicTrackSequence Name="" ID="{640561C5-7C0C-43EC-B8FF-BFC7AE4E911F}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="TOWER LOW HEALTH LOOP" ID="{99452CF3-8D67-4A0D-93E6-1176FA9E1171}">
+																				<MusicClip Name="TOWER LOW HEALTH LOOP1" ID="{CD1203AB-57D6-4FA3-9956-F668355C5842}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="24375"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="TOWER LOW HEALTH LOOP" ID="{5A1D9C0D-C9F9-44B5-A639-0835D65D7B3A}"/>
+																					<AudioSourceRef Name="TOWER LOW HEALTH LOOP1" ID="{AA806B4E-D69B-4897-BBD9-999B78A8BE0B}"/>
 																					<PropertyCurveList>
 																						<PropertyCurve PropertyName="Highpass">
-																							<Curve Name="" ID="{A1E007EF-CF20-42A7-8AF8-547F2FBA46EC}">
+																							<Curve Name="" ID="{CB3F2751-C292-496A-AD9C-8A4B2AB9DF6F}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="1"/>
 																								</PropertyList>
@@ -450,7 +434,7 @@
 																							</Curve>
 																						</PropertyCurve>
 																						<PropertyCurve PropertyName="Lowpass">
-																							<Curve Name="" ID="{130CFC7A-3369-4A81-949F-566D41BB893A}">
+																							<Curve Name="" ID="{01BCA93D-AD44-45BA-A1D1-3B1C3CECA93A}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="1"/>
 																								</PropertyList>
@@ -469,7 +453,7 @@
 																							</Curve>
 																						</PropertyCurve>
 																						<PropertyCurve PropertyName="Volume">
-																							<Curve Name="" ID="{E4ADE731-659A-459C-B5A9-9DC7E0DD2459}">
+																							<Curve Name="" ID="{077052C7-220E-47FD-B348-199E91338072}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="3"/>
 																								</PropertyList>
@@ -583,30 +567,32 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="TOWER LOW HEALTH LOOP" ID="{06109244-F5A8-4AEB-BE49-A611662AA58A}" ShortID="382404926">
+										<MusicTrack Name="TOWER LOW HEALTH LOOP2" ID="{D492763C-733F-42E4-A9D1-50B5748B1EE6}" ShortID="432102422">
 											<PropertyList>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{EA9BC8E0-131C-4260-82C2-90A93611C3A7}" ShortID="647546357">
+														<RTPC Name="" ID="{B7BA49D4-F180-46C2-A657-38DD7F430AB5}" ShortID="66986535">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="health" ID="{1F58E591-60FE-47A6-892E-A7128AA3871E}" WorkUnitID="{2A51503A-E8FB-4295-AA98-450EEAF6ACE8}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{86E129DA-C356-4B57-9BBD-86B1D6144903}">
+															<Curve Name="" ID="{B7BCC00D-9637-41F8-B709-4EC4D0829042}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>0</YPos>
+																		<YPos>10</YPos>
 																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>49.999</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>50</XPos>
@@ -628,16 +614,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="TOWER LOW HEALTH LOOP" ID="{E4593BB3-C246-4D15-B37F-35EA94790F6E}">
+												<AudioFileSource Name="TOWER LOW HEALTH LOOP2" ID="{347CB775-5EF9-4256-9672-90FAD25CE5D5}">
 													<Language>SFX</Language>
-													<AudioFile>TOWER LOW HEALTH LOOP.wav</AudioFile>
+													<AudioFile>TOWER LOW HEALTH LOOP2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="624955265"/>
+														<MediaID ID="612728398"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{DDD3CA2A-B4AE-4766-AA02-FC2CA528CEDA}">
+												<MusicTransition Name="Root" ID="{2D3CFE7B-4F17-4411-9DF4-AC38A1AE8B4B}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -648,21 +634,21 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{DC83986F-44FA-44B4-9BF1-14B48F08B494}">
+															<MusicTrackSequence Name="" ID="{8AD794D0-AE3E-402C-BF4C-59B9A889D8BD}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="TOWER LOW HEALTH LOOP" ID="{8936EEBC-B3B5-4295-B662-325677A0BB53}">
+																				<MusicClip Name="TOWER LOW HEALTH LOOP2" ID="{87EE2A9C-DBEA-442D-9A1C-79B548A17B2F}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="24375"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="TOWER LOW HEALTH LOOP" ID="{E4593BB3-C246-4D15-B37F-35EA94790F6E}"/>
+																					<AudioSourceRef Name="TOWER LOW HEALTH LOOP2" ID="{347CB775-5EF9-4256-9672-90FAD25CE5D5}"/>
 																					<PropertyCurveList>
 																						<PropertyCurve PropertyName="Highpass">
-																							<Curve Name="" ID="{121101F1-4660-46CD-9CE3-394687C36CA0}">
+																							<Curve Name="" ID="{610EA515-BAC3-4BDD-B273-9398724B835D}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="1"/>
 																								</PropertyList>
@@ -681,7 +667,7 @@
 																							</Curve>
 																						</PropertyCurve>
 																						<PropertyCurve PropertyName="Lowpass">
-																							<Curve Name="" ID="{208B2564-EE77-40AE-BA39-46F6BFEA7384}">
+																							<Curve Name="" ID="{86E07D14-7408-4F07-AEE8-00636C964718}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="1"/>
 																								</PropertyList>
@@ -700,7 +686,7 @@
 																							</Curve>
 																						</PropertyCurve>
 																						<PropertyCurve PropertyName="Volume">
-																							<Curve Name="" ID="{82568C74-1CAB-4E14-8758-E7C360F2ABC6}">
+																							<Curve Name="" ID="{89AF61DA-CDA8-4491-B380-C7590B671700}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="3"/>
 																								</PropertyList>
@@ -753,7 +739,7 @@
 								</MusicSegment>
 								<MusicSegment Name="LOOP3_Theme_160bpm4-4_L24B-P0" ID="{3F890626-CA65-491D-9899-39294A5296E1}" ShortID="108970150">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="19500"/>
+										<Property Name="EndPosition" Type="Real64" Value="24000"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -814,30 +800,32 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="TOWER LOW HEALTH LOOP" ID="{253DE930-3275-4FA7-A9C8-EA20DE487EAE}" ShortID="771150644">
+										<MusicTrack Name="TOWER LOW HEALTH LOOP2" ID="{00CE4002-C869-4227-A5E5-535B4B5E62A5}" ShortID="494537642">
 											<PropertyList>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{50C1E753-004E-4466-BE95-C112243B053C}" ShortID="8009344">
+														<RTPC Name="" ID="{F81E3A2E-7D14-45DF-922C-FA16034EA666}" ShortID="129001837">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="health" ID="{1F58E591-60FE-47A6-892E-A7128AA3871E}" WorkUnitID="{2A51503A-E8FB-4295-AA98-450EEAF6ACE8}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{7D460AB8-64E0-4694-9058-8FE709110056}">
+															<Curve Name="" ID="{8CA6DF10-4166-4BD7-B035-979961924EBB}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>0</YPos>
+																		<YPos>10</YPos>
 																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>49.999</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>50</XPos>
@@ -859,16 +847,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="TOWER LOW HEALTH LOOP" ID="{967CAB95-BFD0-4949-BCBB-2251A09F6620}">
+												<AudioFileSource Name="TOWER LOW HEALTH LOOP2" ID="{E052D13D-1D74-418C-AE95-1089C9F34B51}">
 													<Language>SFX</Language>
-													<AudioFile>TOWER LOW HEALTH LOOP.wav</AudioFile>
+													<AudioFile>TOWER LOW HEALTH LOOP2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="624955265"/>
+														<MediaID ID="612728398"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{1C0A6C34-8CA8-41E5-8A07-3A16FC592ED3}">
+												<MusicTransition Name="Root" ID="{CC46EAA7-DA99-40E5-8773-4D182E6A697C}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -879,21 +867,21 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{92669070-1E61-4CED-ABD8-DB8982F6EE46}">
+															<MusicTrackSequence Name="" ID="{E2ABC50A-B601-4CBA-A0C5-8FD52263AB64}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="TOWER LOW HEALTH LOOP" ID="{89A8796A-97C8-42D3-BD5F-B62879CB6634}">
+																				<MusicClip Name="TOWER LOW HEALTH LOOP2" ID="{1B1809F6-F9D2-416D-84C6-4EA3EDD5C6BE}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="12375"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="12178.4702549575"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="TOWER LOW HEALTH LOOP" ID="{967CAB95-BFD0-4949-BCBB-2251A09F6620}"/>
+																					<AudioSourceRef Name="TOWER LOW HEALTH LOOP2" ID="{E052D13D-1D74-418C-AE95-1089C9F34B51}"/>
 																					<PropertyCurveList>
 																						<PropertyCurve PropertyName="Highpass">
-																							<Curve Name="" ID="{2A90A40B-30B4-4E9D-9BCE-DD84569050E6}">
+																							<Curve Name="" ID="{42BDF0CF-555F-414B-BE3B-97E553BB5C45}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="1"/>
 																								</PropertyList>
@@ -904,7 +892,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>12.375</XPos>
+																										<XPos>12.17847</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -912,7 +900,7 @@
 																							</Curve>
 																						</PropertyCurve>
 																						<PropertyCurve PropertyName="Lowpass">
-																							<Curve Name="" ID="{6C687AFA-0F40-48B2-B447-FCCFD83330BE}">
+																							<Curve Name="" ID="{052A96FF-FBA9-422E-9BE4-0EBCF2A69610}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="1"/>
 																								</PropertyList>
@@ -923,7 +911,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>12.375</XPos>
+																										<XPos>12.17847</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
@@ -931,7 +919,7 @@
 																							</Curve>
 																						</PropertyCurve>
 																						<PropertyCurve PropertyName="Volume">
-																							<Curve Name="" ID="{462BC2BA-1A61-4FE5-B43D-412A384408B6}">
+																							<Curve Name="" ID="{D9DA92B1-963C-4BF5-83C2-6F6F82496C2B}">
 																								<PropertyList>
 																									<Property Name="Flags" Type="int32" Value="3"/>
 																								</PropertyList>
@@ -942,7 +930,7 @@
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>12.375</XPos>
+																										<XPos>12.17847</XPos>
 																										<YPos>0</YPos>
 																										<Flags>37</Flags>
 																									</Point>
