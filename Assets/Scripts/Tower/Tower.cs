@@ -18,7 +18,7 @@ public class Tower : MonoBehaviour
     void Start()
     {
         health = maxHealth;
-        AkSoundEngine.SetRTPCValue("health", health);
+        AkSoundEngine.SetRTPCValue("health", 50f);
     }
 
     // Update is called once per frame
@@ -34,18 +34,22 @@ public class Tower : MonoBehaviour
         if (health / maxHealth * 100 <= 75 && health / maxHealth * 100 > 50)
         {
             SwitchSprite(1);
+            AkSoundEngine.SetRTPCValue("health", 35f);
         }
         else if (health / maxHealth * 100 <= 50 && health / maxHealth * 100 > 25)
         {
             SwitchSprite(2);
+            AkSoundEngine.SetRTPCValue("health", 20f);
         }
         else if (health / maxHealth * 100 <= 25 && health / maxHealth * 100 > 0)
         {
-            SwitchSprite(3);
+            SwitchSprite(3); 
+            AkSoundEngine.SetRTPCValue("health", 10f);
         }
         else if (health == 0)
         {
             SwitchSprite(4);
+            AkSoundEngine.SetRTPCValue("health", 0f);
         }
     }
 
