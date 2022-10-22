@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Mob : MonoBehaviour
 {
     [SerializeField] private float speed = 10.0f;
@@ -10,6 +11,7 @@ public class Mob : MonoBehaviour
     [SerializeField] private float maxHealth = 5;
     [SerializeField] private SpriteRenderer mobSp;
     [SerializeField] private Animator mobAnime;
+    [SerializeField] private GameObject healthBar;
 
     private GameObject towerObj;
     private Vector2 towerPos;
@@ -21,15 +23,19 @@ public class Mob : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        health = maxHealth;
         towerObj = GameObject.FindGameObjectWithTag("Tower");
         mobRigidBody = GetComponent<Rigidbody2D>();
         posCheck = mobRigidBody.position.x;
+        healthBar.GetComponent<HealthBar>().SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
     void Update()
     {
         AI();
+
+
     }
 
     void AI()
@@ -88,6 +94,7 @@ public class Mob : MonoBehaviour
     public void Damaged(float damage)
     {
         health -= damage;
+        healthBar.GetComponentInChildren<HealthBar>().SetHealth(health);
         if (health <= 0)
         {
             StartCoroutine(DeathAnim());

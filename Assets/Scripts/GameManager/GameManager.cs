@@ -15,11 +15,16 @@ public class GameManager : MonoBehaviour
     private bool oneHit;
     private float towerHealth;
     private string mintuesDisplay, secondsDisplay;
+    private TextMeshProUGUI timerText;
 
     void Start()
     {
+        TowerHealthCheck();
         endMenu.enabled = false;
         AkSoundEngine.SetState("Tower_Alive_or_Dead", "Alive");
+        HUD.GetComponentInChildren<HealthBar>().SetMaxHealth(towerHealth);
+        timerText = HUD.GetComponentInChildren<TextMeshProUGUI>();
+
     }
 
     // Update is called once per frame
@@ -27,6 +32,7 @@ public class GameManager : MonoBehaviour
     {
         TowerHealthCheck();
         HUD.GetComponentInChildren<HealthBar>().SetHealth(towerHealth);
+        timerText.text = TimeSurvived();
         if (towerHealthZero)
         {
             if (oneHit)
@@ -77,8 +83,8 @@ public class GameManager : MonoBehaviour
         player.GetComponent<PlayerScript>().SetStunned(true);
         EndofGameCleanup();
         yield return new WaitForSeconds(3.0f);
-        //timeText.text = Time.time.ToString();
-        TimeSurvived();
+
+        timeText.text = TimeSurvived();
         endMenu.enabled = true;
     }
 
@@ -97,7 +103,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    private void TimeSurvived()
+    private string TimeSurvived()
     {
         float time = Time.time;
         float minutes = Mathf.Floor(time / 60);
@@ -125,6 +131,6 @@ public class GameManager : MonoBehaviour
         Debug.Log(secondsDisplay);
 
         timeDisplay = mintuesDisplay + ":" + secondsDisplay;
-        timeText.text = timeDisplay;
+        return timeDisplay;
     }
 }
