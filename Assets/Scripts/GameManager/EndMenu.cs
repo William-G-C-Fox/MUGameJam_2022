@@ -7,12 +7,13 @@ public class EndMenu : MonoBehaviour
 {
     AK.Wwise.Event Play_Music;
     AK.Wwise.Event Stop_Music;
+   
 
     // Start is called before the first frame update
     void Start()
     {
         AkSoundEngine.SetState("Tower_Alive_or_Dead", "Dead");
-        AK.Wwise.Event Stop_Music;
+        Stop_Music.Post(gameObject);
     }
 
     // Update is called once per frame
