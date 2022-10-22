@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
         endMenu.enabled = false;
         HUD.GetComponentInChildren<HealthBar>().SetMaxHealth(towerHealth);
         timerText = HUD.GetComponentInChildren<TextMeshProUGUI>();
+
     }
 
     // Update is called once per frame
