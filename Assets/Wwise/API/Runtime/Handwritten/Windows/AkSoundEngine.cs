@@ -2,10 +2,7 @@
 
 public partial class AkSoundEngine
 {
-    public static void SetState(string v, string v1)
-    {
-        throw new NotImplementedException();
-    }
+
 #if UNITY_EDITOR_WIN || (UNITY_STANDALONE_WIN && !UNITY_EDITOR) || UNITY_WSA
     /// <summary>
     ///     Converts "AkOSChar*" C-strings to C# strings.
@@ -13,8 +10,8 @@ public partial class AkSoundEngine
     /// <param name="ptr">"AkOSChar*" memory pointer passed to C# as an IntPtr.</param>
     /// <returns>Converted string.</returns>
     public static string StringFromIntPtrOSString(System.IntPtr ptr)
-	{
-		return StringFromIntPtrWString(ptr);
-	}
+    {
+        return StringFromIntPtrWString(ptr);
+    }
 #endif
 }
