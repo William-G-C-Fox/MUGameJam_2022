@@ -282,6 +282,8 @@
 						<Sound Name="PlayerAction_Stun" ID="{7806E24F-7888-4F99-BB8F-FFD054C5BBAA}" ShortID="944768982">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="LoopCount" Type="int32" Value="3"/>
 								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>

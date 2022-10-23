@@ -405,8 +405,8 @@ MonoBehaviour:
         guid: 9f0c2bdda066fe48a5fda71b43f5fdb2
       Path: Events\Default Work Unit\Actions\Play_PlayerAction_Stun
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.216
+      minDuration: 5.216
     - name: Play_Playerrangeattack
       guid: 389b041f41e5eb4a948946d07989a3d5
       id: 3738451200
@@ -748,7 +748,7 @@ MonoBehaviour:
     m_lastTime: -8585350510540437702
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 050000000600000008000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
