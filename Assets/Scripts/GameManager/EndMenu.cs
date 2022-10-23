@@ -5,18 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class EndMenu : MonoBehaviour
 {
-   
-    
-    
-   
+
+
+
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
-       
-        
-        
+
+
+
+
     }
 
     // Update is called once per frame
@@ -29,12 +29,12 @@ public class EndMenu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
         AkSoundEngine.SetState("Tower_Alive_or_Dead", "Alive");
-        
-        
+
+
     }
 
     public void QuitMenu()
     {
-        SceneManager.LoadScene(0);
+        Application.Quit();
     }
 }
