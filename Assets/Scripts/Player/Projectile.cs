@@ -5,10 +5,12 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     [SerializeField] float damage;
+    [SerializeField] float lifetime;
     // Start is called before the first frame update
     void Start()
     {
         damage = 2.0f;
+        StartCoroutine(ProjLifetime());
     }
 
     // Update is called once per frame
@@ -23,5 +25,12 @@ public class Projectile : MonoBehaviour
         {
             collision.gameObject.GetComponent<Mob>().Damaged(damage);
         }
+    }
+
+    private IEnumerator ProjLifetime()
+    {
+
+        yield return new WaitForSeconds(lifetime);
+        Destroy(gameObject);
     }
 }

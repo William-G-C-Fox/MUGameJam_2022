@@ -25,7 +25,9 @@ public class PlayerMelee : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isAttacking == false && playerBody.GetCanBeStunned() == false)
+        if (playerBody.GetPlayerEnabled() == false) { return; }
+
+        if (Input.GetKeyDown(KeyCode.Space) && isAttacking == false)
         {
             StartCoroutine(AttackAnim());
         }
@@ -64,5 +66,10 @@ public class PlayerMelee : MonoBehaviour
         wepAnim.SetBool("isAttacking", false);
         isAttacking = false;
         playerBody.SetPlayerAttacking(false);
+    }
+
+    public void SetIsAttacking(bool change)
+    {
+        isAttacking = change;
     }
 }

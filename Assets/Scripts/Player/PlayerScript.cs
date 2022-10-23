@@ -221,6 +221,11 @@ public class PlayerScript : MonoBehaviour
         playerEnabled = change;
     }
 
+    public bool GetPlayerEnabled()
+    {
+        return playerEnabled;
+    }
+
     public void SetPlayerAttacking(bool attacking)
     {
         isAttacking = attacking;
@@ -265,6 +270,7 @@ public class PlayerScript : MonoBehaviour
     private IEnumerator GhostBind()
     {
         playerEnabled = false;
+
         plAnim.SetBool("isStunned", true);
         yield return new WaitForSeconds(stun);
         StartCoroutine(StunnedCooldown());

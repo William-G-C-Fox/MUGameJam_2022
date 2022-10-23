@@ -21,10 +21,12 @@ public class PlayerRanged : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (playerBody.GetPlayerEnabled() == false) { return; }
+
         if (Input.GetMouseButtonDown(0))
         {
             Shoot();
-            
+
         }
     }
 
