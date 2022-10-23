@@ -1080,7 +1080,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: VFX
+  m_text: 'SFX
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f355e47d050a34065bd06edcad7c700a, type: 2}
   m_sharedMaterial: {fileID: 1036558165619384676, guid: f355e47d050a34065bd06edcad7c700a, type: 2}
@@ -2293,7 +2295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Xiaodong Jia
+  m_text: Xiao
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f355e47d050a34065bd06edcad7c700a, type: 2}
   m_sharedMaterial: {fileID: 1036558165619384676, guid: f355e47d050a34065bd06edcad7c700a, type: 2}
@@ -2973,7 +2975,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1773686461
 MonoBehaviour:
   m_ObjectHideFlags: 0
