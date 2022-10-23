@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 6215947960477286846}
   - component: {fileID: 629980663087116801}
   - component: {fileID: 6362216224292440515}
+  - component: {fileID: 5099935777234824295}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -167,6 +168,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5099935777234824295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2510846908513432167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db880a61e9fbd48da8996ef596a95194, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerActionFootsteps:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 082f4bc94b6f34d4cba51e3083975a90, type: 2}
 --- !u!1 &5841809297705891841
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,6 +417,7 @@ GameObject:
   - component: {fileID: 5827802388858068287}
   - component: {fileID: 4974477341110558804}
   - component: {fileID: 3806963901500396550}
+  - component: {fileID: 5654832918285747811}
   m_Layer: 0
   m_Name: SpirteWeapon
   m_TagString: Untagged
@@ -494,6 +512,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5654832918285747811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7868311625977266975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bb01e67a0cf4710aaf9aab49a831a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerAttackSoundPlay:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c5e2ebbd7bf2e4a068780e53657d3114, type: 2}
 --- !u!1 &8902716074797228924
 GameObject:
   m_ObjectHideFlags: 0

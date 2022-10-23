@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DF178169-03C4-4CEB-B16A-0D4FA776996A}" SchemaVersion="103">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{DF178169-03C4-4CEB-B16A-0D4FA776996A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DF178169-03C4-4CEB-B16A-0D4FA776996A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Action_Reverb" ID="{704B88F1-5A91-42DA-9874-4C441EEF1E46}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+					<PropertyList>
+						<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
+						<Property Name="ReverbTime" Type="Real32" Value="0.8"/>
+						<Property Name="WetLevel" Type="Real32" Value="-34"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Wwise_RoomVerb" ID="{49005EA7-80BB-493B-A66D-F8327883581E}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

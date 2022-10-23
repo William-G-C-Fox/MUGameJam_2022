@@ -13,11 +13,19 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_ENEMYACTION_ATTACKTOWER = 3048932590U;
+        static const AkUniqueID PLAY_AMBIENT_SEAWIND = 3954601140U;
+        static const AkUniqueID PLAY_EARTHQUAKE_SOUND_DESIGN_02 = 1644515775U;
+        static const AkUniqueID PLAY_ENEMY01ACTION_ATTACK = 2803723436U;
+        static const AkUniqueID PLAY_ENEMY02ACTION_ATTACK = 167355073U;
+        static const AkUniqueID PLAY_ENEMY03ACTION_ATTACK = 440412518U;
         static const AkUniqueID PLAY_ENEMYACTION_DEATH = 2091649423U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_PLAYERACTION_FOOTSTEPS = 2921519631U;
         static const AkUniqueID PLAY_PLAYERACTION_SHIELDHITGROUND = 3310026653U;
+        static const AkUniqueID PLAY_UI_CLICK_UI_CLICK_01 = 2885484543U;
+        static const AkUniqueID PLAY_UI_CLICK_UI_CLICK_02 = 2885484540U;
+        static const AkUniqueID PLAY_UI_CLICKBUTTON = 4266309517U;
+        static const AkUniqueID STOP_EARTHQUAKE_SOUND_DESIGN_02 = 1875280069U;
         static const AkUniqueID STOP_MUSIC = 2837384057U;
     } // namespace EVENTS
 

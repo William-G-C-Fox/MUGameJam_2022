@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7c08bb7f881484e88ff6b5426ff6c1, type: 3}
+  m_Name: 01C216D9-6E54-4396-A5D4-B4A7D0121BB2
+  m_EditorClassIdentifier: 
+  objectName: Play_UI_ClickButton
+  id: 4266309517
+  guid: 01C216D9-6E54-4396-A5D4-B4A7D0121BB2

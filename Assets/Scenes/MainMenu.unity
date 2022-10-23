@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 11912513}
   - component: {fileID: 11912512}
+  - component: {fileID: 11912514}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -180,6 +181,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11912514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11912511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f01bfc85154f400797b4dfd6940d0e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e21a60fef9038da40adca0b583ad0e76, type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &91242570
 GameObject:
   m_ObjectHideFlags: 0
@@ -2668,6 +2693,7 @@ GameObject:
   - component: {fileID: 1627361504}
   - component: {fileID: 1627361503}
   - component: {fileID: 1627361502}
+  - component: {fileID: 1627361505}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -2752,6 +2778,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1627361505}
+        m_TargetAssemblyTypeName: UIButtonSound, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1627361503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2790,6 +2828,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627361500}
   m_CullTransparentMesh: 1
+--- !u!114 &1627361505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627361500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2e6ce6a975f3434cb7c505e472828ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonClickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c7f5d64780b4646e5bb53cbb1785a978, type: 2}
 --- !u!1 &1719054052
 GameObject:
   m_ObjectHideFlags: 0

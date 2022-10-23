@@ -12,6 +12,9 @@ public class Tower : MonoBehaviour
     [SerializeField] private Sprite damagedTwo;
     [SerializeField] private Sprite damagedThree;
     [SerializeField] private Sprite damagedFour;
+
+    public AK.Wwise.Event TowerDestorySoundPlay;
+    public AK.Wwise.Event TowerDestorySoundStop;
     
 
     // Start is called before the first frame update
@@ -26,6 +29,7 @@ public class Tower : MonoBehaviour
     {
 
     }
+        
 
     public void Damaged(float damage)
     {
@@ -40,6 +44,7 @@ public class Tower : MonoBehaviour
         {
             SwitchSprite(2);
             AkSoundEngine.SetRTPCValue("health", 20f);
+            TowerDestorySoundPlay.Post(gameObject);
         }
         else if (health / maxHealth * 100 <= 25 && health / maxHealth * 100 > 0)
         {
@@ -50,6 +55,7 @@ public class Tower : MonoBehaviour
         {
             SwitchSprite(4);
             AkSoundEngine.SetRTPCValue("health", 0f);
+            TowerDestorySoundStop.Post(gameObject);
         }
     }
 

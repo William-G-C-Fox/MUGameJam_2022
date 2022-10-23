@@ -3,50 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_PlayerAction_Footsteps" ID="{9C85370D-D261-4707-9416-14248CC242A0}">
-					<ChildrenList>
-						<Action Name="" ID="{2BB81D50-61BE-4D84-AC96-20E22AA8A819}" ShortID="464424717">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PlayerAction_Footsteps" ID="{CD64ACF0-5618-47D5-A296-D653CC70A238}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_PlayerAction_ShieldHitGround" ID="{04E8E6D2-4A52-4B14-8E9B-9EF17A24B71C}">
-					<ChildrenList>
-						<Action Name="" ID="{19FC0C56-5BBA-48E0-9BA7-BA3107D6EDAB}" ShortID="51545794">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PlayerAction_ShieldHitGround" ID="{768A9E2F-2818-4EB7-B9C0-98494D919756}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_EnemyAction_AttackTower" ID="{57FE2BBF-59FD-4938-B137-9817CB411BBB}">
-					<ChildrenList>
-						<Action Name="" ID="{5B20B914-A05F-4E20-9BB2-DA652DD50B64}" ShortID="529930673">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="EnemyAction_AttackTower" ID="{D4F92738-1E3D-472C-AE76-6E9AFB6755CE}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_EnemyAction_Death" ID="{37109B66-D8CA-45DA-9864-3FD1B211667A}">
-					<ChildrenList>
-						<Action Name="" ID="{9DBB045D-CA1E-4730-8713-F2BAF3B69C16}" ShortID="563134240">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="EnemyAction_Death" ID="{4A2114AA-3D1C-4677-87AE-5CA77A7B2DF8}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="MUSIC" ID="{FAC0E512-2BFB-4407-B159-89CBC9CC3A7A}" ShortID="860847524">
 					<ChildrenList>
 						<Event Name="Play_Music" ID="{550E1B43-D0C7-4D17-BD3D-356EB252F84B}">
@@ -70,6 +26,153 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="THEME_TO_GAMEOVER_SWITCH" ID="{7485A99D-EE8B-41A9-9B11-5A993252343B}" WorkUnitID="{7F8F688C-6F9B-4FE4-A3B3-D61D203D33DA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Actions" ID="{972D6600-2081-4C9A-B970-2F3C51427501}" ShortID="34672853">
+					<ChildrenList>
+						<Event Name="Play_Enemy01Action_Attack" ID="{57FE2BBF-59FD-4938-B137-9817CB411BBB}">
+							<ChildrenList>
+								<Action Name="" ID="{5B20B914-A05F-4E20-9BB2-DA652DD50B64}" ShortID="529930673">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy01Action_Attack" ID="{D4F92738-1E3D-472C-AE76-6E9AFB6755CE}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_EnemyAction_Death" ID="{37109B66-D8CA-45DA-9864-3FD1B211667A}">
+							<ChildrenList>
+								<Action Name="" ID="{9DBB045D-CA1E-4730-8713-F2BAF3B69C16}" ShortID="563134240">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EnemyAction_Death" ID="{4A2114AA-3D1C-4677-87AE-5CA77A7B2DF8}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy03Action_Attack" ID="{B6FFDF87-0C71-4FD5-8C22-30EF173711DD}">
+							<ChildrenList>
+								<Action Name="" ID="{7D597D8B-A65C-46BE-9242-58A94277C834}" ShortID="570205447">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy03Action_Attack" ID="{810F8698-5A4B-4CEF-BE37-6F9C9FBCB1B3}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy02Action_Attack" ID="{3014D527-0601-4E74-839A-9E298730D8EC}">
+							<ChildrenList>
+								<Action Name="" ID="{ED18D8E9-6142-4CA9-B4D5-2ABBA47FEF8F}" ShortID="935369964">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy02Action_Attack" ID="{26FD3911-1E03-478F-B2C4-B8D90242E2DF}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PlayerAction_Footsteps" ID="{9C85370D-D261-4707-9416-14248CC242A0}">
+							<ChildrenList>
+								<Action Name="" ID="{2BB81D50-61BE-4D84-AC96-20E22AA8A819}" ShortID="464424717">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerAction_Footsteps" ID="{CD64ACF0-5618-47D5-A296-D653CC70A238}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PlayerAction_ShieldHitGround" ID="{04E8E6D2-4A52-4B14-8E9B-9EF17A24B71C}">
+							<ChildrenList>
+								<Action Name="" ID="{19FC0C56-5BBA-48E0-9BA7-BA3107D6EDAB}" ShortID="51545794">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerAction_ShieldHitGround" ID="{768A9E2F-2818-4EB7-B9C0-98494D919756}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{F54BD7FA-726F-4B02-8A90-EBBE370E44BA}" ShortID="528147538">
+					<ChildrenList>
+						<Event Name="Play_UI_ClickButton" ID="{01C216D9-6E54-4396-A5D4-B4A7D0121BB2}">
+							<ChildrenList>
+								<Action Name="" ID="{655F777F-6453-4E9F-9E0A-C5084DCE3E8C}" ShortID="1015495254">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_ClickButton" ID="{94EC7AB7-ABD9-4B12-9069-B9B595901262}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Click_UI_Click_01" ID="{18A31036-E15E-4A1B-B97D-77F65D37CA73}">
+							<ChildrenList>
+								<Action Name="" ID="{2C61D2AE-C723-447C-923F-95F043333C04}" ShortID="731003639">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Click UI_Click_01" ID="{B497EED2-9A0B-4538-ABA7-E1C5BB42797A}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Click_UI_Click_02" ID="{7AA1D882-2B98-4186-9153-DA5A46EC5568}">
+							<ChildrenList>
+								<Action Name="" ID="{3F9B13BA-A16C-48C1-A897-46DEE74D4E1E}" ShortID="170757070">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Click UI_Click_02" ID="{2CB7A3EB-0E7B-4B2C-9C7D-7D4EFA10B455}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambient" ID="{FF2B1F9E-78AE-4A15-8BC8-005F84011359}" ShortID="372712386">
+					<ChildrenList>
+						<Event Name="Play_Earthquake_Sound_Design_02" ID="{CFC68543-4182-4DCE-B4EE-93FADAA718E4}">
+							<ChildrenList>
+								<Action Name="" ID="{60D5A880-6D06-4223-9619-9A955BA5C0EA}" ShortID="721738029">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Earthquake Sound Design_02" ID="{D233C426-77EB-44FC-A833-F6A37EB4385D}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ambient_SeaWind" ID="{B963EF7F-E62D-4B52-B1B7-0542579F526C}">
+							<ChildrenList>
+								<Action Name="" ID="{A4A56F8B-8337-41FD-8473-08637B8D277B}" ShortID="842236656">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambient_SeaWind" ID="{ACB0B1F8-05A6-454A-94FE-23C93580382B}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Earthquake_Sound_Design_02" ID="{A0CDF142-C4AB-4963-9EBC-73CE6FF7FFC3}">
+							<ChildrenList>
+								<Action Name="" ID="{787BEBF8-CCA5-4B03-AB16-153520D226AB}" ShortID="881195385">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Earthquake Sound Design_02" ID="{D233C426-77EB-44FC-A833-F6A37EB4385D}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
