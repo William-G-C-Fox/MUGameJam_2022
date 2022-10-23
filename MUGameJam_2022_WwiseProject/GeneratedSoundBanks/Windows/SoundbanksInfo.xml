@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="477248371">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3676147046">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -85,7 +85,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1024915282" Language="SFX">
 							<ShortName>Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze).wav</ShortName>
-							<Path>SFX/Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)_E8F2F10B.wem</Path>
+							<Path>SFX/Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)_E19C97D1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -407,7 +407,7 @@
 				</File>
 				<File Id="1024915282" Language="SFX">
 					<ShortName>Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze).wav</ShortName>
-					<Path>SFX/Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)_E8F2F10B.wem</Path>
+					<Path>SFX/Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)_E19C97D1.wem</Path>
 				</File>
 				<File Id="1052556189" Language="SFX">
 					<ShortName>GAMEOVER_Theme_160bpm4-4_L2B-P1.wav</ShortName>

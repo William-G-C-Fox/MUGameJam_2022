@@ -320,6 +320,13 @@
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="EnemyAction" ID="{3A0943AC-CC83-4188-B279-1B9A0DB4E3FD}" ShortID="499936819">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B677191-76F8-43C0-BF37-162BF8A2B297}"/>
@@ -692,6 +699,13 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 						<Sound Name="Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)" ID="{977D7221-F1BF-4778-BC2B-365A4F4D263D}" ShortID="202335736">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B677191-76F8-43C0-BF37-162BF8A2B297}"/>
@@ -720,6 +734,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Enemy01Death 2-EnemyDeath_01" ID="{F1BB715C-941F-4596-8004-E0A7BBBFC955}" ShortID="472933576">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B677191-76F8-43C0-BF37-162BF8A2B297}"/>
@@ -743,6 +764,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Enemy03Death 3-Audio" ID="{1AE8A315-B5E5-4419-88AF-7C1AB5CC36E7}" ShortID="810942849">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B677191-76F8-43C0-BF37-162BF8A2B297}"/>
