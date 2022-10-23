@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8741033434516816793}
   - component: {fileID: 488255532864640214}
   - component: {fileID: 5467566974017243211}
-  - component: {fileID: 2760952107936404878}
   m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
@@ -55,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 41de6e37d8ac74d2086774efa1e2f74d, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -127,41 +126,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 53e1906844d474c8f99207fb0f1f2369, type: 2}
---- !u!114 &2760952107936404878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7484563061936535716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShadowGroup: 0
-  m_ComponentVersion: 1
-  m_HasRenderer: 1
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 0
-  m_ApplyToSortingLayers: 00000000
-  m_ShapePath:
-  - {x: -0.44641718, y: -0.6105632, z: 0}
-  - {x: -0.5894286, y: -0.60843956, z: 0}
-  - {x: -0.6623825, y: -0.54916453, z: 0}
-  - {x: -0.5529517, y: -0.4990088, z: 0}
-  - {x: -0.38714227, y: -0.4609464, z: 0}
-  - {x: -0.16994399, y: -0.45341256, z: 0}
-  - {x: 0.07252893, y: -0.45638695, z: 0}
-  - {x: 0.23586184, y: -0.46709147, z: 0}
-  - {x: 0.3726503, y: -0.5354858, z: 0}
-  - {x: 0.31337526, y: -0.5947608, z: 0}
-  - {x: 0.122684635, y: -0.6333614, z: 0}
-  - {x: -0.092430495, y: -0.6266781, z: 0}
-  m_ShapePathHash: 1774082960
-  m_Mesh: {fileID: 0}
-  m_InstanceId: 59392
 --- !u!1 &7496570098737347478
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,10 +233,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f253d9a8e2b604f843c5fe5a4568a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.8
-  damage: 3
+  speed: 6
+  damage: 5
   health: 0
-  maxHealth: 2
+  maxHealth: 5
   mobSp: {fileID: 8741033434516816793}
   mobAnime: {fileID: 488255532864640214}
   healthBar: {fileID: 1935515516093302909}
