@@ -54,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 41de6e37d8ac74d2086774efa1e2f74d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -197,7 +197,11 @@ GameObject:
   - component: {fileID: 5520881458604442274}
   - component: {fileID: 4912568742917165779}
   - component: {fileID: 2692506512304317204}
+<<<<<<< Updated upstream
   - component: {fileID: 6086204124452271511}
+=======
+  - component: {fileID: 2126669822283949844}
+>>>>>>> Stashed changes
   m_Layer: 6
   m_Name: Mob_Big
   m_TagString: Mob
@@ -235,7 +239,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+<<<<<<< Updated upstream
   damage: 5
+=======
+  damage: 8
+>>>>>>> Stashed changes
   health: 0
   maxHealth: 10
   mobSp: {fileID: 8741033434516816793}
@@ -288,7 +296,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.0929248, y: 1.7490299}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
 --- !u!114 &6086204124452271511
+=======
+--- !u!114 &2126669822283949844
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -308,6 +320,7 @@ MonoBehaviour:
   m_SelfShadows: 0
   m_ApplyToSortingLayers: 00000000
   m_ShapePath:
+<<<<<<< Updated upstream
   - {x: -1.0396193, y: -0.8142941, z: 0}
   - {x: -0.9149192, y: -0.7095991, z: 0}
   - {x: -0.70805615, y: -0.6911999, z: 0}
@@ -321,6 +334,22 @@ MonoBehaviour:
   m_ShapePathHash: -2111789413
   m_Mesh: {fileID: 0}
   m_InstanceId: 43454
+=======
+  - {x: -1.036901, y: -0.73842114, z: 0}
+  - {x: -1.0194267, y: -0.66486996, z: 0}
+  - {x: -0.8603281, y: -0.61024004, z: 0}
+  - {x: -0.45801544, y: -0.6195949, z: 0}
+  - {x: -0.16640402, y: -0.60571253, z: 0}
+  - {x: -0.009791896, y: -0.6241224, z: 0}
+  - {x: 0.073554024, y: -0.7112561, z: 0}
+  - {x: -0.018846914, y: -0.7916403, z: 0}
+  - {x: -0.16825476, y: -0.832388, z: 0}
+  - {x: -0.8654914, y: -0.832388, z: 0}
+  - {x: -0.9967892, y: -0.8052228, z: 0}
+  m_ShapePathHash: 103138577
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 59288
+>>>>>>> Stashed changes
 --- !u!1001 &3931738011786328554
 PrefabInstance:
   m_ObjectHideFlags: 0
