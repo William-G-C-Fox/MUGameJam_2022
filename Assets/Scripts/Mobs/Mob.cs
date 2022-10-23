@@ -97,13 +97,22 @@ public class Mob : MonoBehaviour
         healthBar.GetComponentInChildren<HealthBar>().SetHealth(health);
         if (health <= 0)
         {
-            StartCoroutine(DeathAnim());
+
+            StartCoroutine(DeathAnim2());
+
+
         }
     }
 
     private IEnumerator DeathAnim()
     {
         mobAnime.SetBool("Attacking", true);
+        yield return new WaitForSeconds(0.75f);
+        Death();
+    }
+    private IEnumerator DeathAnim2()
+    {
+        mobAnime.SetBool("Dead", true);
         yield return new WaitForSeconds(0.75f);
         Death();
     }

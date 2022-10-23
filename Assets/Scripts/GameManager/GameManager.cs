@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
             else
             {
                 oneHit = true;
-                EndGame(); 
+                EndGame();
                 AkSoundEngine.SetState("Tower_Alive_or_Dead", "Dead");
             }
         }
@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
         {
             return;
         }
-        
+
     }
 
     void EndGame()
