@@ -112,7 +112,7 @@ public class Mob : MonoBehaviour
     }
     private IEnumerator DeathAnim2()
     {
-        mobAnime.SetBool("Dead", true);
+        mobAnime.SetBool("Death", true);
         yield return new WaitForSeconds(0.75f);
         Death();
     }
