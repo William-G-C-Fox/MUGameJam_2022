@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: 7448ed37b944ac4e918d84bcc484d348
     GuidInternal: 
-    m_lastTime: -8585350541689621397
+    m_lastTime: -8585350563803801142
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: e04fc0a3c2d0a145abdfd2d75e8d5a0a
     GuidInternal: 
-    m_lastTime: -8585350541689890506
+    m_lastTime: -8585350563804145818
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: d3a519ea955a4a4fa55784b2a5a258c7
     GuidInternal: 
-    m_lastTime: -8585350541689627061
+    m_lastTime: -8585350563803807106
     List:
     - name: Main
       guid: 8d11d28401a2384685f2844877f8b8dd
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: f52044457dc33d44a6d930c04097b8d3
     GuidInternal: 
-    m_lastTime: -8585350541692129434
+    m_lastTime: -8585350563806854551
     List:
     - name: Actions
       guid: 00662d9781209a4cb9702f3c51427501
@@ -405,8 +405,8 @@ MonoBehaviour:
         guid: 9f0c2bdda066fe48a5fda71b43f5fdb2
       Path: Events/Default Work Unit/Actions/Play_PlayerAction_Stun
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.216
+      minDuration: 5.216
     - name: Play_Playerrangeattack
       guid: 389b041f41e5eb4a948946d07989a3d5
       id: 3738451200
@@ -576,7 +576,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 224f188f477f72459694446c130229f6
     GuidInternal: 
-    m_lastTime: -8585350541692128267
+    m_lastTime: -8585350563806853666
     List: []
   - PhysicalPath: Game Parameters/Health_RTPC.wwu
     PathAndIcons:
@@ -592,7 +592,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit/Health_RTPC
     guid: 3a50512afbe89542aa98450eeaf6ace8
     GuidInternal: 
-    m_lastTime: -8585350541692127649
+    m_lastTime: -8585350563806853106
     List:
     - name: health
       guid: 91e5581ffe60a647892ea7128aa3871e
@@ -623,7 +623,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 4f3932695b91fd4aa8e5ce9c61bd29e9
     GuidInternal: 
-    m_lastTime: -8585350541689625058
+    m_lastTime: -8585350563803805127
     List: []
   - PhysicalPath: States/Tower_State.wwu
     PathAndIcons:
@@ -639,7 +639,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit/Tower_State
     guid: 685fb83560030047b1245e79c5cf4613
     GuidInternal: 
-    m_lastTime: -8585350541689624462
+    m_lastTime: -8585350563803804585
     List:
     - name: Tower_Alive_or_Dead
       guid: 7331be25dd9fc94db7d95c4830c1babb
@@ -731,7 +731,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: bcfda977ceac9c4c897ae5ac973fa3b9
     GuidInternal: 
-    m_lastTime: -8585350541689623397
+    m_lastTime: -8585350563803803638
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
@@ -745,10 +745,10 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: 8d143a77528c3b4f88bcbf7d85b2dd26
     GuidInternal: 
-    m_lastTime: -8585350541689622487
+    m_lastTime: -8585350563803802770
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 050000000600000008000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

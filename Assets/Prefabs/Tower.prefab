@@ -566,11 +566,11 @@ MonoBehaviour:
   TowerDestorySoundPlay:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: a5afc54bc859a479da16702fbacb1fb2, type: 2}
   TowerDestorySoundStop:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e7b3d6ab5154b4633acbede47bd7e790, type: 2}
 --- !u!68 &1059674022564775307
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -635,7 +635,7 @@ MonoBehaviour:
   - {x: 1.1058936, y: -1.4459691, z: 0}
   m_ShapePathHash: -150004171
   m_Mesh: {fileID: 0}
-  m_InstanceId: 47596
+  m_InstanceId: 29532
 --- !u!1 &8765116855068645899
 GameObject:
   m_ObjectHideFlags: 0
