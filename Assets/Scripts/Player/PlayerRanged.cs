@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerRanged : MonoBehaviour
 {
+    public AK.Wwise.Event Play_Playerrangeattack;
     [SerializeField] public GameObject projectile;
     [SerializeField] public Transform firePoint;
     [SerializeField] private float lastShot;
@@ -23,6 +24,7 @@ public class PlayerRanged : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Shoot();
+            
         }
     }
 
@@ -34,6 +36,7 @@ public class PlayerRanged : MonoBehaviour
             Rigidbody2D rb = firedProjectile.GetComponent<Rigidbody2D>();
             rb.AddForce(firePoint.right * speed, ForceMode2D.Impulse);
             lastShot = Time.time;
+            Play_Playerrangeattack.Post(gameObject);
         }
     }
 }

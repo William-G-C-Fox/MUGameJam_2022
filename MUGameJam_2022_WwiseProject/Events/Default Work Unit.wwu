@@ -159,6 +159,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Playerrangeattack" ID="{1F049B38-E541-4AEB-9489-46D07989A3D5}">
+							<ChildrenList>
+								<Action Name="" ID="{900CB636-5290-457B-B5CC-93686BB7F617}" ShortID="753647652">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Playerrangeattack" ID="{5D722B26-7763-4475-A276-22EA8088EEF3}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{F54BD7FA-726F-4B02-8A90-EBBE370E44BA}" ShortID="528147538">

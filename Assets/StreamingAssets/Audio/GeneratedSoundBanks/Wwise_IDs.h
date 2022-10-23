@@ -26,6 +26,7 @@ namespace AK
         static const AkUniqueID PLAY_PLAYERACTION_FOOTSTEPS = 2921519631U;
         static const AkUniqueID PLAY_PLAYERACTION_SHIELDHITGROUND = 3310026653U;
         static const AkUniqueID PLAY_PLAYERACTION_STUN = 3679264218U;
+        static const AkUniqueID PLAY_PLAYERRANGEATTACK = 3738451200U;
         static const AkUniqueID PLAY_UI_CLICK_UI_CLICK_01 = 2885484543U;
         static const AkUniqueID PLAY_UI_CLICK_UI_CLICK_02 = 2885484540U;
         static const AkUniqueID PLAY_UI_CLICKBUTTON = 4266309517U;

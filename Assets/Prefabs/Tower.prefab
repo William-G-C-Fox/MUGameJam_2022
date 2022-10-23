@@ -222,13 +222,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 50
+  maxHealth: 0
   towerBase: {fileID: 2336650540384415840}
   tSP: {fileID: 6617365093840753351}
   damagedOne: {fileID: 21300000, guid: 84dfd2e9c7db9d24db6660af891d56c6, type: 3}
   damagedTwo: {fileID: 21300000, guid: a9e8e1e731fcbac49a5018a14f7ea80e, type: 3}
   damagedThree: {fileID: 21300000, guid: 1ca6dfff207d89e47905f38de9ae3b82, type: 3}
   damagedFour: {fileID: 21300000, guid: a101862a00a21a24faa637f2cd5347b6, type: 3}
+  TowerDestorySoundPlay:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TowerDestorySoundStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!61 &8199061809005056360
 BoxCollider2D:
   m_ObjectHideFlags: 0
