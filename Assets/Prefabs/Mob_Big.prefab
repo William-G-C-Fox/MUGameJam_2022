@@ -54,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 41de6e37d8ac74d2086774efa1e2f74d, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -197,11 +197,7 @@ GameObject:
   - component: {fileID: 5520881458604442274}
   - component: {fileID: 4912568742917165779}
   - component: {fileID: 2692506512304317204}
-<<<<<<< Updated upstream
   - component: {fileID: 6086204124452271511}
-=======
-  - component: {fileID: 2126669822283949844}
->>>>>>> Stashed changes
   m_Layer: 6
   m_Name: Mob_Big
   m_TagString: Mob
@@ -239,11 +235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-<<<<<<< Updated upstream
   damage: 5
-=======
-  damage: 8
->>>>>>> Stashed changes
   health: 0
   maxHealth: 10
   mobSp: {fileID: 8741033434516816793}
@@ -296,11 +288,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.0929248, y: 1.7490299}
   m_EdgeRadius: 0
-<<<<<<< Updated upstream
 --- !u!114 &6086204124452271511
-=======
---- !u!114 &2126669822283949844
->>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -320,7 +308,6 @@ MonoBehaviour:
   m_SelfShadows: 0
   m_ApplyToSortingLayers: 00000000
   m_ShapePath:
-<<<<<<< Updated upstream
   - {x: -1.0396193, y: -0.8142941, z: 0}
   - {x: -0.9149192, y: -0.7095991, z: 0}
   - {x: -0.70805615, y: -0.6911999, z: 0}
@@ -335,6 +322,7 @@ MonoBehaviour:
   m_Mesh: {fileID: 0}
 <<<<<<< HEAD
   m_InstanceId: 43454
+<<<<<<< HEAD
 =======
   - {x: -1.036901, y: -0.73842114, z: 0}
   - {x: -1.0194267, y: -0.66486996, z: 0}
@@ -354,6 +342,8 @@ MonoBehaviour:
 =======
   m_InstanceId: 42744
 >>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
+=======
+>>>>>>> parent of 13e36b5 (lights and ruins update)
 --- !u!1001 &3931738011786328554
 PrefabInstance:
   m_ObjectHideFlags: 0

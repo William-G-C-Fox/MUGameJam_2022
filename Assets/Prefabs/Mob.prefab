@@ -235,11 +235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1.2
-<<<<<<< Updated upstream
   damage: 4
-=======
-  damage: 5
->>>>>>> Stashed changes
   health: 0
   maxHealth: 5
   mobSp: {fileID: 8741033434516816793}
