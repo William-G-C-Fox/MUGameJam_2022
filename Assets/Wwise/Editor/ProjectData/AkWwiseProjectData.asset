@@ -25,6 +25,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: 7448ed37b944ac4e918d84bcc484d348
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585350621980420614
 =======
 <<<<<<< Updated upstream
@@ -41,6 +42,9 @@ MonoBehaviour:
     m_lastTime: -8585351337098378739
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+    m_lastTime: -8585350563803801142
+>>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -55,6 +59,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: e04fc0a3c2d0a145abdfd2d75e8d5a0a
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585350621982916470
 =======
 <<<<<<< Updated upstream
@@ -71,6 +76,9 @@ MonoBehaviour:
     m_lastTime: -8585351337110281089
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+    m_lastTime: -8585350563804145818
+>>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -99,6 +107,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: d3a519ea955a4a4fa55784b2a5a258c7
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585350621980427200
 =======
 <<<<<<< Updated upstream
@@ -115,6 +124,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585350696991023336
 >>>>>>> Stashed changes
+=======
+    m_lastTime: -8585350563803807106
+>>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
     List:
     - name: Main
       guid: 8d11d28401a2384685f2844877f8b8dd
@@ -148,6 +160,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: f52044457dc33d44a6d930c04097b8d3
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585350621988266445
 =======
 <<<<<<< Updated upstream
@@ -164,6 +177,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585350670150554815
 >>>>>>> Stashed changes
+=======
+    m_lastTime: -8585350563806854551
+>>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
     List:
     - name: Actions
       guid: 00662d9781209a4cb9702f3c51427501
@@ -298,8 +314,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Actions\Play_Enemy01Action_Attack
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.091292
+      minDuration: 1.091292
     - name: Play_Enemy01Death_2_EnemyDeath_01
       guid: a192dda82321b742925ca98620bbaacd
       id: 1675605981
@@ -322,8 +338,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Actions\Play_Enemy01Death_2_EnemyDeath_01
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.570354
+      minDuration: 0.570354
     - name: Play_Enemy02Action_Attack
       guid: 27d514300106744e839a9e298730d8ec
       id: 167355073
@@ -346,8 +362,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Actions\Play_Enemy02Action_Attack
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.532854
+      minDuration: 0.532854
     - name: Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_
       guid: 5cc271f15e69f044a3ff708b34bd33b8
       id: 3593360766
@@ -370,8 +386,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Actions\Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.570354
+      minDuration: 0.570354
     - name: Play_Enemy03Action_Attack
       guid: 87dfffb6710cd54f8c2230ef173711dd
       id: 440412518
@@ -394,8 +410,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Actions\Play_Enemy03Action_Attack
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.113083
+      minDuration: 1.113083
     - name: Play_Enemy03Death_3_Audio
       guid: 36ee9c4535b879468dbee858843c1289
       id: 692581920
@@ -418,8 +434,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Actions\Play_Enemy03Death_3_Audio
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.570354
+      minDuration: 0.570354
     - name: Play_EnemyAction_Death
       guid: 669b1037cad8da4598643fd1b211667a
       id: 2091649423
@@ -442,8 +458,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Actions\Play_EnemyAction_Death
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.721104
+      minDuration: 0.721104
     - name: Play_Music
       guid: 431b0e55c7d0174dbd3d356eb252f84b
       id: 2932040671
@@ -490,8 +506,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Actions\Play_PlayerAction_Footsteps
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.300979
+      minDuration: 0.300979
     - name: Play_PlayerAction_ShieldHitGround
       guid: d2e6e804524a144b8e9b9ef17a24b71c
       id: 3310026653
@@ -514,8 +530,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Actions\Play_PlayerAction_ShieldHitGround
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.102458
+      minDuration: 1.068313
     - name: Play_PlayerAction_Stun
       guid: 9f0c2bdda066fe48a5fda71b43f5fdb2
       id: 3679264218
@@ -562,8 +578,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Actions\Play_Playerrangeattack
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.951212
+      minDuration: 0.53385
     - name: Play_UI_Click_UI_Click_01
       guid: 3610a3185ee11b4ab97d77f65d37ca73
       id: 2885484543
@@ -586,8 +602,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\UI\Play_UI_Click_UI_Click_01
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.130455
+      minDuration: 0.130455
     - name: Play_UI_Click_UI_Click_02
       guid: 82d8a17a982b86419153da5a46ec5568
       id: 2885484540
@@ -610,8 +626,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\UI\Play_UI_Click_UI_Click_02
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.130853
+      minDuration: 0.130853
     - name: Play_UI_ClickButton
       guid: d916c201546e9643a5d4b4a7d0121bb2
       id: 4266309517
@@ -634,8 +650,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\UI\Play_UI_ClickButton
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.137625
+      minDuration: 0.137625
     - name: Stop_Earthquake_Sound_Design_02
       guid: 42f1cda0abc463499ebc73ce6ff7ffc3
       id: 1875280069
@@ -658,8 +674,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Ambient\Stop_Earthquake_Sound_Design_02
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Music
       guid: 469e7a80fe119147a204621ce5320fc1
       id: 2837384057
@@ -682,8 +698,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\MUSIC\Stop_Music
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_PlayerAction_Stun
       guid: 2b78e5a378c8df4e967a16109ad1e490
       id: 2913298624
@@ -706,8 +722,8 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Actions\Stop_PlayerAction_Stun
 >>>>>>> Stashed changes
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: UI
       guid: fad74bf56f72024b8a90ebbe370e44ba
       id: 1551306167
@@ -752,7 +768,7 @@ MonoBehaviour:
     guid: 87325f27ae078c4d882e6375f5d4ee3c
 >>>>>>> Stashed changes
     GuidInternal: 
-    m_lastTime: -8585350621988264676
+    m_lastTime: -8585350563806853666
     List: []
 <<<<<<< Updated upstream
   - PhysicalPath: Game Parameters/Health_RTPC.wwu
@@ -780,6 +796,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit/Health_RTPC
     guid: 3a50512afbe89542aa98450eeaf6ace8
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585350621988263883
 =======
     ParentPath: Game Parameters\Default Work Unit\Health_RTPC
@@ -787,6 +804,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585351337116261285
 >>>>>>> Stashed changes
+=======
+    m_lastTime: -8585350563806853106
+>>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
     List:
     - name: health
       guid: 91e5581ffe60a647892ea7128aa3871e
@@ -829,7 +849,7 @@ MonoBehaviour:
     guid: 99f2b8410327d14ebda2e34c6629780b
 >>>>>>> Stashed changes
     GuidInternal: 
-    m_lastTime: -8585350621980424236
+    m_lastTime: -8585350563803805127
     List: []
 <<<<<<< Updated upstream
   - PhysicalPath: States/Tower_State.wwu
@@ -857,6 +877,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit/Tower_State
     guid: 685fb83560030047b1245e79c5cf4613
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585350621980423639
 =======
     ParentPath: States\Default Work Unit\Tower_State
@@ -864,6 +885,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585351337098518767
 >>>>>>> Stashed changes
+=======
+    m_lastTime: -8585350563803804585
+>>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
     List:
     - name: Tower_Alive_or_Dead
       guid: 7331be25dd9fc94db7d95c4830c1babb
@@ -964,6 +988,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: bcfda977ceac9c4c897ae5ac973fa3b9
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585350621980422477
 =======
 <<<<<<< Updated upstream
@@ -980,6 +1005,9 @@ MonoBehaviour:
     m_lastTime: -8585351337098468751
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+    m_lastTime: -8585350563803803638
+>>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
@@ -994,6 +1022,7 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: 8d143a77528c3b4f88bcbf7d85b2dd26
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585350621980421552
 =======
 <<<<<<< Updated upstream
@@ -1010,6 +1039,9 @@ MonoBehaviour:
     m_lastTime: -8585351337098418748
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+    m_lastTime: -8585350563803802770
+>>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
     List: []
   ExpandedFileSystemItemIds: 
 <<<<<<< HEAD

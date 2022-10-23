@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>A:\Users\Matthew\OneDrive\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/xiaodongjia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/MUGameJam_2022/MUGameJam_2022_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,148 +16,148 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1728516126">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1935263499">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3954601140" Name="Play_Ambient_SeaWind" ObjectPath="\Events\Default Work Unit\Ambient\Play_Ambient_SeaWind">
+				<Event Id="3954601140" Name="Play_Ambient_SeaWind" ObjectPath="\Events\Default Work Unit\Ambient\Play_Ambient_SeaWind" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="463225209" Language="SFX">
 							<ShortName>Ambient_SeaWind.wav</ShortName>
-							<Path>SFX\Ambient_SeaWind_D79FB2B7.wem</Path>
+							<Path>SFX/Ambient_SeaWind_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1644515775" Name="Play_Earthquake_Sound_Design_02" ObjectPath="\Events\Default Work Unit\Ambient\Play_Earthquake_Sound_Design_02">
+				<Event Id="1644515775" Name="Play_Earthquake_Sound_Design_02" ObjectPath="\Events\Default Work Unit\Ambient\Play_Earthquake_Sound_Design_02" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="215215589" Language="SFX">
 							<ShortName>Earthquake Sound Design_02.wav</ShortName>
-							<Path>SFX\Earthquake Sound Design_02_28761FF9.wem</Path>
+							<Path>SFX/Earthquake Sound Design_02_28761FF9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2803723436" Name="Play_Enemy01Action_Attack" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy01Action_Attack">
+				<Event Id="2803723436" Name="Play_Enemy01Action_Attack" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy01Action_Attack" DurationType="OneShot" DurationMin="1.091292" DurationMax="1.091292">
 					<IncludedMemoryFiles>
 						<File Id="277373959" Language="SFX">
 							<ShortName>Enemy01_attack 6-Enemy01_attack 3.wav</ShortName>
-							<Path>SFX\Enemy01_attack 6-Enemy01_attack 3_10C4C929.wem</Path>
+							<Path>SFX/Enemy01_attack 6-Enemy01_attack 3_10C4C929.wem</Path>
 						</File>
 						<File Id="329213713" Language="SFX">
 							<ShortName>Enemy01_attack 7-Enemy01_attack 3.wav</ShortName>
-							<Path>SFX\Enemy01_attack 7-Enemy01_attack 3_10C4C929.wem</Path>
+							<Path>SFX/Enemy01_attack 7-Enemy01_attack 3_10C4C929.wem</Path>
 						</File>
 						<File Id="431086195" Language="SFX">
 							<ShortName>Enemy01_attack Enemy01_attack.wav</ShortName>
-							<Path>SFX\Enemy01_attack Enemy01_attack_10C4C929.wem</Path>
+							<Path>SFX/Enemy01_attack Enemy01_attack_10C4C929.wem</Path>
 						</File>
 						<File Id="722137304" Language="SFX">
 							<ShortName>Enemy01_attack 5-Enemy01_attack 3.wav</ShortName>
-							<Path>SFX\Enemy01_attack 5-Enemy01_attack 3_10C4C929.wem</Path>
+							<Path>SFX/Enemy01_attack 5-Enemy01_attack 3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1675605981" Name="Play_Enemy01Death_2_EnemyDeath_01" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy01Death_2_EnemyDeath_01">
+				<Event Id="1675605981" Name="Play_Enemy01Death_2_EnemyDeath_01" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy01Death_2_EnemyDeath_01" DurationType="OneShot" DurationMin="0.570354" DurationMax="0.570354">
 					<IncludedMemoryFiles>
 						<File Id="413127483" Language="SFX">
 							<ShortName>Enemy02Death 2-EnemyDeath_01 (Freeze).wav</ShortName>
-							<Path>SFX\Enemy02Death 2-EnemyDeath_01 (Freeze)_10C4C929.wem</Path>
+							<Path>SFX/Enemy02Death 2-EnemyDeath_01 (Freeze)_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="167355073" Name="Play_Enemy02Action_Attack" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy02Action_Attack">
+				<Event Id="167355073" Name="Play_Enemy02Action_Attack" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy02Action_Attack" DurationType="OneShot" DurationMin="0.532854" DurationMax="0.532854">
 					<IncludedMemoryFiles>
 						<File Id="129082813" Language="SFX">
 							<ShortName>Enemy02_attack 5-enemy02_attack enemy02_attack_02.wav</ShortName>
-							<Path>SFX\Enemy02_attack 5-enemy02_attack enemy02_attack_02_10C4C929.wem</Path>
+							<Path>SFX/Enemy02_attack 5-enemy02_attack enemy02_attack_02_10C4C929.wem</Path>
 						</File>
 						<File Id="465862928" Language="SFX">
 							<ShortName>Enemy02_attack 6-enemy02_attack enemy02_attack_3.wav</ShortName>
-							<Path>SFX\Enemy02_attack 6-enemy02_attack enemy02_attack_3_10C4C929.wem</Path>
+							<Path>SFX/Enemy02_attack 6-enemy02_attack enemy02_attack_3_10C4C929.wem</Path>
 						</File>
 						<File Id="522187151" Language="SFX">
 							<ShortName>Enemy02_attack 4-enemy02_attack enemy02_attack_01.wav</ShortName>
-							<Path>SFX\Enemy02_attack 4-enemy02_attack enemy02_attack_01_10C4C929.wem</Path>
+							<Path>SFX/Enemy02_attack 4-enemy02_attack enemy02_attack_01_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3593360766" Name="Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_">
+				<Event Id="3593360766" Name="Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_" DurationType="OneShot" DurationMin="0.570354" DurationMax="0.570354">
 					<IncludedMemoryFiles>
 						<File Id="1024915282" Language="SFX">
 							<ShortName>Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze).wav</ShortName>
-							<Path>SFX\Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)_E19C97D1.wem</Path>
+							<Path>SFX/Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)_E19C97D1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="440412518" Name="Play_Enemy03Action_Attack" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy03Action_Attack">
+				<Event Id="440412518" Name="Play_Enemy03Action_Attack" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy03Action_Attack" DurationType="OneShot" DurationMin="1.113083" DurationMax="1.113083">
 					<IncludedMemoryFiles>
 						<File Id="390703524" Language="SFX">
 							<ShortName>Enemy03_attack 9-enemy03_attack fire_03.wav</ShortName>
-							<Path>SFX\Enemy03_attack 9-enemy03_attack fire_03_10C4C929.wem</Path>
+							<Path>SFX/Enemy03_attack 9-enemy03_attack fire_03_10C4C929.wem</Path>
 						</File>
 						<File Id="419741344" Language="SFX">
 							<ShortName>Enemy03_attack 7-enemy03_attack fire_01.wav</ShortName>
-							<Path>SFX\Enemy03_attack 7-enemy03_attack fire_01_10C4C929.wem</Path>
+							<Path>SFX/Enemy03_attack 7-enemy03_attack fire_01_10C4C929.wem</Path>
 						</File>
 						<File Id="573268300" Language="SFX">
 							<ShortName>Enemy03_attack 8-enemy03_attack fire_02.wav</ShortName>
-							<Path>SFX\Enemy03_attack 8-enemy03_attack fire_02_10C4C929.wem</Path>
+							<Path>SFX/Enemy03_attack 8-enemy03_attack fire_02_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="692581920" Name="Play_Enemy03Death_3_Audio" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy03Death_3_Audio">
+				<Event Id="692581920" Name="Play_Enemy03Death_3_Audio" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy03Death_3_Audio" DurationType="OneShot" DurationMin="0.570354" DurationMax="0.570354">
 					<IncludedMemoryFiles>
 						<File Id="1021260072" Language="SFX">
 							<ShortName>Enemy02Death 3-Audio.wav</ShortName>
-							<Path>SFX\Enemy02Death 3-Audio_10C4C929.wem</Path>
+							<Path>SFX/Enemy02Death 3-Audio_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2091649423" Name="Play_EnemyAction_Death" ObjectPath="\Events\Default Work Unit\Actions\Play_EnemyAction_Death">
+				<Event Id="2091649423" Name="Play_EnemyAction_Death" ObjectPath="\Events\Default Work Unit\Actions\Play_EnemyAction_Death" DurationType="OneShot" DurationMin="0.721104" DurationMax="0.721104">
 					<IncludedMemoryFiles>
 						<File Id="325010461" Language="SFX">
 							<ShortName>EnemyDeath_02.wav</ShortName>
-							<Path>SFX\EnemyDeath_02_10C4C929.wem</Path>
+							<Path>SFX/EnemyDeath_02_10C4C929.wem</Path>
 						</File>
 						<File Id="485433404" Language="SFX">
 							<ShortName>EnemyDeath_01.wav</ShortName>
-							<Path>SFX\EnemyDeath_01_10C4C929.wem</Path>
+							<Path>SFX/EnemyDeath_01_10C4C929.wem</Path>
 						</File>
 						<File Id="722841921" Language="SFX">
 							<ShortName>EnemyDeath_03.wav</ShortName>
-							<Path>SFX\EnemyDeath_03_10C4C929.wem</Path>
+							<Path>SFX/EnemyDeath_03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Music">
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\MUSIC\Play_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="13308819" Language="SFX">
 							<ShortName>LOOP3_Theme_160bpm4-4_L24B-P0.wav</ShortName>
-							<Path>SFX\LOOP3_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
+							<Path>SFX/LOOP3_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
 						</File>
 						<File Id="352763716" Language="SFX">
 							<ShortName>TOWER LOW HEALTH LOOP1.wav</ShortName>
-							<Path>SFX\TOWER LOW HEALTH LOOP1_D79FB2B7.wem</Path>
+							<Path>SFX/TOWER LOW HEALTH LOOP1_D79FB2B7.wem</Path>
 						</File>
 						<File Id="389276387" Language="SFX">
 							<ShortName>Intro_Theme_160bpm4-4_L8B-P0.wav</ShortName>
-							<Path>SFX\Intro_Theme_160bpm4-4_L8B-P0_D79FB2B7.wem</Path>
+							<Path>SFX/Intro_Theme_160bpm4-4_L8B-P0_D79FB2B7.wem</Path>
 						</File>
 						<File Id="612728398" Language="SFX">
 							<ShortName>TOWER LOW HEALTH LOOP2.wav</ShortName>
-							<Path>SFX\TOWER LOW HEALTH LOOP2_D79FB2B7.wem</Path>
+							<Path>SFX/TOWER LOW HEALTH LOOP2_D79FB2B7.wem</Path>
 						</File>
 						<File Id="745136584" Language="SFX">
 							<ShortName>LOOP1_Theme_160bpm4-4_L24B-P0.wav</ShortName>
-							<Path>SFX\LOOP1_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
+							<Path>SFX/LOOP1_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
 						</File>
 						<File Id="894444604" Language="SFX">
 							<ShortName>LOOP2_Theme_160bpm4-4_L24B-P0.wav</ShortName>
-							<Path>SFX\LOOP2_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
+							<Path>SFX/LOOP2_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
 						</File>
 						<File Id="1052556189" Language="SFX">
 							<ShortName>GAMEOVER_Theme_160bpm4-4_L2B-P1.wav</ShortName>
-							<Path>SFX\GAMEOVER_Theme_160bpm4-4_L2B-P1_D79FB2B7.wem</Path>
+							<Path>SFX/GAMEOVER_Theme_160bpm4-4_L2B-P1_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -188,242 +188,242 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2921519631" Name="Play_PlayerAction_Footsteps" ObjectPath="\Events\Default Work Unit\Actions\Play_PlayerAction_Footsteps">
+				<Event Id="2921519631" Name="Play_PlayerAction_Footsteps" ObjectPath="\Events\Default Work Unit\Actions\Play_PlayerAction_Footsteps" DurationType="OneShot" DurationMin="0.300979" DurationMax="0.300979">
 					<IncludedMemoryFiles>
 						<File Id="452772847" Language="SFX">
 							<ShortName>Footstep_short 4-Footsteps 5-Footsteps_04.wav</ShortName>
-							<Path>SFX\Footstep_short 4-Footsteps 5-Footsteps_04_10C4C929.wem</Path>
+							<Path>SFX/Footstep_short 4-Footsteps 5-Footsteps_04_10C4C929.wem</Path>
 						</File>
 						<File Id="612134856" Language="SFX">
 							<ShortName>Footstep_short 2-Footsteps 3-Footsteps_02.wav</ShortName>
-							<Path>SFX\Footstep_short 2-Footsteps 3-Footsteps_02_10C4C929.wem</Path>
+							<Path>SFX/Footstep_short 2-Footsteps 3-Footsteps_02_10C4C929.wem</Path>
 						</File>
 						<File Id="707818089" Language="SFX">
 							<ShortName>Footstep_short 1-Footsteps 2-Footsteps_01.wav</ShortName>
-							<Path>SFX\Footstep_short 1-Footsteps 2-Footsteps_01_10C4C929.wem</Path>
+							<Path>SFX/Footstep_short 1-Footsteps 2-Footsteps_01_10C4C929.wem</Path>
 						</File>
 						<File Id="1008398602" Language="SFX">
 							<ShortName>Footstep_short 3-Footsteps 4-Footsteps_03.wav</ShortName>
-							<Path>SFX\Footstep_short 3-Footsteps 4-Footsteps_03_10C4C929.wem</Path>
+							<Path>SFX/Footstep_short 3-Footsteps 4-Footsteps_03_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3310026653" Name="Play_PlayerAction_ShieldHitGround" ObjectPath="\Events\Default Work Unit\Actions\Play_PlayerAction_ShieldHitGround">
+				<Event Id="3310026653" Name="Play_PlayerAction_ShieldHitGround" ObjectPath="\Events\Default Work Unit\Actions\Play_PlayerAction_ShieldHitGround" DurationType="OneShot" DurationMin="1.068313" DurationMax="1.102458">
 					<IncludedMemoryFiles>
 						<File Id="131447253" Language="SFX">
 							<ShortName>ShieldHitGround_04.wav</ShortName>
-							<Path>SFX\ShieldHitGround_04_10C4C929.wem</Path>
+							<Path>SFX/ShieldHitGround_04_10C4C929.wem</Path>
 						</File>
 						<File Id="450318515" Language="SFX">
 							<ShortName>ShieldHitGround_03.wav</ShortName>
-							<Path>SFX\ShieldHitGround_03_10C4C929.wem</Path>
+							<Path>SFX/ShieldHitGround_03_10C4C929.wem</Path>
 						</File>
 						<File Id="596530061" Language="SFX">
 							<ShortName>ShieldHitGround_01.wav</ShortName>
-							<Path>SFX\ShieldHitGround_01_10C4C929.wem</Path>
+							<Path>SFX/ShieldHitGround_01_10C4C929.wem</Path>
 						</File>
 						<File Id="986564088" Language="SFX">
 							<ShortName>ShieldHitGround_02.wav</ShortName>
-							<Path>SFX\ShieldHitGround_02_10C4C929.wem</Path>
+							<Path>SFX/ShieldHitGround_02_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3679264218" Name="Play_PlayerAction_Stun" ObjectPath="\Events\Default Work Unit\Actions\Play_PlayerAction_Stun">
+				<Event Id="3679264218" Name="Play_PlayerAction_Stun" ObjectPath="\Events\Default Work Unit\Actions\Play_PlayerAction_Stun" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="538769953" Language="SFX">
 							<ShortName>ES_Bird Turkey Honks - SFX Producer.wav</ShortName>
-							<Path>SFX\ES_Bird Turkey Honks - SFX Producer_D79FB2B7.wem</Path>
+							<Path>SFX/ES_Bird Turkey Honks - SFX Producer_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3738451200" Name="Play_Playerrangeattack" ObjectPath="\Events\Default Work Unit\Actions\Play_Playerrangeattack">
+				<Event Id="3738451200" Name="Play_Playerrangeattack" ObjectPath="\Events\Default Work Unit\Actions\Play_Playerrangeattack" DurationType="OneShot" DurationMin="0.53385" DurationMax="0.951212">
 					<IncludedMemoryFiles>
 						<File Id="42596239" Language="SFX">
 							<ShortName>Playerrangeattack.wav</ShortName>
-							<Path>SFX\Playerrangeattack_10C4C929.wem</Path>
+							<Path>SFX/Playerrangeattack_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2885484543" Name="Play_UI_Click_UI_Click_01" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Click_UI_Click_01">
+				<Event Id="2885484543" Name="Play_UI_Click_UI_Click_01" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Click_UI_Click_01" DurationType="OneShot" DurationMin="0.130455" DurationMax="0.130455">
 					<IncludedMemoryFiles>
 						<File Id="481854232" Language="SFX">
 							<ShortName>UI_Click UI_Click_01.wav</ShortName>
-							<Path>SFX\UI_Click UI_Click_01_3C8D3224.wem</Path>
+							<Path>SFX/UI_Click UI_Click_01_3C8D3224.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2885484540" Name="Play_UI_Click_UI_Click_02" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Click_UI_Click_02">
+				<Event Id="2885484540" Name="Play_UI_Click_UI_Click_02" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Click_UI_Click_02" DurationType="OneShot" DurationMin="0.130853" DurationMax="0.130853">
 					<IncludedMemoryFiles>
 						<File Id="365997334" Language="SFX">
 							<ShortName>UI_Click UI_Click_02.wav</ShortName>
-							<Path>SFX\UI_Click UI_Click_02_3D9B6D0B.wem</Path>
+							<Path>SFX/UI_Click UI_Click_02_3D9B6D0B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4266309517" Name="Play_UI_ClickButton" ObjectPath="\Events\Default Work Unit\UI\Play_UI_ClickButton">
+				<Event Id="4266309517" Name="Play_UI_ClickButton" ObjectPath="\Events\Default Work Unit\UI\Play_UI_ClickButton" DurationType="OneShot" DurationMin="0.137625" DurationMax="0.137625">
 					<IncludedMemoryFiles>
 						<File Id="906450405" Language="SFX">
 							<ShortName>UI_ClickButton.wav</ShortName>
-							<Path>SFX\UI_ClickButton_F42A9ABE.wem</Path>
+							<Path>SFX/UI_ClickButton_F42A9ABE.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1875280069" Name="Stop_Earthquake_Sound_Design_02" ObjectPath="\Events\Default Work Unit\Ambient\Stop_Earthquake_Sound_Design_02"/>
-				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\MUSIC\Stop_Music"/>
-				<Event Id="2913298624" Name="Stop_PlayerAction_Stun" ObjectPath="\Events\Default Work Unit\Actions\Stop_PlayerAction_Stun"/>
+				<Event Id="1875280069" Name="Stop_Earthquake_Sound_Design_02" ObjectPath="\Events\Default Work Unit\Ambient\Stop_Earthquake_Sound_Design_02" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\MUSIC\Stop_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2913298624" Name="Stop_PlayerAction_Stun" ObjectPath="\Events\Default Work Unit\Actions\Stop_PlayerAction_Stun" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="13308819" Language="SFX">
 					<ShortName>LOOP3_Theme_160bpm4-4_L24B-P0.wav</ShortName>
-					<Path>SFX\LOOP3_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
+					<Path>SFX/LOOP3_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
 				</File>
 				<File Id="42596239" Language="SFX">
 					<ShortName>Playerrangeattack.wav</ShortName>
-					<Path>SFX\Playerrangeattack_10C4C929.wem</Path>
+					<Path>SFX/Playerrangeattack_10C4C929.wem</Path>
 				</File>
 				<File Id="129082813" Language="SFX">
 					<ShortName>Enemy02_attack 5-enemy02_attack enemy02_attack_02.wav</ShortName>
-					<Path>SFX\Enemy02_attack 5-enemy02_attack enemy02_attack_02_10C4C929.wem</Path>
+					<Path>SFX/Enemy02_attack 5-enemy02_attack enemy02_attack_02_10C4C929.wem</Path>
 				</File>
 				<File Id="131447253" Language="SFX">
 					<ShortName>ShieldHitGround_04.wav</ShortName>
-					<Path>SFX\ShieldHitGround_04_10C4C929.wem</Path>
+					<Path>SFX/ShieldHitGround_04_10C4C929.wem</Path>
 				</File>
 				<File Id="215215589" Language="SFX">
 					<ShortName>Earthquake Sound Design_02.wav</ShortName>
-					<Path>SFX\Earthquake Sound Design_02_28761FF9.wem</Path>
+					<Path>SFX/Earthquake Sound Design_02_28761FF9.wem</Path>
 				</File>
 				<File Id="277373959" Language="SFX">
 					<ShortName>Enemy01_attack 6-Enemy01_attack 3.wav</ShortName>
-					<Path>SFX\Enemy01_attack 6-Enemy01_attack 3_10C4C929.wem</Path>
+					<Path>SFX/Enemy01_attack 6-Enemy01_attack 3_10C4C929.wem</Path>
 				</File>
 				<File Id="325010461" Language="SFX">
 					<ShortName>EnemyDeath_02.wav</ShortName>
-					<Path>SFX\EnemyDeath_02_10C4C929.wem</Path>
+					<Path>SFX/EnemyDeath_02_10C4C929.wem</Path>
 				</File>
 				<File Id="329213713" Language="SFX">
 					<ShortName>Enemy01_attack 7-Enemy01_attack 3.wav</ShortName>
-					<Path>SFX\Enemy01_attack 7-Enemy01_attack 3_10C4C929.wem</Path>
+					<Path>SFX/Enemy01_attack 7-Enemy01_attack 3_10C4C929.wem</Path>
 				</File>
 				<File Id="352763716" Language="SFX">
 					<ShortName>TOWER LOW HEALTH LOOP1.wav</ShortName>
-					<Path>SFX\TOWER LOW HEALTH LOOP1_D79FB2B7.wem</Path>
+					<Path>SFX/TOWER LOW HEALTH LOOP1_D79FB2B7.wem</Path>
 				</File>
 				<File Id="365997334" Language="SFX">
 					<ShortName>UI_Click UI_Click_02.wav</ShortName>
-					<Path>SFX\UI_Click UI_Click_02_3D9B6D0B.wem</Path>
+					<Path>SFX/UI_Click UI_Click_02_3D9B6D0B.wem</Path>
 				</File>
 				<File Id="389276387" Language="SFX">
 					<ShortName>Intro_Theme_160bpm4-4_L8B-P0.wav</ShortName>
-					<Path>SFX\Intro_Theme_160bpm4-4_L8B-P0_D79FB2B7.wem</Path>
+					<Path>SFX/Intro_Theme_160bpm4-4_L8B-P0_D79FB2B7.wem</Path>
 				</File>
 				<File Id="390703524" Language="SFX">
 					<ShortName>Enemy03_attack 9-enemy03_attack fire_03.wav</ShortName>
-					<Path>SFX\Enemy03_attack 9-enemy03_attack fire_03_10C4C929.wem</Path>
+					<Path>SFX/Enemy03_attack 9-enemy03_attack fire_03_10C4C929.wem</Path>
 				</File>
 				<File Id="413127483" Language="SFX">
 					<ShortName>Enemy02Death 2-EnemyDeath_01 (Freeze).wav</ShortName>
-					<Path>SFX\Enemy02Death 2-EnemyDeath_01 (Freeze)_10C4C929.wem</Path>
+					<Path>SFX/Enemy02Death 2-EnemyDeath_01 (Freeze)_10C4C929.wem</Path>
 				</File>
 				<File Id="419741344" Language="SFX">
 					<ShortName>Enemy03_attack 7-enemy03_attack fire_01.wav</ShortName>
-					<Path>SFX\Enemy03_attack 7-enemy03_attack fire_01_10C4C929.wem</Path>
+					<Path>SFX/Enemy03_attack 7-enemy03_attack fire_01_10C4C929.wem</Path>
 				</File>
 				<File Id="431086195" Language="SFX">
 					<ShortName>Enemy01_attack Enemy01_attack.wav</ShortName>
-					<Path>SFX\Enemy01_attack Enemy01_attack_10C4C929.wem</Path>
+					<Path>SFX/Enemy01_attack Enemy01_attack_10C4C929.wem</Path>
 				</File>
 				<File Id="450318515" Language="SFX">
 					<ShortName>ShieldHitGround_03.wav</ShortName>
-					<Path>SFX\ShieldHitGround_03_10C4C929.wem</Path>
+					<Path>SFX/ShieldHitGround_03_10C4C929.wem</Path>
 				</File>
 				<File Id="452772847" Language="SFX">
 					<ShortName>Footstep_short 4-Footsteps 5-Footsteps_04.wav</ShortName>
-					<Path>SFX\Footstep_short 4-Footsteps 5-Footsteps_04_10C4C929.wem</Path>
+					<Path>SFX/Footstep_short 4-Footsteps 5-Footsteps_04_10C4C929.wem</Path>
 				</File>
 				<File Id="463225209" Language="SFX">
 					<ShortName>Ambient_SeaWind.wav</ShortName>
-					<Path>SFX\Ambient_SeaWind_D79FB2B7.wem</Path>
+					<Path>SFX/Ambient_SeaWind_D79FB2B7.wem</Path>
 				</File>
 				<File Id="465862928" Language="SFX">
 					<ShortName>Enemy02_attack 6-enemy02_attack enemy02_attack_3.wav</ShortName>
-					<Path>SFX\Enemy02_attack 6-enemy02_attack enemy02_attack_3_10C4C929.wem</Path>
+					<Path>SFX/Enemy02_attack 6-enemy02_attack enemy02_attack_3_10C4C929.wem</Path>
 				</File>
 				<File Id="481854232" Language="SFX">
 					<ShortName>UI_Click UI_Click_01.wav</ShortName>
-					<Path>SFX\UI_Click UI_Click_01_3C8D3224.wem</Path>
+					<Path>SFX/UI_Click UI_Click_01_3C8D3224.wem</Path>
 				</File>
 				<File Id="485433404" Language="SFX">
 					<ShortName>EnemyDeath_01.wav</ShortName>
-					<Path>SFX\EnemyDeath_01_10C4C929.wem</Path>
+					<Path>SFX/EnemyDeath_01_10C4C929.wem</Path>
 				</File>
 				<File Id="522187151" Language="SFX">
 					<ShortName>Enemy02_attack 4-enemy02_attack enemy02_attack_01.wav</ShortName>
-					<Path>SFX\Enemy02_attack 4-enemy02_attack enemy02_attack_01_10C4C929.wem</Path>
+					<Path>SFX/Enemy02_attack 4-enemy02_attack enemy02_attack_01_10C4C929.wem</Path>
 				</File>
 				<File Id="538769953" Language="SFX">
 					<ShortName>ES_Bird Turkey Honks - SFX Producer.wav</ShortName>
-					<Path>SFX\ES_Bird Turkey Honks - SFX Producer_D79FB2B7.wem</Path>
+					<Path>SFX/ES_Bird Turkey Honks - SFX Producer_D79FB2B7.wem</Path>
 				</File>
 				<File Id="573268300" Language="SFX">
 					<ShortName>Enemy03_attack 8-enemy03_attack fire_02.wav</ShortName>
-					<Path>SFX\Enemy03_attack 8-enemy03_attack fire_02_10C4C929.wem</Path>
+					<Path>SFX/Enemy03_attack 8-enemy03_attack fire_02_10C4C929.wem</Path>
 				</File>
 				<File Id="596530061" Language="SFX">
 					<ShortName>ShieldHitGround_01.wav</ShortName>
-					<Path>SFX\ShieldHitGround_01_10C4C929.wem</Path>
+					<Path>SFX/ShieldHitGround_01_10C4C929.wem</Path>
 				</File>
 				<File Id="612134856" Language="SFX">
 					<ShortName>Footstep_short 2-Footsteps 3-Footsteps_02.wav</ShortName>
-					<Path>SFX\Footstep_short 2-Footsteps 3-Footsteps_02_10C4C929.wem</Path>
+					<Path>SFX/Footstep_short 2-Footsteps 3-Footsteps_02_10C4C929.wem</Path>
 				</File>
 				<File Id="612728398" Language="SFX">
 					<ShortName>TOWER LOW HEALTH LOOP2.wav</ShortName>
-					<Path>SFX\TOWER LOW HEALTH LOOP2_D79FB2B7.wem</Path>
+					<Path>SFX/TOWER LOW HEALTH LOOP2_D79FB2B7.wem</Path>
 				</File>
 				<File Id="707818089" Language="SFX">
 					<ShortName>Footstep_short 1-Footsteps 2-Footsteps_01.wav</ShortName>
-					<Path>SFX\Footstep_short 1-Footsteps 2-Footsteps_01_10C4C929.wem</Path>
+					<Path>SFX/Footstep_short 1-Footsteps 2-Footsteps_01_10C4C929.wem</Path>
 				</File>
 				<File Id="722137304" Language="SFX">
 					<ShortName>Enemy01_attack 5-Enemy01_attack 3.wav</ShortName>
-					<Path>SFX\Enemy01_attack 5-Enemy01_attack 3_10C4C929.wem</Path>
+					<Path>SFX/Enemy01_attack 5-Enemy01_attack 3_10C4C929.wem</Path>
 				</File>
 				<File Id="722841921" Language="SFX">
 					<ShortName>EnemyDeath_03.wav</ShortName>
-					<Path>SFX\EnemyDeath_03_10C4C929.wem</Path>
+					<Path>SFX/EnemyDeath_03_10C4C929.wem</Path>
 				</File>
 				<File Id="745136584" Language="SFX">
 					<ShortName>LOOP1_Theme_160bpm4-4_L24B-P0.wav</ShortName>
-					<Path>SFX\LOOP1_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
+					<Path>SFX/LOOP1_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
 				</File>
 				<File Id="894444604" Language="SFX">
 					<ShortName>LOOP2_Theme_160bpm4-4_L24B-P0.wav</ShortName>
-					<Path>SFX\LOOP2_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
+					<Path>SFX/LOOP2_Theme_160bpm4-4_L24B-P0_D79FB2B7.wem</Path>
 				</File>
 				<File Id="906450405" Language="SFX">
 					<ShortName>UI_ClickButton.wav</ShortName>
-					<Path>SFX\UI_ClickButton_F42A9ABE.wem</Path>
+					<Path>SFX/UI_ClickButton_F42A9ABE.wem</Path>
 				</File>
 				<File Id="986564088" Language="SFX">
 					<ShortName>ShieldHitGround_02.wav</ShortName>
-					<Path>SFX\ShieldHitGround_02_10C4C929.wem</Path>
+					<Path>SFX/ShieldHitGround_02_10C4C929.wem</Path>
 				</File>
 				<File Id="1008398602" Language="SFX">
 					<ShortName>Footstep_short 3-Footsteps 4-Footsteps_03.wav</ShortName>
-					<Path>SFX\Footstep_short 3-Footsteps 4-Footsteps_03_10C4C929.wem</Path>
+					<Path>SFX/Footstep_short 3-Footsteps 4-Footsteps_03_10C4C929.wem</Path>
 				</File>
 				<File Id="1021260072" Language="SFX">
 					<ShortName>Enemy02Death 3-Audio.wav</ShortName>
-					<Path>SFX\Enemy02Death 3-Audio_10C4C929.wem</Path>
+					<Path>SFX/Enemy02Death 3-Audio_10C4C929.wem</Path>
 				</File>
 				<File Id="1024915282" Language="SFX">
 					<ShortName>Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze).wav</ShortName>
-					<Path>SFX\Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)_E19C97D1.wem</Path>
+					<Path>SFX/Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)_E19C97D1.wem</Path>
 				</File>
 				<File Id="1052556189" Language="SFX">
 					<ShortName>GAMEOVER_Theme_160bpm4-4_L2B-P1.wav</ShortName>
-					<Path>SFX\GAMEOVER_Theme_160bpm4-4_L2B-P1_D79FB2B7.wem</Path>
+					<Path>SFX/GAMEOVER_Theme_160bpm4-4_L2B-P1_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
