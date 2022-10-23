@@ -126,6 +126,39 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Enemy01Death_2_EnemyDeath_01" ID="{A8DD92A1-2123-42B7-925C-A98620BBAACD}">
+							<ChildrenList>
+								<Action Name="" ID="{33C566E1-E8E4-4159-B126-1C6CAD00E6A6}" ShortID="502904652">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy01Death 2-EnemyDeath_01" ID="{F1BB715C-941F-4596-8004-E0A7BBBFC955}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_" ID="{F171C25C-695E-44F0-A3FF-708B34BD33B8}">
+							<ChildrenList>
+								<Action Name="" ID="{A9256F94-FD0B-4D6B-8DD4-C7B7E1CCB19B}" ShortID="536373238">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)" ID="{977D7221-F1BF-4778-BC2B-365A4F4D263D}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Enemy03Death_3_Audio" ID="{459CEE36-B835-4679-8DBE-E858843C1289}">
+							<ChildrenList>
+								<Action Name="" ID="{4E69D1ED-F22B-4339-92D3-522016BAF477}" ShortID="778843916">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy03Death 3-Audio" ID="{1AE8A315-B5E5-4419-88AF-7C1AB5CC36E7}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{F54BD7FA-726F-4B02-8A90-EBBE370E44BA}" ShortID="528147538">

@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	167355073	Play_Enemy02Action_Attack			\Default Work Unit\Actions\Play_Enemy02Action_Attack	
 	440412518	Play_Enemy03Action_Attack			\Default Work Unit\Actions\Play_Enemy03Action_Attack	
+	692581920	Play_Enemy03Death_3_Audio			\Default Work Unit\Actions\Play_Enemy03Death_3_Audio	
 	1644515775	Play_Earthquake_Sound_Design_02			\Default Work Unit\Ambient\Play_Earthquake_Sound_Design_02	
+	1675605981	Play_Enemy01Death_2_EnemyDeath_01			\Default Work Unit\Actions\Play_Enemy01Death_2_EnemyDeath_01	
 	1875280069	Stop_Earthquake_Sound_Design_02			\Default Work Unit\Ambient\Stop_Earthquake_Sound_Design_02	
 	2091649423	Play_EnemyAction_Death			\Default Work Unit\Actions\Play_EnemyAction_Death	
 	2803723436	Play_Enemy01Action_Attack			\Default Work Unit\Actions\Play_Enemy01Action_Attack	
@@ -12,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2921519631	Play_PlayerAction_Footsteps			\Default Work Unit\Actions\Play_PlayerAction_Footsteps	
 	2932040671	Play_Music			\Default Work Unit\MUSIC\Play_Music	
 	3310026653	Play_PlayerAction_ShieldHitGround			\Default Work Unit\Actions\Play_PlayerAction_ShieldHitGround	
+	3593360766	Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_			\Default Work Unit\Actions\Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_	
 	3679264218	Play_PlayerAction_Stun			\Default Work Unit\Actions\Play_PlayerAction_Stun	
 	3954601140	Play_Ambient_SeaWind			\Default Work Unit\Ambient\Play_Ambient_SeaWind	
 	4266309517	Play_UI_ClickButton			\Default Work Unit\UI\Play_UI_ClickButton	
@@ -42,6 +45,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	365997334	UI_Click UI_Click_02	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\UI_Click UI_Click_02_3D9B6D0B.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Click UI_Click_02		25188
 	389276387	Intro_Theme_160bpm4-4_L8B-P0	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Intro_Theme_160bpm4-4_L8B-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GAMEPLAY MUSIC\THEME_TO_GAMEOVER_SWITCH\THEME\Intro_Theme_160bpm4-4_L8B-P0\Intro_Theme_160bpm4-4_L8B-P0		3168064
 	390703524	Enemy03_attack 9-enemy03_attack fire_03	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Enemy03_attack 9-enemy03_attack fire_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy03Action_Attack\Enemy03_attack 9-enemy03_attack fire_03		213776
+	413127483	Enemy01Death 2-EnemyDeath_01	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Enemy02Death 2-EnemyDeath_01 (Freeze)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy01Death 2-EnemyDeath_01		109572
 	419741344	Enemy03_attack 7-enemy03_attack fire_01	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Enemy03_attack 7-enemy03_attack fire_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy03Action_Attack\Enemy03_attack 7-enemy03_attack fire_01		213776
 	431086195	Enemy01_attack Enemy01_attack	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Enemy01_attack Enemy01_attack_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy01Action_Attack\Enemy01_attack Enemy01_attack		209592
 	450318515	ShieldHitGround_03	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\ShieldHitGround_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_ShieldHitGround\ShieldHitGround_03		211736
@@ -64,5 +68,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	906450405	UI_ClickButton	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\UI_ClickButton_F42A9ABE.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_ClickButton		26488
 	986564088	ShieldHitGround_02	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\ShieldHitGround_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_ShieldHitGround\ShieldHitGround_02		205180
 	1008398602	Footstep_short 3-Footsteps 4-Footsteps_03	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Footstep_short 3-Footsteps 4-Footsteps_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\Footstep_short 3-Footsteps 4-Footsteps_03		57852
+	1021260072	Enemy03Death 3-Audio	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Enemy02Death 3-Audio_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy03Death 3-Audio		109572
+	1024915282	Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)_E8F2F10B.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)		109572
 	1052556189	GAMEOVER_Theme_160bpm4-4_L2B-P1	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Windows\SFX\GAMEOVER_Theme_160bpm4-4_L2B-P1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GAMEPLAY MUSIC\THEME_TO_GAMEOVER_SWITCH\GAMEOVER\GAMEOVER_Theme_160bpm4-4_L2B-P1\GAMEOVER_Theme_160bpm4-4_L2B-P1		1440064
 

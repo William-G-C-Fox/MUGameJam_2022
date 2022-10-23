@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="353989556">
+		<SoundBank Id="3161908922" Language="SFX" Hash="477248371">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -57,6 +57,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1675605981" Name="Play_Enemy01Death_2_EnemyDeath_01" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy01Death_2_EnemyDeath_01" DurationType="OneShot" DurationMin="0.570354" DurationMax="0.570354">
+					<IncludedMemoryFiles>
+						<File Id="413127483" Language="SFX">
+							<ShortName>Enemy02Death 2-EnemyDeath_01 (Freeze).wav</ShortName>
+							<Path>SFX/Enemy02Death 2-EnemyDeath_01 (Freeze)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="167355073" Name="Play_Enemy02Action_Attack" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy02Action_Attack" DurationType="OneShot" DurationMin="0.532854" DurationMax="0.532854">
 					<IncludedMemoryFiles>
 						<File Id="129082813" Language="SFX">
@@ -73,6 +81,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3593360766" Name="Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_" DurationType="OneShot" DurationMin="0.570354" DurationMax="0.570354">
+					<IncludedMemoryFiles>
+						<File Id="1024915282" Language="SFX">
+							<ShortName>Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze).wav</ShortName>
+							<Path>SFX/Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)_E8F2F10B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="440412518" Name="Play_Enemy03Action_Attack" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy03Action_Attack" DurationType="OneShot" DurationMin="1.113083" DurationMax="1.113083">
 					<IncludedMemoryFiles>
 						<File Id="390703524" Language="SFX">
@@ -86,6 +102,14 @@
 						<File Id="573268300" Language="SFX">
 							<ShortName>Enemy03_attack 8-enemy03_attack fire_02.wav</ShortName>
 							<Path>SFX/Enemy03_attack 8-enemy03_attack fire_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="692581920" Name="Play_Enemy03Death_3_Audio" ObjectPath="\Events\Default Work Unit\Actions\Play_Enemy03Death_3_Audio" DurationType="OneShot" DurationMin="0.570354" DurationMax="0.570354">
+					<IncludedMemoryFiles>
+						<File Id="1021260072" Language="SFX">
+							<ShortName>Enemy02Death 3-Audio.wav</ShortName>
+							<Path>SFX/Enemy02Death 3-Audio_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -285,6 +309,10 @@
 					<ShortName>Enemy03_attack 9-enemy03_attack fire_03.wav</ShortName>
 					<Path>SFX/Enemy03_attack 9-enemy03_attack fire_03_10C4C929.wem</Path>
 				</File>
+				<File Id="413127483" Language="SFX">
+					<ShortName>Enemy02Death 2-EnemyDeath_01 (Freeze).wav</ShortName>
+					<Path>SFX/Enemy02Death 2-EnemyDeath_01 (Freeze)_10C4C929.wem</Path>
+				</File>
 				<File Id="419741344" Language="SFX">
 					<ShortName>Enemy03_attack 7-enemy03_attack fire_01.wav</ShortName>
 					<Path>SFX/Enemy03_attack 7-enemy03_attack fire_01_10C4C929.wem</Path>
@@ -372,6 +400,14 @@
 				<File Id="1008398602" Language="SFX">
 					<ShortName>Footstep_short 3-Footsteps 4-Footsteps_03.wav</ShortName>
 					<Path>SFX/Footstep_short 3-Footsteps 4-Footsteps_03_10C4C929.wem</Path>
+				</File>
+				<File Id="1021260072" Language="SFX">
+					<ShortName>Enemy02Death 3-Audio.wav</ShortName>
+					<Path>SFX/Enemy02Death 3-Audio_10C4C929.wem</Path>
+				</File>
+				<File Id="1024915282" Language="SFX">
+					<ShortName>Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze).wav</ShortName>
+					<Path>SFX/Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)_E8F2F10B.wem</Path>
 				</File>
 				<File Id="1052556189" Language="SFX">
 					<ShortName>GAMEOVER_Theme_160bpm4-4_L2B-P1.wav</ShortName>

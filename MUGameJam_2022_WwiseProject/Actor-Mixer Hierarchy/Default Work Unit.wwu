@@ -691,6 +691,80 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<Sound Name="Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)" ID="{977D7221-F1BF-4778-BC2B-365A4F4D263D}" ShortID="202335736">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B677191-76F8-43C0-BF37-162BF8A2B297}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A3C04FE0-D0C2-45A1-ABDF-D2D75E8D5A0A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)" ID="{17729A56-DD54-4DCA-9683-84FA0D2D1802}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.207176404968645"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1024915282"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Enemy02Death 1-ES_Fireball Burst 4 - SFX Producer (Freeze)" ID="{17729A56-DD54-4DCA-9683-84FA0D2D1802}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Enemy01Death 2-EnemyDeath_01" ID="{F1BB715C-941F-4596-8004-E0A7BBBFC955}" ShortID="472933576">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B677191-76F8-43C0-BF37-162BF8A2B297}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A3C04FE0-D0C2-45A1-ABDF-D2D75E8D5A0A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Enemy02Death 2-EnemyDeath_01 (Freeze)" ID="{6347D58A-F681-44E9-887D-420561242BC5}">
+									<Language>SFX</Language>
+									<AudioFile>Enemy02Death 2-EnemyDeath_01 (Freeze).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="413127483"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Enemy02Death 2-EnemyDeath_01 (Freeze)" ID="{6347D58A-F681-44E9-887D-420561242BC5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Enemy03Death 3-Audio" ID="{1AE8A315-B5E5-4419-88AF-7C1AB5CC36E7}" ShortID="810942849">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B677191-76F8-43C0-BF37-162BF8A2B297}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A3C04FE0-D0C2-45A1-ABDF-D2D75E8D5A0A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Enemy02Death 3-Audio" ID="{B729F269-5C1B-455F-A0D9-FC3DA4032D7C}">
+									<Language>SFX</Language>
+									<AudioFile>Enemy02Death 3-Audio.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1021260072"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Enemy02Death 3-Audio" ID="{B729F269-5C1B-455F-A0D9-FC3DA4032D7C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7c08bb7f881484e88ff6b5426ff6c1, type: 3}
+  m_Name: F171C25C-695E-44F0-A3FF-708B34BD33B8
+  m_EditorClassIdentifier: 
+  objectName: Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_
+  id: 3593360766
+  guid: F171C25C-695E-44F0-A3FF-708B34BD33B8

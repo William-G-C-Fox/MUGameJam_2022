@@ -5,7 +5,10 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{84D2118D-A201-4638-85F2-844877F8B8DD}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Enemy01Death_2_EnemyDeath_01" ID="{A8DD92A1-2123-42B7-925C-A98620BBAACD}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MUSIC" ID="{FAC0E512-2BFB-4407-B159-89CBC9CC3A7A}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_" ID="{F171C25C-695E-44F0-A3FF-708B34BD33B8}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Enemy03Death_3_Audio" ID="{459CEE36-B835-4679-8DBE-E858843C1289}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PlayerAction_Stun" ID="{DD2B0C9F-66A0-48FE-A5FD-A71B43F5FDB2}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Earthquake_Sound_Design_02" ID="{A0CDF142-C4AB-4963-9EBC-73CE6FF7FFC3}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient" ID="{FF2B1F9E-78AE-4A15-8BC8-005F84011359}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
