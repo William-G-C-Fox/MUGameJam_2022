@@ -101,6 +101,31 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_PlayerAction_Stun" ID="{A3E5782B-C878-4EDF-967A-16109AD1E490}">
+							<ChildrenList>
+								<Action Name="" ID="{F58999FC-7E76-445E-BB95-7C6C00A9397F}" ShortID="398308802">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerAction_Stun" ID="{7806E24F-7888-4F99-BB8F-FFD054C5BBAA}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PlayerAction_Stun" ID="{DD2B0C9F-66A0-48FE-A5FD-A71B43F5FDB2}">
+							<ChildrenList>
+								<Action Name="" ID="{BA163592-CA59-4CDB-B096-8CF0924A1CD9}" ShortID="831006871">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerAction_Stun" ID="{7806E24F-7888-4F99-BB8F-FFD054C5BBAA}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{F54BD7FA-726F-4B02-8A90-EBBE370E44BA}" ShortID="528147538">

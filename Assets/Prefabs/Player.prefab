@@ -184,6 +184,14 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 082f4bc94b6f34d4cba51e3083975a90, type: 2}
+  PlayerActionStunPlay:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cb24508afcb74464a9a4d166f573d907, type: 2}
+  PlayerActionStunStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f0a5696d432cc45c69d78ffe0f8d3353, type: 2}
 --- !u!1 &5841809297705891841
 GameObject:
   m_ObjectHideFlags: 0

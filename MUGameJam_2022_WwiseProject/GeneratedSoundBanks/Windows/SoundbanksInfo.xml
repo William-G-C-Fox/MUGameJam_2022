@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3332109138">
+		<SoundBank Id="3161908922" Language="SFX" Hash="353989556">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -204,6 +204,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3679264218" Name="Play_PlayerAction_Stun" ObjectPath="\Events\Default Work Unit\Actions\Play_PlayerAction_Stun" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="538769953" Language="SFX">
+							<ShortName>ES_Bird Turkey Honks - SFX Producer.wav</ShortName>
+							<Path>SFX/ES_Bird Turkey Honks - SFX Producer_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2885484543" Name="Play_UI_Click_UI_Click_01" ObjectPath="\Events\Default Work Unit\UI\Play_UI_Click_UI_Click_01" DurationType="OneShot" DurationMin="0.130455" DurationMax="0.130455">
 					<IncludedMemoryFiles>
 						<File Id="481854232" Language="SFX">
@@ -230,6 +238,7 @@
 				</Event>
 				<Event Id="1875280069" Name="Stop_Earthquake_Sound_Design_02" ObjectPath="\Events\Default Work Unit\Ambient\Stop_Earthquake_Sound_Design_02" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\MUSIC\Stop_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2913298624" Name="Stop_PlayerAction_Stun" ObjectPath="\Events\Default Work Unit\Actions\Stop_PlayerAction_Stun" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="13308819" Language="SFX">
@@ -311,6 +320,10 @@
 				<File Id="522187151" Language="SFX">
 					<ShortName>Enemy02_attack 4-enemy02_attack enemy02_attack_01.wav</ShortName>
 					<Path>SFX/Enemy02_attack 4-enemy02_attack enemy02_attack_01_10C4C929.wem</Path>
+				</File>
+				<File Id="538769953" Language="SFX">
+					<ShortName>ES_Bird Turkey Honks - SFX Producer.wav</ShortName>
+					<Path>SFX/ES_Bird Turkey Honks - SFX Producer_D79FB2B7.wem</Path>
 				</File>
 				<File Id="573268300" Language="SFX">
 					<ShortName>Enemy03_attack 8-enemy03_attack fire_02.wav</ShortName>

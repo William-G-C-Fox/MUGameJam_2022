@@ -22,11 +22,13 @@ namespace AK
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_PLAYERACTION_FOOTSTEPS = 2921519631U;
         static const AkUniqueID PLAY_PLAYERACTION_SHIELDHITGROUND = 3310026653U;
+        static const AkUniqueID PLAY_PLAYERACTION_STUN = 3679264218U;
         static const AkUniqueID PLAY_UI_CLICK_UI_CLICK_01 = 2885484543U;
         static const AkUniqueID PLAY_UI_CLICK_UI_CLICK_02 = 2885484540U;
         static const AkUniqueID PLAY_UI_CLICKBUTTON = 4266309517U;
         static const AkUniqueID STOP_EARTHQUAKE_SOUND_DESIGN_02 = 1875280069U;
         static const AkUniqueID STOP_MUSIC = 2837384057U;
+        static const AkUniqueID STOP_PLAYERACTION_STUN = 2913298624U;
     } // namespace EVENTS
 
     namespace STATES

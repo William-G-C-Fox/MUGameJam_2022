@@ -6,11 +6,13 @@
 				<SoundBank Name="Main" ID="{84D2118D-A201-4638-85F2-844877F8B8DD}">
 					<ObjectInclusionList>
 						<ObjectRef Name="MUSIC" ID="{FAC0E512-2BFB-4407-B159-89CBC9CC3A7A}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PlayerAction_Stun" ID="{DD2B0C9F-66A0-48FE-A5FD-A71B43F5FDB2}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Earthquake_Sound_Design_02" ID="{A0CDF142-C4AB-4963-9EBC-73CE6FF7FFC3}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient" ID="{FF2B1F9E-78AE-4A15-8BC8-005F84011359}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}" WorkUnitID="{09ED38D7-356D-4A5C-80B7-5A2D4E4E610E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI" ID="{F54BD7FA-726F-4B02-8A90-EBBE370E44BA}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Actions" ID="{972D6600-2081-4C9A-B970-2F3C51427501}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_PlayerAction_Stun" ID="{A3E5782B-C878-4EDF-967A-16109AD1E490}" WorkUnitID="{454420F5-C37D-443D-A6D9-30C04097B8D3}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GAMEPLAY MUSIC" ID="{7F8F688C-6F9B-4FE4-A3B3-D61D203D33DA}" WorkUnitID="{7F8F688C-6F9B-4FE4-A3B3-D61D203D33DA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

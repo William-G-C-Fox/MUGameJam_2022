@@ -8,9 +8,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	2837384057	Stop_Music			\Default Work Unit\MUSIC\Stop_Music	
 	2885484540	Play_UI_Click_UI_Click_02			\Default Work Unit\UI\Play_UI_Click_UI_Click_02	
 	2885484543	Play_UI_Click_UI_Click_01			\Default Work Unit\UI\Play_UI_Click_UI_Click_01	
+	2913298624	Stop_PlayerAction_Stun			\Default Work Unit\Actions\Stop_PlayerAction_Stun	
 	2921519631	Play_PlayerAction_Footsteps			\Default Work Unit\Actions\Play_PlayerAction_Footsteps	
 	2932040671	Play_Music			\Default Work Unit\MUSIC\Play_Music	
 	3310026653	Play_PlayerAction_ShieldHitGround			\Default Work Unit\Actions\Play_PlayerAction_ShieldHitGround	
+	3679264218	Play_PlayerAction_Stun			\Default Work Unit\Actions\Play_PlayerAction_Stun	
 	3954601140	Play_Ambient_SeaWind			\Default Work Unit\Ambient\Play_Ambient_SeaWind	
 	4266309517	Play_UI_ClickButton			\Default Work Unit\UI\Play_UI_ClickButton	
 
@@ -49,6 +51,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	481854232	UI_Click UI_Click_01	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Mac\SFX\UI_Click UI_Click_01_3C8D3224.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Click UI_Click_01		25112
 	485433404	EnemyDeath_01	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Mac\SFX\EnemyDeath_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\EnemyAction_Death\EnemyDeath_01		138516
 	522187151	Enemy02_attack 4-enemy02_attack enemy02_attack_01	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Mac\SFX\Enemy02_attack 4-enemy02_attack enemy02_attack_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy02Action_Attack\Enemy02_attack 4-enemy02_attack enemy02_attack_01		102372
+	538769953	PlayerAction_Stun	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Mac\SFX\ES_Bird Turkey Honks - SFX Producer_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Stun		333888
 	573268300	Enemy03_attack 8-enemy03_attack fire_02	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Mac\SFX\Enemy03_attack 8-enemy03_attack fire_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyAction\Enemy03Action_Attack\Enemy03_attack 8-enemy03_attack fire_02		213776
 	596530061	ShieldHitGround_01	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Mac\SFX\ShieldHitGround_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_ShieldHitGround\ShieldHitGround_01		208924
 	612134856	Footstep_short 2-Footsteps 3-Footsteps_02	Y:\Documents\GitHub\MUGameJam_2022\MUGameJam_2022_WwiseProject\.cache\Mac\SFX\Footstep_short 2-Footsteps 3-Footsteps_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerAction\PlayerAction_Footsteps\Footstep_short 2-Footsteps 3-Footsteps_02		57852
