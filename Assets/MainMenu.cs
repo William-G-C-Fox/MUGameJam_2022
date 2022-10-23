@@ -12,6 +12,7 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         switcher = true;
+        credits.enabled = false;
     }
 
     // Update is called once per frame
