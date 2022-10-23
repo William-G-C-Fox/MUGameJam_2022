@@ -20,31 +20,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-<<<<<<< Updated upstream
       guid: 7448ed37b944ac4e918d84bcc484d348
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: 7448ed37b944ac4e918d84bcc484d348
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8585350621980420614
-=======
-<<<<<<< Updated upstream
-      guid: 4e68be85431bd94aa61f0bfdfbff56c0
-    ParentPath: Virtual Acoustics\Default Work Unit
-    guid: 4e68be85431bd94aa61f0bfdfbff56c0
-    GuidInternal: 
-    m_lastTime: -8585350709796030250
-=======
-      guid: 7448ed37b944ac4e918d84bcc484d348
-    ParentPath: Virtual Acoustics\Default Work Unit
-    guid: 7448ed37b944ac4e918d84bcc484d348
-    GuidInternal: 
-    m_lastTime: -8585351337098378739
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-    m_lastTime: -8585350563803801142
->>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
+    m_lastTime: -8585350554395094751
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -54,31 +34,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-<<<<<<< Updated upstream
       guid: e04fc0a3c2d0a145abdfd2d75e8d5a0a
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: e04fc0a3c2d0a145abdfd2d75e8d5a0a
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8585350621982916470
-=======
-<<<<<<< Updated upstream
-      guid: ffae04f5897ecc4783626eb9dbe612a0
-    ParentPath: Master-Mixer Hierarchy\Default Work Unit
-    guid: ffae04f5897ecc4783626eb9dbe612a0
-    GuidInternal: 
-    m_lastTime: -8585350709796070299
-=======
-      guid: e04fc0a3c2d0a145abdfd2d75e8d5a0a
-    ParentPath: Master-Mixer Hierarchy\Default Work Unit
-    guid: e04fc0a3c2d0a145abdfd2d75e8d5a0a
-    GuidInternal: 
-    m_lastTime: -8585351337110281089
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-    m_lastTime: -8585350563804145818
->>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
+    m_lastTime: -8585350554397141862
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -102,31 +62,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-<<<<<<< Updated upstream
       guid: d3a519ea955a4a4fa55784b2a5a258c7
     ParentPath: SoundBanks/Default Work Unit
     guid: d3a519ea955a4a4fa55784b2a5a258c7
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8585350621980427200
-=======
-<<<<<<< Updated upstream
-      guid: 845ea257ec3b8d42b3a22189851c9c7f
-    ParentPath: SoundBanks\Default Work Unit
-    guid: 845ea257ec3b8d42b3a22189851c9c7f
-    GuidInternal: 
-    m_lastTime: -8585350709796050141
-    List: []
-=======
-      guid: d3a519ea955a4a4fa55784b2a5a258c7
-    ParentPath: SoundBanks\Default Work Unit
-    guid: d3a519ea955a4a4fa55784b2a5a258c7
-    GuidInternal: 
-    m_lastTime: -8585350696991023336
->>>>>>> Stashed changes
-=======
-    m_lastTime: -8585350563803807106
->>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
+    m_lastTime: -8585350554395100673
     List:
     - name: Main
       guid: 8d11d28401a2384685f2844877f8b8dd
@@ -141,12 +81,7 @@ MonoBehaviour:
       - ElementName: Main
         ObjectType: 7
         guid: 8d11d28401a2384685f2844877f8b8dd
-<<<<<<< Updated upstream
       Path: SoundBanks/Default Work Unit/Main
-=======
-      Path: SoundBanks\Default Work Unit\Main
->>>>>>> Stashed changes
->>>>>>> Stashed changes
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
@@ -155,31 +90,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-<<<<<<< Updated upstream
       guid: f52044457dc33d44a6d930c04097b8d3
     ParentPath: Events/Default Work Unit
     guid: f52044457dc33d44a6d930c04097b8d3
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8585350621988266445
-=======
-<<<<<<< Updated upstream
-      guid: 5ca44dafe8d8a345894cb58062646d03
-    ParentPath: Events\Default Work Unit
-    guid: 5ca44dafe8d8a345894cb58062646d03
-    GuidInternal: 
-    m_lastTime: -8585350709796240011
-    List: []
-=======
-      guid: f52044457dc33d44a6d930c04097b8d3
-    ParentPath: Events\Default Work Unit
-    guid: f52044457dc33d44a6d930c04097b8d3
-    GuidInternal: 
-    m_lastTime: -8585350670150554815
->>>>>>> Stashed changes
-=======
-    m_lastTime: -8585350563806854551
->>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
+    m_lastTime: -8585350554402285398
     List:
     - name: Actions
       guid: 00662d9781209a4cb9702f3c51427501
@@ -194,11 +109,7 @@ MonoBehaviour:
       - ElementName: Actions
         ObjectType: 4
         guid: 00662d9781209a4cb9702f3c51427501
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Actions
-=======
-      Path: Events\Default Work Unit\Actions
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -215,11 +126,7 @@ MonoBehaviour:
       - ElementName: Ambient
         ObjectType: 4
         guid: 9e1f2bffae78154a8bc8005f84011359
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Ambient
-=======
-      Path: Events\Default Work Unit\Ambient
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -236,11 +143,7 @@ MonoBehaviour:
       - ElementName: MUSIC
         ObjectType: 4
         guid: 12e5c0fafb2b0744b15989cbc9cc3a7a
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/MUSIC
-=======
-      Path: Events\Default Work Unit\MUSIC
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -260,11 +163,7 @@ MonoBehaviour:
       - ElementName: Play_Ambient_SeaWind
         ObjectType: 3
         guid: 7fef63b92de6524bb1b70542579f526c
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Ambient/Play_Ambient_SeaWind
-=======
-      Path: Events\Default Work Unit\Ambient\Play_Ambient_SeaWind
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -284,11 +183,7 @@ MonoBehaviour:
       - ElementName: Play_Earthquake_Sound_Design_02
         ObjectType: 3
         guid: 4385c6cf8241ce4db4ee93fadaa718e4
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Ambient/Play_Earthquake_Sound_Design_02
-=======
-      Path: Events\Default Work Unit\Ambient\Play_Earthquake_Sound_Design_02
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -308,11 +203,7 @@ MonoBehaviour:
       - ElementName: Play_Enemy01Action_Attack
         ObjectType: 3
         guid: bf2bfe57fd593849b1379817cb411bbb
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Actions/Play_Enemy01Action_Attack
-=======
-      Path: Events\Default Work Unit\Actions\Play_Enemy01Action_Attack
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 1.091292
       minDuration: 1.091292
@@ -332,11 +223,7 @@ MonoBehaviour:
       - ElementName: Play_Enemy01Death_2_EnemyDeath_01
         ObjectType: 3
         guid: a192dda82321b742925ca98620bbaacd
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Actions/Play_Enemy01Death_2_EnemyDeath_01
-=======
-      Path: Events\Default Work Unit\Actions\Play_Enemy01Death_2_EnemyDeath_01
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 0.570354
       minDuration: 0.570354
@@ -356,11 +243,7 @@ MonoBehaviour:
       - ElementName: Play_Enemy02Action_Attack
         ObjectType: 3
         guid: 27d514300106744e839a9e298730d8ec
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Actions/Play_Enemy02Action_Attack
-=======
-      Path: Events\Default Work Unit\Actions\Play_Enemy02Action_Attack
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 0.532854
       minDuration: 0.532854
@@ -380,11 +263,7 @@ MonoBehaviour:
       - ElementName: Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_
         ObjectType: 3
         guid: 5cc271f15e69f044a3ff708b34bd33b8
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Actions/Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_
-=======
-      Path: Events\Default Work Unit\Actions\Play_Enemy02Death_1_ES_Fireball_Burst_4___SFX_Producer__Freeze_
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 0.570354
       minDuration: 0.570354
@@ -404,11 +283,7 @@ MonoBehaviour:
       - ElementName: Play_Enemy03Action_Attack
         ObjectType: 3
         guid: 87dfffb6710cd54f8c2230ef173711dd
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Actions/Play_Enemy03Action_Attack
-=======
-      Path: Events\Default Work Unit\Actions\Play_Enemy03Action_Attack
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 1.113083
       minDuration: 1.113083
@@ -428,11 +303,7 @@ MonoBehaviour:
       - ElementName: Play_Enemy03Death_3_Audio
         ObjectType: 3
         guid: 36ee9c4535b879468dbee858843c1289
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Actions/Play_Enemy03Death_3_Audio
-=======
-      Path: Events\Default Work Unit\Actions\Play_Enemy03Death_3_Audio
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 0.570354
       minDuration: 0.570354
@@ -452,11 +323,7 @@ MonoBehaviour:
       - ElementName: Play_EnemyAction_Death
         ObjectType: 3
         guid: 669b1037cad8da4598643fd1b211667a
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Actions/Play_EnemyAction_Death
-=======
-      Path: Events\Default Work Unit\Actions\Play_EnemyAction_Death
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 0.721104
       minDuration: 0.721104
@@ -476,11 +343,7 @@ MonoBehaviour:
       - ElementName: Play_Music
         ObjectType: 3
         guid: 431b0e55c7d0174dbd3d356eb252f84b
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/MUSIC/Play_Music
-=======
-      Path: Events\Default Work Unit\MUSIC\Play_Music
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -500,11 +363,7 @@ MonoBehaviour:
       - ElementName: Play_PlayerAction_Footsteps
         ObjectType: 3
         guid: 0d37859c61d20747941614248cc242a0
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Actions/Play_PlayerAction_Footsteps
-=======
-      Path: Events\Default Work Unit\Actions\Play_PlayerAction_Footsteps
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 0.300979
       minDuration: 0.300979
@@ -524,11 +383,7 @@ MonoBehaviour:
       - ElementName: Play_PlayerAction_ShieldHitGround
         ObjectType: 3
         guid: d2e6e804524a144b8e9b9ef17a24b71c
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Actions/Play_PlayerAction_ShieldHitGround
-=======
-      Path: Events\Default Work Unit\Actions\Play_PlayerAction_ShieldHitGround
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 1.102458
       minDuration: 1.068313
@@ -548,11 +403,7 @@ MonoBehaviour:
       - ElementName: Play_PlayerAction_Stun
         ObjectType: 3
         guid: 9f0c2bdda066fe48a5fda71b43f5fdb2
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Actions/Play_PlayerAction_Stun
-=======
-      Path: Events\Default Work Unit\Actions\Play_PlayerAction_Stun
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -572,11 +423,7 @@ MonoBehaviour:
       - ElementName: Play_Playerrangeattack
         ObjectType: 3
         guid: 389b041f41e5eb4a948946d07989a3d5
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Actions/Play_Playerrangeattack
-=======
-      Path: Events\Default Work Unit\Actions\Play_Playerrangeattack
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 0.951212
       minDuration: 0.53385
@@ -596,11 +443,7 @@ MonoBehaviour:
       - ElementName: Play_UI_Click_UI_Click_01
         ObjectType: 3
         guid: 3610a3185ee11b4ab97d77f65d37ca73
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/UI/Play_UI_Click_UI_Click_01
-=======
-      Path: Events\Default Work Unit\UI\Play_UI_Click_UI_Click_01
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 0.130455
       minDuration: 0.130455
@@ -620,11 +463,7 @@ MonoBehaviour:
       - ElementName: Play_UI_Click_UI_Click_02
         ObjectType: 3
         guid: 82d8a17a982b86419153da5a46ec5568
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/UI/Play_UI_Click_UI_Click_02
-=======
-      Path: Events\Default Work Unit\UI\Play_UI_Click_UI_Click_02
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 0.130853
       minDuration: 0.130853
@@ -644,11 +483,7 @@ MonoBehaviour:
       - ElementName: Play_UI_ClickButton
         ObjectType: 3
         guid: d916c201546e9643a5d4b4a7d0121bb2
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/UI/Play_UI_ClickButton
-=======
-      Path: Events\Default Work Unit\UI\Play_UI_ClickButton
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 0.137625
       minDuration: 0.137625
@@ -668,11 +503,7 @@ MonoBehaviour:
       - ElementName: Stop_Earthquake_Sound_Design_02
         ObjectType: 3
         guid: 42f1cda0abc463499ebc73ce6ff7ffc3
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Ambient/Stop_Earthquake_Sound_Design_02
-=======
-      Path: Events\Default Work Unit\Ambient\Stop_Earthquake_Sound_Design_02
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -692,11 +523,7 @@ MonoBehaviour:
       - ElementName: Stop_Music
         ObjectType: 3
         guid: 469e7a80fe119147a204621ce5320fc1
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/MUSIC/Stop_Music
-=======
-      Path: Events\Default Work Unit\MUSIC\Stop_Music
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -716,11 +543,7 @@ MonoBehaviour:
       - ElementName: Stop_PlayerAction_Stun
         ObjectType: 3
         guid: 2b78e5a378c8df4e967a16109ad1e490
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/Actions/Stop_PlayerAction_Stun
-=======
-      Path: Events\Default Work Unit\Actions\Stop_PlayerAction_Stun
->>>>>>> Stashed changes
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -737,18 +560,10 @@ MonoBehaviour:
       - ElementName: UI
         ObjectType: 4
         guid: fad74bf56f72024b8a90ebbe370e44ba
-<<<<<<< Updated upstream
       Path: Events/Default Work Unit/UI
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-=======
-      Path: Events\Default Work Unit\UI
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
->>>>>>> Stashed changes
->>>>>>> Stashed changes
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -757,31 +572,13 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-<<<<<<< Updated upstream
       guid: 224f188f477f72459694446c130229f6
     ParentPath: Game Parameters/Default Work Unit
     guid: 224f188f477f72459694446c130229f6
-=======
-<<<<<<< Updated upstream
-      guid: 87325f27ae078c4d882e6375f5d4ee3c
-    ParentPath: Game Parameters\Default Work Unit
-    guid: 87325f27ae078c4d882e6375f5d4ee3c
->>>>>>> Stashed changes
     GuidInternal: 
-    m_lastTime: -8585350563806853666
+    m_lastTime: -8585350554402284437
     List: []
-<<<<<<< Updated upstream
   - PhysicalPath: Game Parameters/Health_RTPC.wwu
-=======
-=======
-      guid: 224f188f477f72459694446c130229f6
-    ParentPath: Game Parameters\Default Work Unit
-    guid: 224f188f477f72459694446c130229f6
-    GuidInternal: 
-    m_lastTime: -8585351337116271282
-    List: []
-  - PhysicalPath: Game Parameters\Health_RTPC.wwu
->>>>>>> Stashed changes
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -792,21 +589,10 @@ MonoBehaviour:
     - ElementName: Health_RTPC
       ObjectType: 12
       guid: 3a50512afbe89542aa98450eeaf6ace8
-<<<<<<< Updated upstream
     ParentPath: Game Parameters/Default Work Unit/Health_RTPC
     guid: 3a50512afbe89542aa98450eeaf6ace8
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8585350621988263883
-=======
-    ParentPath: Game Parameters\Default Work Unit\Health_RTPC
-    guid: 3a50512afbe89542aa98450eeaf6ace8
-    GuidInternal: 
-    m_lastTime: -8585351337116261285
->>>>>>> Stashed changes
-=======
-    m_lastTime: -8585350563806853106
->>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
+    m_lastTime: -8585350554402283782
     List:
     - name: health
       guid: 91e5581ffe60a647892ea7128aa3871e
@@ -824,12 +610,7 @@ MonoBehaviour:
       - ElementName: health
         ObjectType: 13
         guid: 91e5581ffe60a647892ea7128aa3871e
-<<<<<<< Updated upstream
       Path: Game Parameters/Default Work Unit/Health_RTPC/health
-=======
-      Path: Game Parameters\Default Work Unit\Health_RTPC\health
->>>>>>> Stashed changes
->>>>>>> Stashed changes
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
@@ -838,31 +619,13 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-<<<<<<< Updated upstream
       guid: 4f3932695b91fd4aa8e5ce9c61bd29e9
     ParentPath: States/Default Work Unit
     guid: 4f3932695b91fd4aa8e5ce9c61bd29e9
-=======
-<<<<<<< Updated upstream
-      guid: 99f2b8410327d14ebda2e34c6629780b
-    ParentPath: States\Default Work Unit
-    guid: 99f2b8410327d14ebda2e34c6629780b
->>>>>>> Stashed changes
     GuidInternal: 
-    m_lastTime: -8585350563803805127
+    m_lastTime: -8585350554395098396
     List: []
-<<<<<<< Updated upstream
   - PhysicalPath: States/Tower_State.wwu
-=======
-=======
-      guid: 4f3932695b91fd4aa8e5ce9c61bd29e9
-    ParentPath: States\Default Work Unit
-    guid: 4f3932695b91fd4aa8e5ce9c61bd29e9
-    GuidInternal: 
-    m_lastTime: -8585351337098558778
-    List: []
-  - PhysicalPath: States\Tower_State.wwu
->>>>>>> Stashed changes
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -873,21 +636,10 @@ MonoBehaviour:
     - ElementName: Tower_State
       ObjectType: 12
       guid: 685fb83560030047b1245e79c5cf4613
-<<<<<<< Updated upstream
     ParentPath: States/Default Work Unit/Tower_State
     guid: 685fb83560030047b1245e79c5cf4613
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8585350621980423639
-=======
-    ParentPath: States\Default Work Unit\Tower_State
-    guid: 685fb83560030047b1245e79c5cf4613
-    GuidInternal: 
-    m_lastTime: -8585351337098518767
->>>>>>> Stashed changes
-=======
-    m_lastTime: -8585350563803804585
->>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
+    m_lastTime: -8585350554395097778
     List:
     - name: Tower_Alive_or_Dead
       guid: 7331be25dd9fc94db7d95c4830c1babb
@@ -905,11 +657,7 @@ MonoBehaviour:
       - ElementName: Tower_Alive_or_Dead
         ObjectType: 9
         guid: 7331be25dd9fc94db7d95c4830c1babb
-<<<<<<< Updated upstream
       Path: States/Default Work Unit/Tower_State/Tower_Alive_or_Dead
-=======
-      Path: States\Default Work Unit\Tower_State\Tower_Alive_or_Dead
->>>>>>> Stashed changes
       values:
       - name: Alive
         guid: 4aad2a5c39d5ae45b96c91c1db1d8bea
@@ -971,10 +719,6 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
@@ -983,31 +727,11 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-<<<<<<< Updated upstream
       guid: bcfda977ceac9c4c897ae5ac973fa3b9
     ParentPath: Switches/Default Work Unit
     guid: bcfda977ceac9c4c897ae5ac973fa3b9
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8585350621980422477
-=======
-<<<<<<< Updated upstream
-      guid: 8e7bbb04c21e1149b85e87505731fc13
-    ParentPath: Switches\Default Work Unit
-    guid: 8e7bbb04c21e1149b85e87505731fc13
-    GuidInternal: 
-    m_lastTime: -8585350709796040221
-=======
-      guid: bcfda977ceac9c4c897ae5ac973fa3b9
-    ParentPath: Switches\Default Work Unit
-    guid: bcfda977ceac9c4c897ae5ac973fa3b9
-    GuidInternal: 
-    m_lastTime: -8585351337098468751
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-    m_lastTime: -8585350563803803638
->>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
+    m_lastTime: -8585350554395096573
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
@@ -1017,42 +741,14 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-<<<<<<< Updated upstream
       guid: 8d143a77528c3b4f88bcbf7d85b2dd26
     ParentPath: Triggers/Default Work Unit
     guid: 8d143a77528c3b4f88bcbf7d85b2dd26
     GuidInternal: 
-<<<<<<< HEAD
-    m_lastTime: -8585350621980421552
-=======
-<<<<<<< Updated upstream
-      guid: 223b764c9ad96d489183a2905bf2d993
-    ParentPath: Triggers\Default Work Unit
-    guid: 223b764c9ad96d489183a2905bf2d993
-    GuidInternal: 
-    m_lastTime: -8585350709796040221
-=======
-      guid: 8d143a77528c3b4f88bcbf7d85b2dd26
-    ParentPath: Triggers\Default Work Unit
-    guid: 8d143a77528c3b4f88bcbf7d85b2dd26
-    GuidInternal: 
-    m_lastTime: -8585351337098418748
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-    m_lastTime: -8585350563803802770
->>>>>>> 9c7b23d7e512bfe347529aebf7bc9a7e3a527147
+    m_lastTime: -8585350554395095697
     List: []
   ExpandedFileSystemItemIds: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  ExpandedWaapiItemIds: 05000000060000000700000009000000
-=======
-  ExpandedWaapiItemIds: 0500000006000000080000000e0000000f00000010000000
->>>>>>> parent of b1b9914 (more lights and adjusting prefabs)
-=======
-  ExpandedWaapiItemIds: 0500000006000000080000000e0000000f00000010000000
->>>>>>> parent of b1b9914 (more lights and adjusting prefabs)
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

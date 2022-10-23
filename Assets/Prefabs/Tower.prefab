@@ -735,6 +735,7 @@ GameObject:
   - component: {fileID: 3961914625658742356}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   - component: {fileID: 1059674022564775307}
   - component: {fileID: 1663775796713495869}
@@ -742,6 +743,10 @@ GameObject:
   - component: {fileID: 7601827837388940242}
   - component: {fileID: 2666262449541982379}
 >>>>>>> Stashed changes
+=======
+  - component: {fileID: 8199061809005056360}
+  - component: {fileID: 1059674022564775307}
+>>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
 =======
   - component: {fileID: 8199061809005056360}
   - component: {fileID: 1059674022564775307}
@@ -878,10 +883,13 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
 =======
 >>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
 =======
@@ -914,7 +922,10 @@ BoxCollider2D:
   m_EdgeRadius: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
 =======
 >>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
 =======
@@ -959,6 +970,7 @@ EdgeCollider2D:
   - {x: -1.6986119, y: 0.60131454}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {x: -1.5907737, y: 1.8655019}
 <<<<<<< Updated upstream
   - {x: -1.933718, y: 2.3175726}
@@ -988,6 +1000,9 @@ EdgeCollider2D:
 =======
   - {x: 0.03201424, y: -0.0061796196}
 >>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
+=======
+  - {x: 0.03201424, y: -0.0061796196}
+>>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
   - {x: 1.6924641, y: 0.6333524}
   - {x: 1.9696001, y: -1.0201777}
 >>>>>>> Stashed changes
@@ -995,6 +1010,7 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -1153,6 +1169,8 @@ MonoBehaviour:
   - {x: -0.5, y: 0.5, z: 0}
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
 =======
 >>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
 =======
