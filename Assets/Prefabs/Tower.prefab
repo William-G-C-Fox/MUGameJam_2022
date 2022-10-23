@@ -733,6 +733,7 @@ GameObject:
   - component: {fileID: 1319476589339460029}
   - component: {fileID: 6617365093840753351}
   - component: {fileID: 3961914625658742356}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   - component: {fileID: 1059674022564775307}
   - component: {fileID: 1663775796713495869}
@@ -740,6 +741,10 @@ GameObject:
   - component: {fileID: 7601827837388940242}
   - component: {fileID: 2666262449541982379}
 >>>>>>> Stashed changes
+=======
+  - component: {fileID: 8199061809005056360}
+  - component: {fileID: 1059674022564775307}
+>>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
   m_Layer: 0
   m_Name: Tower
   m_TagString: Tower
@@ -866,10 +871,13 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
 --- !u!61 &8199061809005056360
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -896,7 +904,10 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.948543, y: 3.1467006}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
 --- !u!68 &1059674022564775307
 =======
 --- !u!68 &7601827837388940242
@@ -935,6 +946,7 @@ EdgeCollider2D:
   - {x: -0.012974232, y: -1.9353372}
   - {x: -1.9484437, y: -0.99551326}
   - {x: -1.6986119, y: 0.60131454}
+<<<<<<< HEAD
   - {x: -1.5907737, y: 1.8655019}
 <<<<<<< Updated upstream
   - {x: -1.933718, y: 2.3175726}
@@ -958,6 +970,9 @@ EdgeCollider2D:
   - {x: 1.649807, y: 1.8409009}
 >>>>>>> Stashed changes
   - {x: 1.7941244, y: 1.7776425}
+=======
+  - {x: 0.03201424, y: -0.0061796196}
+>>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
   - {x: 1.6924641, y: 0.6333524}
   - {x: 1.9696001, y: -1.0201777}
 >>>>>>> Stashed changes
@@ -965,6 +980,7 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!114 &1663775796713495869
 =======
@@ -1121,3 +1137,5 @@ MonoBehaviour:
   - {x: -0.5, y: 0.5, z: 0}
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)

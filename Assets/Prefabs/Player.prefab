@@ -56,7 +56,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1502157854256905895}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.355, y: -0.072, z: 0}
+  m_LocalPosition: {x: 0.379, y: -0.145, z: 0}
   m_LocalScale: {x: 1, y: 1.38, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -80,7 +80,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.816
   m_Color: {r: 0.9411765, g: 0.627451, b: 0.28627452, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 0.8
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -587,6 +587,7 @@ MonoBehaviour:
   - {x: 0.20971793, y: -0.32251772, z: 0}
   m_ShapePathHash: 920402389
   m_Mesh: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_InstanceId: 53168
 =======
@@ -600,6 +601,9 @@ MonoBehaviour:
   m_InstanceId: 42558
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+  m_InstanceId: 42010
+>>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
 --- !u!114 &3683557350365918801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -921,11 +925,15 @@ MonoBehaviour:
   projectile: {fileID: 3415551983370632243, guid: d8275c8083005c64b806e565d63c16dc, type: 3}
   firePoint: {fileID: 8212631093814916925}
   lastShot: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   fireRate: 0.35
 =======
   fireRate: 0.3
 >>>>>>> Stashed changes
+=======
+  fireRate: 0.3
+>>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
   playerBody: {fileID: 6539843192641394455}
   speed: 200
 --- !u!1 &7431936713344820346
@@ -953,11 +961,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7431936713344820346}
   m_LocalRotation: {x: -0, y: -0, z: -0.69004166, w: 0.7237697}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LocalPosition: {x: -0.042, y: 0.213, z: 0}
 =======
   m_LocalPosition: {x: 0.051, y: 0.128, z: 0}
 >>>>>>> Stashed changes
+=======
+  m_LocalPosition: {x: 0.396, y: 0.144, z: 0}
+>>>>>>> parent of 5a8ad75 (scene adjustments and leveling game)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
