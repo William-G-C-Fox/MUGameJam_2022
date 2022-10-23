@@ -8,7 +8,7 @@ public class EndMenu : MonoBehaviour
     public AK.Wwise.Event Play_Music;
     public AK.Wwise.Event Stop_Music;
     public AK.Wwise.Event Stop_Stun;
-   
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +32,6 @@ public class EndMenu : MonoBehaviour
 
     public void QuitMenu()
     {
-        SceneManager.LoadScene(0);
+        Application.Quit();
     }
 }
