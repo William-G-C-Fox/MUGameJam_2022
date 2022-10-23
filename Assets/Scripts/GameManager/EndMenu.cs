@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class EndMenu : MonoBehaviour
 {
-    AK.Wwise.Event Play_Music;
-    AK.Wwise.Event Stop_Music;
+    public AK.Wwise.Event Play_Music;
+    public AK.Wwise.Event Stop_Music;
+    public AK.Wwise.Event Stop_Stun;
    
 
     // Start is called before the first frame update
@@ -14,6 +15,7 @@ public class EndMenu : MonoBehaviour
     {
         AkSoundEngine.SetState("Tower_Alive_or_Dead", "Dead");
         Stop_Music.Post(gameObject);
+        Stop_Stun.Post(gameObject);
     }
 
     // Update is called once per frame

@@ -1298,6 +1298,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c52afd4c9df5e749ac1645cae43aef2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Play_Music:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 68ac135a2c5ebe048bc4159718924a9e, type: 2}
+  Stop_Music:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 494c2a669e0f72f41ac3e744ddd0d683, type: 2}
+  Stop_Stun:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f0a5696d432cc45c69d78ffe0f8d3353, type: 2}
 --- !u!1 &8653452459486607166
 GameObject:
   m_ObjectHideFlags: 0
