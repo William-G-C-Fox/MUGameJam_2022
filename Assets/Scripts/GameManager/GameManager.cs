@@ -16,12 +16,16 @@ public class GameManager : MonoBehaviour
     private float towerHealth;
     private string mintuesDisplay, secondsDisplay;
     private TextMeshProUGUI timerText;
+    public AK.Wwise.Event Stop_Stun;
+    public AK.Wwise.Event Stop_Music;
+    public AK.Wwise.Event Play_Music;
 
     void Start()
     {
         TowerHealthCheck();
         endMenu.enabled = false;
         AkSoundEngine.SetState("Tower_Alive_or_Dead", "Alive");
+        Play_Music.Post(gameObject);
         HUD.GetComponentInChildren<HealthBar>().SetMaxHealth(towerHealth);
         timerText = HUD.GetComponentInChildren<TextMeshProUGUI>();
 
@@ -44,6 +48,9 @@ public class GameManager : MonoBehaviour
                 oneHit = true;
                 EndGame();
                 AkSoundEngine.SetState("Tower_Alive_or_Dead", "Dead");
+                Stop_Stun.Post(gameObject);
+                Stop_Music.Post(gameObject);
+
             }
         }
         else

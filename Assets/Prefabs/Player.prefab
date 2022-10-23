@@ -469,7 +469,6 @@ GameObject:
   - component: {fileID: 8268986415886783955}
   - component: {fileID: 5464998430918594768}
   - component: {fileID: 3683557350365918801}
-  - component: {fileID: 6900333984160373939}
   - component: {fileID: 5610462157814563576}
   m_Layer: 0
   m_Name: Player
@@ -587,7 +586,7 @@ MonoBehaviour:
   - {x: 0.20971793, y: -0.32251772, z: 0}
   m_ShapePathHash: 920402389
   m_Mesh: {fileID: 0}
-  m_InstanceId: 44818
+  m_InstanceId: 86258
 --- !u!114 &3683557350365918801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -612,40 +611,6 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
---- !u!114 &6900333984160373939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5841809297705891841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7dd1e8e0c7b7c4bdd98ecae176377fb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 68ac135a2c5ebe048bc4159718924a9e, type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
-  multiPositionArray: []
 --- !u!114 &5610462157814563576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -653,7 +618,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5841809297705891841}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22618c136b83b4f4fab18ac7fcd22225, type: 3}
   m_Name: 
