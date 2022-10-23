@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5541587369719693583}
   - component: {fileID: 956665569685865921}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light 2D (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 4928087499638482340}
   - component: {fileID: 4647781656278965030}
   - component: {fileID: 2345488533046391441}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,6 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 2
+  lifeTime: 5
 --- !u!1 &7958250334296467063
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,7 +273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1139959807915322751}
   - component: {fileID: 3748095118761118735}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light 2D (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -418,7 +419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2279006300850708072}
   - component: {fileID: 5424961264837175198}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light 2D (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -564,7 +565,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1496559974873104810}
   - component: {fileID: 6496087179783100340}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light 2D (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -710,7 +711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3328239117207566546}
   - component: {fileID: 9054613530146479089}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light 2D (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

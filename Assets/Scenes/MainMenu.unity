@@ -3038,8 +3038,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66af084570acaa441a645370b42fae64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenu: {fileID: 0}
-  credits: {fileID: 0}
+  mainMenu: {fileID: 1773686463}
+  credits: {fileID: 1191526723}
 --- !u!1 &2003458350
 GameObject:
   m_ObjectHideFlags: 0
