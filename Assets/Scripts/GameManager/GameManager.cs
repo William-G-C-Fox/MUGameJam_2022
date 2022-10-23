@@ -128,7 +128,7 @@ public class GameManager : MonoBehaviour
             secondsDisplay = seconds.ToString();
         }
 
-        Debug.Log(secondsDisplay);
+        //Debug.Log(secondsDisplay);
 
         timeDisplay = mintuesDisplay + ":" + secondsDisplay;
         return timeDisplay;
