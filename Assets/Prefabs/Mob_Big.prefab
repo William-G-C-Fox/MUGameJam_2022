@@ -183,7 +183,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!1 &8078424457851816481
 GameObject:
@@ -320,7 +320,7 @@ MonoBehaviour:
   - {x: -0.9404241, y: -0.89450943, z: 0}
   m_ShapePathHash: -2111789413
   m_Mesh: {fileID: 0}
-  m_InstanceId: 43454
+  m_InstanceId: 42744
 --- !u!1001 &3931738011786328554
 PrefabInstance:
   m_ObjectHideFlags: 0
