@@ -197,6 +197,7 @@ GameObject:
   - component: {fileID: 5520881458604442274}
   - component: {fileID: 4912568742917165779}
   - component: {fileID: 2692506512304317204}
+  - component: {fileID: 1656692931472759255}
   m_Layer: 6
   m_Name: Mob_Fast
   m_TagString: Mob
@@ -233,10 +234,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f253d9a8e2b604f843c5fe5a4568a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
-  damage: 5
+  speed: 1.8
+  damage: 2.5
   health: 0
-  maxHealth: 5
+  maxHealth: 3
   mobSp: {fileID: 8741033434516816793}
   mobAnime: {fileID: 488255532864640214}
   healthBar: {fileID: 1935515516093302909}
@@ -287,6 +288,39 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5561633, y: 0.7752875}
   m_EdgeRadius: 0
+--- !u!114 &1656692931472759255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8078424457851816481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 0
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.75216144, y: -0.5701029, z: 0}
+  - {x: -0.76974237, y: -0.44751555, z: 0}
+  - {x: -0.5776472, y: -0.40238386, z: 0}
+  - {x: -0.2526627, y: -0.3570267, z: 0}
+  - {x: 0.054236382, y: -0.3894568, z: 0}
+  - {x: 0.29027095, y: -0.46044254, z: 0}
+  - {x: 0.28045872, y: -0.58302975, z: 0}
+  - {x: 0.08990258, y: -0.6672744, z: 0}
+  - {x: -0.22034521, y: -0.6931284, z: 0}
+  - {x: -0.50473905, y: -0.6543475, z: 0}
+  m_ShapePathHash: -682512814
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -10014
 --- !u!1001 &3931738011786328554
 PrefabInstance:
   m_ObjectHideFlags: 0

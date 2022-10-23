@@ -586,7 +586,7 @@ MonoBehaviour:
   - {x: 0.20971793, y: -0.32251772, z: 0}
   m_ShapePathHash: 920402389
   m_Mesh: {fileID: 0}
-  m_InstanceId: 49502
+  m_InstanceId: 42010
 --- !u!114 &3683557350365918801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -791,7 +791,7 @@ MonoBehaviour:
   projectile: {fileID: 3415551983370632243, guid: d8275c8083005c64b806e565d63c16dc, type: 3}
   firePoint: {fileID: 8212631093814916925}
   lastShot: 0
-  fireRate: 1
+  fireRate: 0.3
   playerBody: {fileID: 6539843192641394455}
   speed: 200
 --- !u!1 &7431936713344820346
